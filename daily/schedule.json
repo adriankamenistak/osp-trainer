@@ -1,50 +1,42 @@
 [
   {
     "date": "2026-04-05",
-    "file": "den1_verbal_synonyma",
-    "name": "Den 1 — Synonyma a antonyma",
-    "category": "verbal",
-    "icon": "🔤",
+    "file": "mix1_apr05",
+    "name": "Mix 1 — Denní trénink",
+    "category": "mix",
+    "icon": "🎯",
     "count": 10
   },
   {
     "date": "2026-04-06",
-    "file": "den2_analyticka_operace_rady",
-    "name": "Den 2 — Smyšlené operace a číselné řady",
-    "category": "analyticka",
-    "icon": "⚙️",
+    "file": "mix2_apr06",
+    "name": "Mix 2 — Denní trénink",
+    "category": "mix",
+    "icon": "🎯",
     "count": 10
   },
   {
     "date": "2026-04-07",
-    "file": "den3_verbal_dvojite_doplnovani",
-    "name": "Den 3 — Dvojité doplňování vět",
-    "category": "verbal",
-    "icon": "✏️",
+    "file": "mix3_apr07",
+    "name": "Mix 3 — Denní trénink",
+    "category": "mix",
+    "icon": "🎯",
     "count": 10
   },
   {
     "date": "2026-04-08",
-    "file": "den4_analyticka_zebry",
-    "name": "Den 4 — Logické puzzle (zebry)",
-    "category": "analyticka",
-    "icon": "🧠",
+    "file": "mix4_apr08",
+    "name": "Mix 4 — Denní trénink",
+    "category": "mix",
+    "icon": "🎯",
     "count": 10
   },
   {
     "date": "2026-04-09",
-    "file": "den5_verbal_dlouhe_texty",
-    "name": "Den 5 — Porozumění dlouhým textům",
-    "category": "verbal",
-    "icon": "📰",
-    "count": 10
-  },
-  {
-    "date": "2026-04-10",
-    "file": "den6_simulace_mix",
-    "name": "Den 6 — Simulace: Mix úloh",
+    "file": "mix5_apr09",
+    "name": "Finální simulace",
     "category": "mix",
-    "icon": "🎯",
-    "count": 10
+    "icon": "🏆",
+    "count": 15
   }
 ]

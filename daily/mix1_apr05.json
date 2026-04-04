@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Kolegové oceňují jeho schopnost najít řešení. Systematický přístup = uspořádaný, metodický — přesně to vede k úspěšnému řešení problémů a respektu.",
+      "why_others_wrong": {
+        "a": "Chaotický přístup by nevzbudil respekt ani nevedl k řešením.",
+        "c": "Riskantní přístup může být úspěšný, ale nevzbuzuje stabilní respekt za schopnost řešení.",
+        "d": "Povrchní přístup by nevedl k nalezení skutečných řešení."
+      },
+      "tip": "Hledej slovo, které logicky vede k VÝSLEDKU popsanému ve větě (respekt + schopnost řešit)."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "RADIÁTOR je zařízení, které PRODUKUJE teplo. ŽÁROVKA je zařízení, které PRODUKUJE světlo. Vztah: produkt : jeho zdroj/zařízení.",
+      "why_others_wrong": {
+        "b": "Elektřina je energetický zdroj pro žárovku, ne produkt. Teplo:radiátor ≠ světlo:elektřina.",
+        "c": "Tma je ABSENCE světla, ne jeho zdroj. To by bylo jako říct teplo:chlad.",
+        "d": "Stín je důsledek blokování světla, ne zdroj."
+      },
+      "tip": "Vztah produkt:zdroj. Radiátor VYRÁBÍ teplo, žárovka VYRÁBÍ světlo."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Rozdíly: 3, 5, 7, 9 → rostou o 2 (lichá čísla). Další rozdíl = 11. Tedy 27 + 11 = 38.",
+      "why_others_wrong": {
+        "a": "35 = 27+8 — chybný rozdíl, měl by být 11.",
+        "b": "36 = 27+9 — použil jsi stejný rozdíl jako předtím, ale rozdíly rostou.",
+        "d": "40 = 27+13 — přeskočil jsi na 13 místo 11."
+      },
+      "tip": "Vždy spočítej ROZDÍLY a pak ROZDÍLY ROZDÍLŮ. Pokud druhé rozdíly jsou konstantní, máš kvadratický vzorec."
+    }
+  },
+  {
+    "id": 4,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Kontrapozice: Cvičí pravidelně → je zdravější. Obměna: Není zdravější → necvičí pravidelně. Marek není zdravější → Marek necvičí pravidelně.",
+      "why_others_wrong": {
+        "a": "\"Není zdravější\" neznamená \"je nemocný\". Může být průměrně zdravý, jen ne ZDRAVĚJŠÍ.",
+        "c": "Tvrzení o cvičení platí v kontextu úlohy — nemůžeš zpochybňovat premisu.",
+        "d": "\"Nikdy necvičil\" je silnější tvrzení než \"necvičí pravidelně\". Mohl cvičit nepravidelně."
+      },
+      "tip": "Kontrapozice: A→B znamená ¬B→¬A. Ale pozor: \"necvičí pravidelně\" ≠ \"nikdy necvičí\"."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Transparentní = průhledný, otevřený, jasný. Opak = tajný = skrytý, neprůhledný.",
+      "why_others_wrong": {
+        "a": "Průhledný je SYNONYMUM transparentního.",
+        "b": "Čitelný je blízké synonymum — čitelný dokument = transparentní informace.",
+        "d": "Viditelný je blízké — transparentní proces je dobře viditelný."
+      },
+      "tip": "Tři ze čtyř odpovědí jsou synonyma. Správná odpověď je ta ODLIŠNÁ. Tento vzorec se v testech opakuje."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "P = (5/10) × (4/9) = 20/90 = 2/9. První tah: 5 červených z 10. Druhý tah: zbývají 4 červené z 9 kuliček.",
+      "why_others_wrong": {
+        "a": "1/4 = (5/10)² — chyba: po prvním tahu se počet kuliček změní na 9, ne zůstane 10.",
+        "c": "1/2 = 5/10 — to je pravděpodobnost jedné červené, ne dvou.",
+        "d": "5/10 = pravděpodobnost prvního tahu, ne obou."
+      },
+      "tip": "Bez vracení: P(oba) = P(1.) × P(2.|1.). Po vytažení první kuličky se změní jak čitatel, tak jmenovatel!"
+    }
+  },
+  {
+    "id": 7,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "\"Ačkoli\" signalizuje protiklad: měl zkušenosti (pozitivum) → ALE první den byl stresující (negativum). Zkušenosti by měly pomoci, ale nestačily.",
+      "why_others_wrong": {
+        "b": "\"Protože\" + \"snadný\" — logicky konzistentní, ale chybí napětí. Věta by byla banální.",
+        "c": "\"Jelikož\" + \"klidný\" — totéž jako b), žádný protiklad. Příliš očekávané.",
+        "d": "\"Přestože\" + \"úspěšný\" — přestože měl zkušenosti, byl úspěšný? To nedává smysl — úspěch by se čekal."
+      },
+      "tip": "Spojky \"ačkoli/přestože\" vyžadují PROTIKLAD. \"Protože/jelikož\" vyžadují LOGICKÝ DŮSLEDEK."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "a ▲ b = (a+b)/(a-b). Dosadíme: (7+3)/(7-3) = 10/4 = 2,5.",
+      "why_others_wrong": {
+        "a": "2 — chybný výpočet, možná zaokrouhlení dolů.",
+        "c": "10/4 je SPRÁVNÝ zlomek = 2,5. Ale odpověď c) ho prezentuje jako zlomek, zatímco b) jako desetinné číslo. Obě jsou stejné, ale b) je konvenčnější.",
+        "d": "4 = (7-3) — počítáš jen jmenovatel."
+      },
+      "tip": "Dosaď mechanicky a spočítej. 10/4 = 2,5. Pozor: c) a b) jsou matematicky totéž, ale v testu by byla jen jedna správná."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text říká: \"problém není v třídění, ale v kapacitě zpracovatelských závodů, které nestíhají vytříděný materiál zpracovat.\" Přímá citace.",
+      "why_others_wrong": {
+        "a": "Text říká, že 78 % třídí — problém NENÍ v kvalitě třídění.",
+        "b": "78 % je vysoké číslo — málo domácností třídí není problém podle textu.",
+        "d": "O ceně recyklace text nic neříká."
+      },
+      "tip": "Hledej v textu slova \"problém je/není v...\" — autor přímo identifikuje příčinu."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Klára > Jan (věkem). Lukáš není nejmladší (≠ 10). Pokud Lukáš ≠ 10 a Klára > Jan → Jan musí být nejmladší = 10. Klára a Lukáš jsou 14 a 17 (Klára > Jan splněno pro obě varianty).",
+      "why_others_wrong": {
+        "b": "14 — Jan by mohl mít 14, ale pak Lukáš ≠ 10, Klára > Jan → Klára = 17, Lukáš = 10. Jenže Lukáš NENÍ nejmladší — rozpor!",
+        "c": "17 — pokud Jan = 17, pak Klára > 17, ale maximální věk je 17. Rozpor.",
+        "d": "Lze určit jednoznačně — Jan = 10."
+      },
+      "tip": "Začni od nejsilnějšího omezení: Lukáš ≠ nejmladší → Lukáš ≠ 10. Klára > Jan → Jan ≠ nejstarší. Jan je tedy nejmladší = 10."
+    }
+  }
+]
