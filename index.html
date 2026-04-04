@@ -907,16 +907,33 @@ function parseQuestionBlock(block, sharedContexts, idx) {
     }
     if (trimmed.startsWith('**Správná') || trimmed.startsWith('*Vysvětlení') || trimmed.startsWith('*Text')) continue;
     if (!optionStarted) {
-      // Skip lines that are table-like or metadata
-      if (trimmed.startsWith('|') || trimmed.startsWith('---')) continue;
+      // Skip lines that are table-like, SVG, or metadata
+      if (trimmed.startsWith('|') || trimmed.startsWith('---') || trimmed.startsWith('<') || trimmed.startsWith('</')) continue;
       questionLines.push(trimmed);
     }
   }
 
-  // Extract table if present (for data questions)
+  // Extract SVG blocks if present
+  const svgMatch = block.match(/<svg[\s\S]*?<\/svg>/i);
+  if (svgMatch) {
+    context = (context ? context + '\n\n' : '') + svgMatch[0];
+  }
+
+  // Extract table if present (for data questions) — convert to HTML
   const tableLines = lines.filter(l => l.trim().startsWith('|'));
   if (tableLines.length > 2) {
-    context = (context ? context + '\n\n' : '') + tableLines.join('\n');
+    const rows = tableLines.filter(l => !/^\|\s*[-:]+/.test(l.trim()));
+    let tableHtml = '<table style="width:100%;border-collapse:collapse;margin:8px 0;font-size:0.95rem">';
+    rows.forEach((row, ri) => {
+      const cells = row.split('|').filter(c => c.trim() !== '');
+      const tag = ri === 0 ? 'th' : 'td';
+      const bgStyle = ri === 0 ? 'background:var(--surface2);font-weight:700;' : (ri % 2 === 0 ? 'background:rgba(108,99,255,0.05);' : '');
+      tableHtml += '<tr>' + cells.map(c =>
+        `<${tag} style="padding:8px 12px;border:1px solid rgba(108,99,255,0.2);text-align:center;${bgStyle}">${c.trim()}</${tag}>`
+      ).join('') + '</tr>';
+    });
+    tableHtml += '</table>';
+    context = (context ? context + '\n\n' : '') + tableHtml;
   }
 
   // Extract bullet points / conditions in question
@@ -1043,7 +1060,7 @@ function showQuestion() {
   // Context
   const ctxEl = document.getElementById('question-context');
   if (q.context) {
-    ctxEl.textContent = q.context;
+    ctxEl.innerHTML = q.context;
     ctxEl.style.display = 'block';
   } else {
     ctxEl.style.display = 'none';

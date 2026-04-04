@@ -40,5 +40,12 @@
     "category": "analyticka",
     "icon": "🔢",
     "count": 10
+  },
+  {
+    "file": "07_analyticka_vizualni.md",
+    "name": "Grafy, tabulky a diagramy",
+    "category": "analyticka",
+    "icon": "📈",
+    "count": 10
   }
 ]
