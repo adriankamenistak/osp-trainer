@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Bára kreslí → není na průmyslovce (tam se programuje). Adam nechodí na gymnázium. Cyril nechodí na OA. Pokud Cyril ≠ OA a průmyslovka = programování: Bára kreslí → Bára ≠ průmyslovka. Adam ≠ gymnázium. Zbývá: Cyril = průmyslovka (programování), Adam = OA (sport), Bára = gymnázium (kreslení).",
+      "why_others_wrong": {
+        "a": "Adam nechodí na gymnázium, a průmyslovka = programování. Ale Bára kreslí a Cyril zbývá na průmyslovku. Adam jde na OA.",
+        "b": "Bára kreslí, ale na průmyslovce se programuje. Bára tedy nemůže chodit na průmyslovku.",
+        "d": "Lze určit — máme dostatek podmínek pro jednoznačné řešení."
+      },
+      "tip": "U zebr začni od nejsilnějších podmínek (přímé přiřazení jako \"Bára kreslí\") a postupně vylučuj."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Bára = kreslení. Cyril = průmyslovka = programování. Zbývá sport pro Adama.",
+      "why_others_wrong": {
+        "a": "Programování má Cyril (chodí na průmyslovku).",
+        "b": "Kreslení má Bára (přímo v podmínkách).",
+        "d": "Lze určit — po přiřazení Bára=kreslení a Cyril=programování zbývá jediná možnost."
+      },
+      "tip": "Když znáš 2 ze 3 přiřazení, třetí je automaticky dané. Eliminace je tvůj nejlepší nástroj."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Cyril = průmyslovka, Adam ≠ gymnázium → Adam = OA. Zbývá gymnázium pro Báru.",
+      "why_others_wrong": {
+        "b": "Průmyslovku má Cyril.",
+        "c": "OA má Adam (protože Adam ≠ gymnázium a průmyslovka = Cyril).",
+        "d": "Lze určit jednoznačně."
+      },
+      "tip": "Po vyřešení jedné entity (Cyril = průmyslovka) se celý puzzle zjednoduší — zbývá méně kombinací."
+    }
+  },
+  {
+    "id": 4,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Žlutý = pozice 4. Modrý ≠ 1, ≠ 4 → modrý = 2 nebo 3. Červený hned vedle modrého. Rybička vedle zeleného. Pes = pozice 1. Zkusme: modrý = 2 → červený vedle = 1 nebo 3. Zelený zbývá na 3 → rybička vedle zeleného = 2 nebo 4. Kočka v zeleném (3). Pes na pozici 1 = červený. Modrý = 2. Zelený = 3. Žlutý = 4. Rybička vedle zeleného (3) = pozice 2 nebo 4. Pozice 1 = pes, tak rybička = 2 nebo 4. Papoušek zbývá. Vše sedí: zelený = pozice 3.",
+      "why_others_wrong": {
+        "a": "Pozice 1 = pes. Zelený = kočka. Pes ≠ kočka, takže zelený ≠ pozice 1.",
+        "b": "Pokud zelený = 2, pak rybička vedle = 1 nebo 3. Ale modrý by musel být 2 nebo 3, a červený vedle. Komplikace s podmínkami — nesedí.",
+        "d": "Pozice 4 = žlutý (přímo v podmínkách). Zelený ≠ žlutý."
+      },
+      "tip": "U puzzle s pozicemi začni od FIXNÍCH bodů (žlutý=4, pes=1) a pak zkoušej zbývající umístění."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "d",
+    "reasoning": {
+      "why_correct": "Pozice 4 = žlutý. Pes = pozice 1. Kočka = zelený (pozice 3). Rybička vedle zeleného (3) = pozice 2 nebo 4. Pozice 2 = modrý → rybička na 2. Zbývá papoušek na pozici 4 (žlutý dům).",
+      "why_others_wrong": {
+        "a": "Kočka je v zeleném domě (pozice 3), ne ve žlutém.",
+        "b": "Pes je na pozici 1, ne na pozici 4.",
+        "c": "Rybička je vedle zeleného domu — na pozici 2 (modrý) nebo 4. Ale pokud rybička = 2, pak na 4 zbývá papoušek."
+      },
+      "tip": "Eliminace: přiřaď zvířata, která mají jasnou pozici (pes=1, kočka=3), a zbylá zvířata rozděl podle zbývajících podmínek."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Žlutý = 4. Modrý ≠ 1, ≠ 4, takže modrý = 2 nebo 3. Zelený = 3 (viz otázka 4). Tedy modrý = 2. Červený musí být vedle modrého → pozice 1 nebo 3. Pozice 3 = zelený, takže červený = pozice 1.",
+      "why_others_wrong": {
+        "b": "Modrý je na pozici 2 (ne na 1 ani 4, a pozice 3 = zelený).",
+        "c": "Zelený je na pozici 3.",
+        "d": "Žlutý je na pozici 4."
+      },
+      "tip": "Řešení: Poz.1=červený(pes), Poz.2=modrý(rybička), Poz.3=zelený(kočka), Poz.4=žlutý(papoušek)."
+    }
+  },
+  {
+    "id": 7,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Filip > Eva > Hugo (pořadí). Iva hned za Evou. Filip ≠ 1. Gita na lichém místě. Pokud Filip=2, Eva=3, Iva=4 (hned za Evou). Hugo za Evou → Hugo=5. Gita lichá (1,3,5) — pozice 3=Eva, 5=Hugo → Gita=1. Vše sedí: 1.Gita, 2.Filip, 3.Eva, 4.Iva, 5.Hugo.",
+      "why_others_wrong": {
+        "a": "Eva je za Filipem (Filip > Eva), takže Eva ≠ 1.",
+        "b": "Filip ≠ 1 (přímo v podmínkách).",
+        "d": "Hugo je za Evou, takže Hugo nemůže být 1."
+      },
+      "tip": "Sestav řetězec nerovností: Filip > Eva > Hugo, Iva = Eva+1. Pak najdi pozici pro Gitu (lichá). Filip ≠ 1 → Filip = 2."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Z řetězce Filip=2, Eva hned za? Ne — Filip > Eva. Iva hned za Evou. Pokud Filip=2 → Eva=3, Iva=4. Gita=1 (lichá), Hugo=5.",
+      "why_others_wrong": {
+        "a": "Pozice 2 = Filip.",
+        "c": "Pozice 4 = Iva (hned za Evou).",
+        "d": "Pozice 5 = Hugo."
+      },
+      "tip": "\"Hned za\" = o jednu pozici horší (vyšší číslo). Eva=3 → Iva=4."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Eva > Hugo, Eva=3, Iva=4 (hned za Evou). Hugo za Evou → Hugo = 5 (jediná zbývající pozice).",
+      "why_others_wrong": {
+        "a": "Pozice 3 = Eva.",
+        "b": "Pozice 4 = Iva.",
+        "d": "Lze určit — Hugo musí být za Evou (3) a Ivou (4), takže zbývá 5."
+      },
+      "tip": "Když zbývá jediná neobsazená pozice pro poslední osobu, odpověď je jednoznačná."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Filip ≠ 1. Filip > Eva. Gita=1 (lichá pozice). Filip musí být před Evou(3), takže Filip = 2.",
+      "why_others_wrong": {
+        "a": "Filip ≠ 1 (přímo v podmínkách). Pozice 1 = Gita.",
+        "c": "Pozice 3 = Eva.",
+        "d": "Pozice 4 = Iva."
+      },
+      "tip": "Filip je před Evou (3.) ale ne na 1. místě → jedině pozice 2."
+    }
+  }
+]

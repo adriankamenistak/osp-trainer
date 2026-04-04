@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Přestože\" signalizuje protiklad. Překvapení je v tom, že odolný materiál by měl být drahý na výrobu — ale je levný. To je ten protiklad, který dává větě smysl.",
+      "why_others_wrong": {
+        "a": "Křehký materiál se složitou výrobou — žádný protiklad. U křehkého materiálu bys složitou výrobu čekal.",
+        "c": "Těžký materiál s rychlou výrobou — hmotnost nesouvisí s rychlostí výroby, takže \"překvapivě\" nedává smysl.",
+        "d": "Vzácný materiál s jednoduchou výrobou — pokud je výroba jednoduchá, proč je vzácný? Logický rozpor."
+      },
+      "tip": "U dvojitého doplňování hledej slova, která spolu vytvářejí koherentní (smysluplný) celek. \"Přestože\" vždy vyžaduje protiklad mezi oběma částmi."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Čím X, tím Y\" vyjadřuje přímou úměru. Přesvědčivější argumentace → napjatější (pozornější) poslech. Čím lépe mluví, tím víc lidi zaujme.",
+      "why_others_wrong": {
+        "a": "Slabší argumentace → pozornější poslech? To je protimluv — slabou argumentaci lidé spíš přestanou poslouchat.",
+        "c": "Delší → méně poslouchalo. Logicky možné, ale \"Čím delší, tím méně\" je neobratné a nevystihuje podstatu.",
+        "d": "Hlasitější → klidněji. Hlasitost nevyvolává klid, spíš pozornost nebo nepohodlí."
+      },
+      "tip": "\"Čím X, tím Y\" = přímá úměra. Obě části musí logicky růst/klesat společně."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Věta říká, že jev je v některých zemích [negativní] a v jiných běžný. \"Tabu\" = silně zakázaný/nežádoucí, kontrastuje s \"zcela běžný\". \"Některých\" je neutrální a přesné.",
+      "why_others_wrong": {
+        "a": "Ve vyspělých zemích je jev normální + v jiných běžný? Oba termíny říkají totéž — chybí kontrast.",
+        "c": "V západních zemích přijatelný + jinde běžný? Přijatelný a běžný jsou blízká — chybí kontrast.",
+        "d": "V chudých zemích luxusní — to není o společenském tabu, ale o ekonomice."
+      },
+      "tip": "Hledej pár, kde první slovo vytváří KONTRAST s \"zcela běžný\". Tabu = maximální odmítání, běžný = maximální přijetí."
+    }
+  },
+  {
+    "id": 4,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Sice ... ale ne ty, které očekávali\" — výsledky existují, ale jsou jiné než plánované. \"Částečně úspěšný\" s \"zajímavými výsledky\" přesně popisuje tuto situaci.",
+      "why_others_wrong": {
+        "a": "\"Plně úspěšný\" + \"vynikající\" — ale věta říká \"ne ty, které očekávali\". Plný úspěch by znamenal splnění očekávání.",
+        "c": "\"Zcela\" + \"negativních\" — negativní výsledky nejsou žádný úspěch, ani částečný.",
+        "d": "\"Sotva\" + \"žádných\" — pokud nedosáhli žádných výsledků, nemůže být experiment ani trochu úspěšný."
+      },
+      "tip": "Klíčové je \"sice...ale\" — signalizuje kompromis. Výsledek je mezi úplným úspěchem a úplným neúspěchem."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "\"Místo aby\" + \"naopak\" = očekávaná akce se nestala a nastal opak. Měl vyřešit → místo toho zhoršil. Přesný protiklad.",
+      "why_others_wrong": {
+        "b": "Analyzoval → zlepšil. Není to protiklad — analýza a zlepšení se nevylučují.",
+        "c": "Pochopil → stabilizoval. Opět žádný protiklad — pochopení může vést ke stabilizaci.",
+        "d": "Ignoroval → vyřešil. Ignorování a vyřešení jsou sice protiklady, ale \"místo aby ignoroval\" nezní přirozeně v kontextu \"jeho zásah\"."
+      },
+      "tip": "\"Místo aby X, naopak Y\" — X a Y musí být protiklady. Vyřešit ↔ zhoršit je perfektní protikladný pár."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "\"Kvůli\" rostoucímu počtu turistů (příčina) se obyvatelé cítí \"cize\" (negativní důsledek). Masový turismus vytlačuje místní z jejich vlastního prostředí.",
+      "why_others_wrong": {
+        "a": "\"Díky\" + \"spokojeně\" — to by bylo pozitivní tvrzení, ale \"stále více\" naznačuje gradaci problému.",
+        "b": "\"Navzdory\" + \"bezpečně\" — \"navzdory\" by znamenalo, že turismus by měl snižovat bezpečnost, ale oni se přesto cítí bezpečně.",
+        "d": "\"Přes\" + \"hrdě\" — \"přes rostoucí počet turistů\" naznačuje překážku, ale hrdost nedává smysl s \"ve vlastním městě\"."
+      },
+      "tip": "\"Kvůli\" = negativní příčina. \"Díky\" = pozitivní příčina. Tato záměna je častá chyba v češtině i v testech."
+    }
+  },
+  {
+    "id": 7,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "\"Ostrý kontrast\" vyžaduje dvě opačné vlastnosti. Sebevědomé chování na veřejnosti vs. plachá povaha v soukromí — přesný protiklad.",
+      "why_others_wrong": {
+        "b": "Agresivní + agresivní — žádný kontrast, obě slova jsou stejná.",
+        "c": "Klidné + klidnou — opět žádný kontrast.",
+        "d": "Přátelské + společenskou — obě jsou pozitivní sociální vlastnosti, ne protiklad."
+      },
+      "tip": "\"Ostrý kontrast\" = musíš najít protiklady. Sebevědomý ↔ plachý, veřejný ↔ soukromý."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Sice omezila ... ale zároveň\" — regulace měla pozitivní efekt (omezení spotřeby) s negativním vedlejším efektem (zvýšení nákladů). To je realistický kompromis.",
+      "why_others_wrong": {
+        "a": "Technologie snížila náklady — to by byl pouze pozitivní výsledek bez \"ale\". Kde je kompromis?",
+        "c": "Budova odstranila náklady — budova nemůže \"omezit spotřebu energie\" sama o sobě, a \"odstranit náklady\" je nerealistické.",
+        "d": "Metoda nezměnila — \"ale zároveň nezměnila\" nedává smysl s \"sice omezila\"."
+      },
+      "tip": "\"Sice ... ale\" signalizuje kompromis: pozitivum + negativum. Hledej pár, kde jedno slovo je výhoda a druhé nevýhoda."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Ačkoli expert, nedokázal zjednodušit\" — paradox: odborník by měl umět vysvětlit jednoduše, ale neumí. \"Ačkoli\" vytváří správný protiklad, \"zjednodušit\" přesně odpovídá cíli (aby pochopil laik).",
+      "why_others_wrong": {
+        "a": "\"Zkušený\" nenavazuje gramaticky správně (chybí spojka \"přestože/ačkoli\").",
+        "c": "\"Přestože expert, nedokázal analyzovat\" — analyzovat je schopnost experta, ne problém. Expert UMÍ analyzovat, neumí ale zjednodušit.",
+        "d": "\"Jako expert, nedokázal komplikovat\" — komplikování není cíl komunikace s laiky."
+      },
+      "tip": "Slavný citát Alberta Einsteina: \"Pokud to nedokážeš vysvětlit jednoduše, nerozumíš tomu dostatečně.\" Přesně o tom je tato otázka."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Vnitřně motivovaní\" = motivovaní zájmem o práci samotnou (vs. vnější motivace = peníze). Výzkumy skutečně ukazují, že vnitřní motivace → lepší výkony. Kontrastuje s \"pouze pro peníze\".",
+      "why_others_wrong": {
+        "a": "\"Vysoce motivovaní\" + \"horší\" — proč by vysoce motivovaní podávali horší výkony? Protimluv.",
+        "c": "\"Málo motivovaní\" + \"stejné\" — pokud jsou málo motivovaní, logicky by měli podávat horší, ne stejné výkony.",
+        "d": "\"Finančně motivovaní\" + \"vyšší\" — kontrastuje se s \"pracují pouze pro peníze\", ale oba termíny říkají totéž."
+      },
+      "tip": "Vnitřní vs. vnější motivace — klíčový koncept v psychologii. Vnitřní = dělám to, protože mě to baví. Vnější = dělám to pro odměnu."
+    }
+  }
+]

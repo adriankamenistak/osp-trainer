@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Rozvážný\" znamená ten, kdo jedná po zralé úvaze, promyšleně. \"Uvážlivý\" má totožný význam — člověk, který váží svá rozhodnutí.",
+      "why_others_wrong": {
+        "a": "\"Impulzivní\" je ANTONYMUM (opak) slova rozvážný — znamená jednání bez rozmyslu.",
+        "c": "\"Pomalý\" popisuje rychlost, ne kvalitu rozhodování. Rozvážný člověk může jednat pohotově, ale promyšleně.",
+        "d": "\"Opatrný\" je blízké, ale ne synonymum. Opatrný = vyhýbá se riziku. Rozvážný = promýšlí rozhodnutí. Můžeš být rozvážný a přesto riskovat."
+      },
+      "tip": "Synonymum musí mít STEJNÝ význam, ne jen podobný. Ptej se: dá se v jakékoli větě zaměnit jedno za druhé bez změny smyslu?"
+    }
+  },
+  {
+    "id": 2,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "\"Štědrý\" = rád dává, je velkorysý. Opak = \"skoupý\" = nerad dává, šetří na všem. Přesný antonymní pár.",
+      "why_others_wrong": {
+        "a": "\"Bohatý\" popisuje finanční stav, ne ochotu dávat. Bohatý člověk může být štědrý i skoupý.",
+        "b": "\"Velkorysý\" je SYNONYMUM štědrého, ne antonymum!",
+        "d": "\"Chudý\" je opak \"bohatého\", ne \"štědrého\". I chudý člověk může být štědrý."
+      },
+      "tip": "Pozor na past: odpovědi často obsahují synonymum místo antonyma. Vždy si dvakrát přečti, co se ptají — OPAK nebo STEJNÝ význam?"
+    }
+  },
+  {
+    "id": 3,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Pragmatický\" = zaměřený na praxi a výsledky, ne na teorie. \"Praktický\" má velmi blízký význam — orientovaný na konkrétní řešení.",
+      "why_others_wrong": {
+        "a": "\"Teoretický\" je antonymum — zaměřený na teorii místo praxe.",
+        "c": "\"Dogmatický\" = rigidně lpící na pravidlech. Pragmatik je flexibilní, dogmatik ne.",
+        "d": "\"Idealistický\" = řídí se ideály, ne realitou. Opak pragmatického přístupu."
+      },
+      "tip": "Pragmatický pochází z řečtiny (pragma = čin, věc). Pragmatik se ptá: \"Funguje to?\" ne \"Je to teoreticky správné?\""
+    }
+  },
+  {
+    "id": 4,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Explicitní\" = jasně vyjádřený, výslovný. Opak = \"skrytý\" (implicitní) = nevyjádřený přímo, pouze naznačený.",
+      "why_others_wrong": {
+        "a": "\"Jasný\" je synonymum explicitního, ne antonymum.",
+        "c": "\"Přímý\" je blízké synonymum — přímé vyjádření = explicitní vyjádření.",
+        "d": "\"Konkrétní\" = specifický. Explicitní věc může být konkrétní i obecná — to jsou různé dimenze."
+      },
+      "tip": "Explicitní = řečený nahlas/napsaný. Implicitní = skrytý mezi řádky. Tento pár se v OSP testech objevuje často."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Redundantní\" = nadbytečný, zbytečně se opakující, přesahující potřebu. \"Nadbytečný\" má totožný význam.",
+      "why_others_wrong": {
+        "a": "\"Nezbytný\" je antonymum — to, co je nutné, tedy opak nadbytečného.",
+        "c": "\"Nedostatečný\" popisuje opačný extrém — příliš málo místo příliš mnoho.",
+        "d": "\"Relevantní\" = související s tématem. Něco může být relevantní a zároveň redundantní (opakuje důležitou informaci zbytečně)."
+      },
+      "tip": "Redundantní je latinského původu (redundare = přetékat). V IT: redundantní data = duplicitní, nadbytečné kopie."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "\"Konzervativní\" = lpící na tradici, odporující změnám. \"Progresivní\" = prosazující pokrok a změny. Přesný antonymní pár.",
+      "why_others_wrong": {
+        "a": "\"Tradiční\" je synonymum konzervativního, ne antonymum.",
+        "b": "\"Moderní\" popisuje dobu/styl, ne postoj ke změnám. Konzervativní člověk může používat moderní technologie.",
+        "d": "\"Opatrný\" je vlastnost konzervativních lidí, ale není to přímý opak. Opatrný ≠ progresivní."
+      },
+      "tip": "Konzervativní (conservare = zachovávat) vs. progresivní (progredi = postupovat vpřed). Zachovávat ↔ měnit."
+    }
+  },
+  {
+    "id": 7,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "\"Ambivalentní\" = mající rozporuplné pocity, rozpolcený mezi dvěma postoji. \"Rozpolcený\" přesně vystihuje tento stav vnitřního konfliktu.",
+      "why_others_wrong": {
+        "a": "\"Rozhodný\" je antonymum — rozhodný člověk nemá pochybnosti, ambivalentní ano.",
+        "b": "\"Lhostejný\" = je mu to jedno. Ambivalentnímu člověku to jedno NENÍ — záleží mu na obou stranách, proto je rozpolcený.",
+        "d": "\"Nadšený\" = jednoznačně pozitivní postoj. Ambivalentní = jak pozitivní, tak negativní zároveň."
+      },
+      "tip": "Ambi- = oba (latinsky). Ambivalentní = kolísající mezi dvěma hodnotami. Není to lhostejnost (nezájem), ale aktivní vnitřní konflikt."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Objektivní\" = nezávislý na osobních pocitech, nestranný. \"Subjektivní\" = ovlivněný osobním pohledem. Klasický antonymní pár.",
+      "why_others_wrong": {
+        "a": "\"Nestranný\" je synonymum objektivního.",
+        "c": "\"Nezávislý\" je blízké synonymum — nezávislý pohled = objektivní pohled.",
+        "d": "\"Analytický\" = rozebírající detaily. Analýza může být objektivní i subjektivní."
+      },
+      "tip": "Objekt = vnější svět, subjekt = já. Objektivní = z pohledu vnějšího světa, subjektivní = z mého pohledu."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Apatie\" = stav naprosté lhostejnosti, nezájmu, emoční tuposti. \"Lhostejnost\" je český ekvivalent tohoto pojmu.",
+      "why_others_wrong": {
+        "a": "\"Nadšení\" je antonymum apatie — nadšený člověk je plný emocí a zájmu.",
+        "c": "\"Smutek\" je konkrétní emoce. Apatický člověk necítí ani smutek — je emocionálně plochý.",
+        "d": "\"Vztek\" je silná emoce. Apatie je ABSENCE emocí, ne přítomnost negativní emoce."
+      },
+      "tip": "A-patheia (řecky) = bez utrpení/emocí. Apatie ≠ smutek. Smutek je emoce, apatie je absence emocí."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "\"Banální\" = obyčejný, všední, ničím nepřekvapivý. Opak = \"výjimečný\" = neobvyklý, vyčnívající z řady.",
+      "why_others_wrong": {
+        "a": "\"Běžný\" je synonymum banálního, ne antonymum.",
+        "b": "\"Obyčejný\" je další synonymum banálního.",
+        "d": "\"Nudný\" je důsledek banálnosti, ne její opak. Výjimečná věc nemusí být zajímavá a banální nemusí být nudná."
+      },
+      "tip": "Tři odpovědi (a, b, d) jsou buď synonyma nebo blízce příbuzné. Pokud vidíš shluky podobných odpovědí, správná je pravděpodobně ta odlišná."
+    }
+  }
+]

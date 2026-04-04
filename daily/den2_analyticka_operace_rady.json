@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "a ♦ b = (a+b) × (a-b). Dosadíme: (5+3) × (5-3) = 8 × 2 = 16. Poznámka: toto je vlastně vzorec pro rozdíl čtverců: a²-b² = 25-9 = 16.",
+      "why_others_wrong": {
+        "b": "30 = 5 × 6 — chybný výpočet, možná záměna se součinem.",
+        "c": "8 = 5+3 — počítáš jen první závorku, zapomněl jsi násobit druhou.",
+        "d": "24 = 8 × 3 — chybný výpočet druhé závorky (5-3 = 2, ne 3)."
+      },
+      "tip": "U smyšlených operací VŽDY nejdřív napiš definici a pak mechanicky dosaď. Nepočítej z hlavy — piš si mezivýpočty."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "a # b = 2a + b/2. Dosadíme: 2×3 + 8/2 = 6 + 4 = 10.",
+      "why_others_wrong": {
+        "a": "7 — možná chyba: 3 + 8/2 = 7 (zapomněl jsi na 2a, použil jsi jen a).",
+        "c": "14 — možná: 2×3 + 8 = 14 (zapomněl jsi dělit b dvěma).",
+        "d": "11 — chybný mezivýpočet."
+      },
+      "tip": "Dávej pozor na pořadí operací. 2a znamená 2×a (ne a/2). b/2 znamená b děleno 2."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Z příkladů odvodíme vzorec: 4★2=6 (4+2), 5★3=8 (5+3), 7★1=8 (7+1). Operace ★ je prostý součet: a★b = a+b. Tedy 10★6 = 16.",
+      "why_others_wrong": {
+        "a": "14 — neodpovídá vzorci a+b.",
+        "c": "4 = 10-6. Operace ale není odčítání (zkontroluj: 4-2=2≠6).",
+        "d": "60 = 10×6. Operace není násobení (zkontroluj: 4×2=8≠6)."
+      },
+      "tip": "Když máš příklady operace bez definice, zkus postupně +, -, ×, ÷ a jejich kombinace. Ověř na VŠECH příkladech."
+    }
+  },
+  {
+    "id": 4,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Vzorec: každé číslo = předchozí × 2 + 1. Neboli: 3, 7(=3×2+1), 15(=7×2+1), 31(=15×2+1), 63(=31×2+1), 127(=63×2+1). Alternativně: 2²-1, 2³-1, 2⁴-1, 2⁵-1, 2⁶-1, 2⁷-1 = 127.",
+      "why_others_wrong": {
+        "a": "95 — neodpovídá žádnému logickému vzorci z řady.",
+        "b": "126 = 63×2 — zapomněl jsi přičíst 1.",
+        "d": "125 = 5³ — náhodná shoda, neodpovídá vzorci řady."
+      },
+      "tip": "Když čísla rychle rostou, zkus najít násobící vzorec (×2, ×3...) místo sčítacího. Taky zkus mocniny: 2ⁿ-1 dává 1, 3, 7, 15, 31..."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Řada druhých mocnin: 1², 2², 3², 4², 5², 6² = 1, 4, 9, 16, 25, 36.",
+      "why_others_wrong": {
+        "a": "30 = 25+5 — chybný vzorec, rozdíly nejsou konstantní.",
+        "b": "34 — neodpovídá žádné mocnině.",
+        "d": "49 = 7² — to je správné číslo v řadě, ale až na 7. pozici, ne na 6."
+      },
+      "tip": "Poznáš řadu čtverců podle rozdílů: 3, 5, 7, 9, 11... (lichá čísla). Pokud rozdíly tvoří aritmetickou řadu lichých čísel, jde o čtverce."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Nejdřív: 2 ⊕ 3 = (2×3) + 2 = 6 + 2 = 8. Pak: 8 ⊕ 1 = (8×1) + 8 = 8 + 8 = 16.",
+      "why_others_wrong": {
+        "b": "17 — možná chyba v druhém kroku: 8×1 + 9 = 17 (špatný mezivýpočet).",
+        "c": "9 — počítáš jen první krok (2⊕3=8) a přičteš 1 místo aplikace operace.",
+        "d": "18 — možná: 8×2 + 2 = 18 (špatné dosazení do vnořené operace)."
+      },
+      "tip": "U vnořených operací řeš ZEVNITŘ VEN. Nejdřív vnitřní závorku, výsledek použij jako vstup pro vnější operaci."
+    }
+  },
+  {
+    "id": 7,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Podobná Fibonacciho posloupnosti: každé číslo = součet dvou předchozích. 2+3=5, 3+5=8, 5+8=13, 8+13=21, 13+21=34.",
+      "why_others_wrong": {
+        "a": "28 = 21+7 — chybný výpočet, předchozí dvě jsou 13 a 21, ne 7 a 21.",
+        "b": "32 = 21+11 — nesprávné předchozí číslo.",
+        "d": "42 = 21×2 — to by byl násobek, ne součet předchozích."
+      },
+      "tip": "Kdykoliv vidíš, že čísla rychle rostou a každé je zhruba součtem dvou předchozích — je to Fibonacci nebo jeho variace. Ověř na 2-3 místech."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Trojúhelníková čísla: 1, 3, 6, 10, 15, 21. Rozdíly: +2, +3, +4, +5, +6. Chybějící: 6 + 4 = 10. Vzorec: n×(n+1)/2.",
+      "why_others_wrong": {
+        "a": "9 = 6+3 — použil jsi stejný rozdíl jako předchozí (+3), ale rozdíly rostou.",
+        "c": "11 = 6+5 — přeskočil jsi rozdíl +4.",
+        "d": "12 = 6+6 — dva kroky najednou (přeskočil jsi pozici)."
+      },
+      "tip": "Trojúhelníková čísla (1,3,6,10,15,21...) se poznají podle rostoucích rozdílů +2,+3,+4,+5... Vzorec: n×(n+1)/2."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "a △ b = |a-b| + min(a,b). Dosadíme: |8-3| + min(8,3) = 5 + 3 = 8.",
+      "why_others_wrong": {
+        "a": "5 = |8-3| — počítáš jen absolutní hodnotu, zapomněl jsi přičíst min(a,b).",
+        "c": "11 = 8+3 — prostý součet, ne výsledek definované operace.",
+        "d": "3 = min(8,3) — počítáš jen minimum, zapomněl jsi na |a-b|."
+      },
+      "tip": "|a-b| = absolutní hodnota rozdílu (vždy kladné číslo). min(a,b) = menší z obou čísel. Vždy rozepiš operaci na části."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Faktoriály: 1!=1, 2!=2, 3!=6, 4!=24, 5!=120, 6!=720. Každé číslo = předchozí × pozice: 120 × 6 = 720.",
+      "why_others_wrong": {
+        "a": "240 = 120×2 — nesprávný násobitel.",
+        "b": "600 = 120×5 — násobíš 5 místo 6 (5 je pozice předchozího čísla).",
+        "d": "840 = 120×7 — násobíš 7 místo 6."
+      },
+      "tip": "Faktoriál: n! = 1×2×3×...×n. Poznáš ho podle rychle rostoucích násobků: ×2, ×3, ×4, ×5, ×6..."
+    }
+  }
+]

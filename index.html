@@ -666,6 +666,11 @@
       <p>Vyber si test a procvičuj na přijímačky na SSPŠ</p>
     </div>
 
+    <div id="daily-section" style="display:none">
+      <div class="category-label" style="color:var(--accent)">Dnešní test</div>
+      <div class="test-grid" id="daily-grid"></div>
+    </div>
+
     <div class="category-label">Verbální sekce</div>
     <div class="test-grid" id="verbal-grid"></div>
 
@@ -733,6 +738,7 @@
 <script>
 // ===== STATE =====
 let tests = [];
+let dailyTests = [];
 let currentTest = null;
 let questions = [];
 let currentIdx = 0;
@@ -753,6 +759,13 @@ async function init() {
   try {
     const res = await fetch('questions/index.json');
     tests = await res.json();
+    // Load daily schedule
+    try {
+      const dRes = await fetch('daily/schedule.json');
+      const schedule = await dRes.json();
+      const today = new Date().toISOString().split('T')[0];
+      dailyTests = schedule.filter(s => s.date <= today);
+    } catch { dailyTests = []; }
     renderHome();
   } catch (e) {
     document.getElementById('verbal-grid').innerHTML = '<p style="color:var(--danger)">Nepodařilo se načíst testy. Spusťte aplikaci přes HTTP server.</p>';
@@ -760,6 +773,40 @@ async function init() {
 }
 
 function renderHome() {
+  // Daily tests
+  const dailySection = document.getElementById('daily-section');
+  const dailyGrid = document.getElementById('daily-grid');
+  dailyGrid.innerHTML = '';
+
+  if (dailyTests.length > 0) {
+    dailySection.style.display = 'block';
+    const today = new Date().toISOString().split('T')[0];
+    dailyTests.forEach((dt, i) => {
+      const card = document.createElement('div');
+      card.className = 'test-card';
+      if (dt.date === today) {
+        card.style.borderColor = 'var(--accent)';
+        card.style.boxShadow = '0 0 20px rgba(255, 101, 132, 0.2)';
+      }
+      const best = getBestScore('daily_' + dt.file);
+      const bestHtml = best !== null
+        ? `<div class="best-score visible">Nejlepší: ${best}%</div>`
+        : `<div class="best-score">—</div>`;
+      const isToday = dt.date === today ? ' (DNES!)' : '';
+      card.innerHTML = `
+        <span class="icon">${dt.icon}</span>
+        <div class="name">${dt.name}${isToday}</div>
+        <div class="meta">${dt.count} otázek · ${dt.date}</div>
+        ${bestHtml}
+      `;
+      card.onclick = () => startDailyTest(dt);
+      dailyGrid.appendChild(card);
+    });
+  } else {
+    dailySection.style.display = 'none';
+  }
+
+  // Regular tests
   const verbalGrid = document.getElementById('verbal-grid');
   const analytGrid = document.getElementById('analyticka-grid');
   verbalGrid.innerHTML = '';
@@ -927,6 +974,29 @@ function parseQuestionBlock(block, sharedContexts, idx) {
 }
 
 // ===== TEST FLOW =====
+async function startDailyTest(dt) {
+  const test = { file: dt.file + '.md', name: dt.name, category: dt.category, icon: dt.icon, count: dt.count, _daily: true, _dailyFile: dt.file };
+  currentTest = test;
+  try {
+    const res = await fetch(`daily/${dt.file}.md`);
+    const md = await res.text();
+    questions = parseMarkdown(md);
+    if (questions.length === 0) { alert('Nepodařilo se načíst otázky.'); return; }
+    try {
+      const rRes = await fetch(`daily/${dt.file}.json`);
+      reasoning = await rRes.json();
+    } catch { reasoning = []; }
+  } catch (e) { alert('Chyba při načítání testu.'); return; }
+
+  currentIdx = 0;
+  answers = [];
+  streak = 0;
+  bestStreak = 0;
+  startTime = Date.now();
+  showScreen('quiz');
+  showQuestion();
+}
+
 async function startTest(test) {
   currentTest = test;
   try {
@@ -977,7 +1047,9 @@ function showQuestion() {
   }
 
   // Question
-  document.getElementById('question-text').textContent = q.text;
+  // Render question with basic markdown (bold)
+  const qHtml = q.text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  document.getElementById('question-text').innerHTML = qHtml;
 
   // Options
   const optionsEl = document.getElementById('options');
@@ -1231,7 +1303,8 @@ function showResults() {
   });
 
   // Save best score
-  saveBestScore(currentTest.file, pct);
+  const scoreKey = currentTest._daily ? 'daily_' + currentTest._dailyFile : currentTest.file;
+  saveBestScore(scoreKey, pct);
 
   // Confetti for great results
   if (pct >= 90) launchConfetti();

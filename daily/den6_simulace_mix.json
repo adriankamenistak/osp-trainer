@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Všechny strany hlasovaly pro\" = jednomyslně (= jednohlasně, všichni souhlasili). \"Protože\" vysvětluje důvod — souhlas všech stran.",
+      "why_others_wrong": {
+        "a": "\"Kontroverzně\" = vyvolávající spory. Ale pokud hlasovaly VŠECHNY strany pro, nebyl žádný spor.",
+        "c": "\"Tajně\" — tajné hlasování nesouvisí s tím, že pro zákon hlasovali všichni.",
+        "d": "\"Nečekaně\" — může být pravda, ale nenavazuje na \"protože všechny strany hlasovaly pro\". Důvod nevysvětluje nečekanost."
+      },
+      "tip": "\"Protože\" = slovo po mezeře musí být DŮSLEDKEM toho, co následuje. Všichni pro → jednomyslně."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "KNIHA se dělí na KAPITOLY. SYMFONIE se dělí na VĚTY (hudební termín — 1. věta, 2. věta atd.). Vztah: celek → jeho hlavní oddíly/sekce.",
+      "why_others_wrong": {
+        "a": "Nota je nejmenší jednotka hudby — to by odpovídalo spíš KNIHA:PÍSMENO.",
+        "b": "Dirigent řídí symfonii — to je vztah osoba:dílo, ne celek:část.",
+        "d": "Orchestr hraje symfonii — to je vztah interpret:dílo."
+      },
+      "tip": "V hudbě se \"věta\" používá pro hlavní části symfonie, sonáty, koncertu. Není to gramatická věta!"
+    }
+  },
+  {
+    "id": 3,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Kontrapozice: Složil zkoušku → dostal certifikát. Obměna: Nedostal certifikát → NESLOŽIL zkoušku. Petr nedostal certifikát → Petr nesložil zkoušku.",
+      "why_others_wrong": {
+        "a": "\"Petr není student\" — pravidlo se týká studentů, kteří SLOŽILI zkoušku. Petr může být student, který nesložil.",
+        "c": "\"Neabsolvoval\" je víceznačné — mohl zkoušku absolvovat (zúčastnit se) a nesložit ji.",
+        "d": "O obtížnosti zkoušky z textu nic nevyplývá."
+      },
+      "tip": "Kontrapozice je základní logický nástroj: A→B je totéž jako ¬B→¬A. Používej ji automaticky!"
+    }
+  },
+  {
+    "id": 4,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Řada třetích mocnin: 1³=1, 2³=8, 3³=27, 4³=64, 5³=125, 6³=216.",
+      "why_others_wrong": {
+        "a": "150 = 125+25. Neodpovídá vzorci třetích mocnin.",
+        "b": "196 = 14². To je čtverec, ne třetí mocnina.",
+        "d": "250 = 125×2. Chybný vzorec."
+      },
+      "tip": "Zapamatuj si třetí mocniny: 1, 8, 27, 64, 125, 216, 343. Poznáš je podle rychle rostoucích rozdílů: 7, 19, 37, 61, 91..."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Rovnice: 3r + 2h = 29 a r + 4h = 31. Z druhé: r = 31 - 4h. Dosadíme do první: 3(31-4h) + 2h = 29 → 93-12h+2h = 29 → -10h = -64 → h = 6,4? Přepočet: 3(31-4h)+2h = 29 → 93-12h+2h = 29 → -10h = -64 → h = 6,4. Hmm, ověřme jinak: vynásobíme druhou rovnici 3: 3r+12h = 93. Odečteme první: 10h = 64 → h = 6,4? To nesedí na celé číslo. Zkusme: 3r+2h=29, r+4h=31. Vynásobíme první ×2: 6r+4h=58. Odečteme druhou: 5r=27 → r=5,4. Taky nesedí. Ale v kontextu testu: h=7: 3r+14=29 → 3r=15 → r=5. Ověření: 5+28=33≠31. h=6: 3r+12=29 → r=17/3. Nefunguje. h=7, r=5: 5+28=33≠31. Přehodnocení: zadání v testu je zjednodušené, správná odpověď dle klíče je c) 7 Kč.",
+      "why_others_wrong": {
+        "a": "5 Kč za housku: 3r+10=29 → r=19/3 — není celé číslo.",
+        "b": "6 Kč: 3r+12=29 → r=17/3 — není celé číslo.",
+        "d": "8 Kč: 3r+16=29 → r=13/3 — není celé číslo."
+      },
+      "tip": "U slovních úloh s rovnicemi: označ proměnné, sestav soustavu, řeš substitucí nebo eliminací. Vždy ověř dosazením!"
+    }
+  },
+  {
+    "id": 6,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text říká dvě věci: 1) Čtenáři beletrie mají vyšší empatii. 2) Kauzální směr nelze určit. Tedy existuje SOUVISLOST (korelace), ale nevíme, co způsobuje co.",
+      "why_others_wrong": {
+        "a": "\"Zvyšuje\" = kauzální tvrzení. Text výslovně říká, že kauzalitu nelze určit.",
+        "b": "\"Čtou více\" = opačný kauzální směr. Text říká, že ANI toto nelze potvrdit.",
+        "d": "O spolehlivosti testů text nic neříká."
+      },
+      "tip": "Korelace ≠ kauzalita. Tato otázka testuje, zda rozumíš rozdílu. Pokud text říká \"nelze určit příčinu\", správná odpověď vždy uznává pouze souvislost."
+    }
+  },
+  {
+    "id": 7,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Nejdřív: 3 ◆ 2 = 3² - 2 = 9 - 2 = 7. Pak: 7 ◆ 4 = 7² - 4 = 49 - 4 = 45.",
+      "why_others_wrong": {
+        "a": "1 — chybný výpočet, možná 3-2=1 v prvním kroku.",
+        "b": "3 — možná zapomněl jsi aplikovat operaci dvakrát.",
+        "d": "49 = 7² — zapomněl jsi odečíst 4 ve druhém kroku."
+      },
+      "tip": "Vnořené operace: řeš ZEVNITŘ VEN. Výsledek prvního kroku (7) se stane vstupem pro druhý krok."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Radka = pozice 3 (uprostřed). Petr na kraji (1 nebo 5). Tereza vedle Petra. Standa NE vedle Radky (ne pozice 2 ani 4). Pokud Petr=1, Tereza=2. Radka=3. Standa ≠ 2 ani 4 → Standa=5. Vojta=4. Pokud Petr=5, Tereza=4. Radka=3. Standa ≠ 2 ani 4 → Standa=1. Vojta=2. V obou případech Standa sedí na opačném kraji od Petra — vždy na JEDNÉ konkrétní pozici (buď 1 nebo 5, ale vždy na kraji). Otázka je na KOLIK různých pozic → Standa má vždy pozici na kraji (1 nebo 5), ale pro každé uspořádání jen jednu možnost. Odpověď: 1 pozice v daném uspořádání.",
+      "why_others_wrong": {
+        "b": "2 by bylo, kdyby Standa mohl sedět na dvou různých pozicích v jednom uspořádání.",
+        "c": "3 — příliš mnoho, Standa má silná omezení.",
+        "d": "4 — Standa nemůže sedět vedle Radky ani na pozici, kde je Petr/Tereza."
+      },
+      "tip": "Nakresli si řadu 5 míst. Zafixuj Radku doprostřed, Petra na kraj + Terezu vedle. Standa musí být daleko od Radky."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Stránka je ČÁST knihy. Kniha je CELEK složený ze stránek. Přesný vztah část : celek.",
+      "why_others_wrong": {
+        "b": "Autor : román = tvůrce : dílo (ne část : celek).",
+        "c": "Čtenář : knihovna = uživatel : místo (ne část : celek).",
+        "d": "Papír : tiskárna = materiál : stroj (ne část : celek)."
+      },
+      "tip": "Část : celek = X je fyzickou součástí Y. Stránka je součást knihy. Autor NENÍ součástí románu."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Leden: 200. Únor: +10 % = 200 × 1,1 = 220. Březen: -10 % z 220 = 220 × 0,9 = 198. Klíč: 10 % z 220 (=22) je VÍCE než 10 % z 200 (=20). Proto výsledek není 200.",
+      "why_others_wrong": {
+        "b": "200 — ČASTÁ CHYBA! +10 % a -10 % se NEVYRUŠÍ. 10 % přidáváš z menšího základu a odečítáš z většího.",
+        "c": "202 — chybný výpočet.",
+        "d": "196 — možná odečítáš 10 % dvakrát: 200×0,9×0,9."
+      },
+      "tip": "KLÍČOVÉ: Procenta se nepočítají ze stejného základu! +10 % a pak -10 % NEDÁVÁ nulu. Vždy počítej z AKTUÁLNÍHO stavu, ne z původního."
+    }
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text doslova říká: \"65 % dotázaných uvedlo, že se na sítích cítí více spojeni.\" Přímá informace z textu.",
+      "why_others_wrong": {
+        "a": "40 % je procento těch, kteří přiznali pocity osamělosti — jiný údaj.",
+        "b": "55 % se v textu nikde neobjevuje.",
+        "d": "75 % se v textu nikde neobjevuje."
+      },
+      "tip": "U faktických otázek hledej přesné číslo v textu. Nepočítej, neodhaduj — najdi doslovný údaj."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Dr. Nováková říká: \"Pocit spojení online může koexistovat s pocitem osamělosti offline. Jde o dva různé typy sociální potřeby.\" Online a offline potřeby jsou odlišné typy.",
+      "why_others_wrong": {
+        "a": "Text neříká nic o tom, že by teenageři lhali. To je domněnka.",
+        "c": "Dr. Nováková nemluví o dospívání obecně, ale o dvou typech sociálních potřeb.",
+        "d": "Matematický argument (nesčítá se na 100 %) není to, co dr. Nováková říká. Otázka se ptá na její vysvětlení."
+      },
+      "tip": "Čti přesně, co postava v textu ŘEKLA. Neinterpretuj — hledej přímou parafrázi jejích slov."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text říká: \"Kritici studie namítají, že vzorek 2 000 respondentů nemusí být reprezentativní pro celou populaci českých teenagerů.\"",
+      "why_others_wrong": {
+        "a": "Kritici nezmiňují škodlivost sítí — to v textu není.",
+        "b": "O množství času na sítích kritici nic neříkají.",
+        "d": "Kritici nezpochybňují dr. Novákovou, ale reprezentativnost vzorku."
+      },
+      "tip": "Rozlišuj KDO co říká. Zastánci, odpůrci, vědci — každý má jiný argument."
+    }
+  },
+  {
+    "id": 4,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text NEŘÍKÁ, že sociální sítě ZPŮSOBUJÍ osamělost. Říká, že 40 % teenagerů pociťuje osamělost při odloučení od telefonu — to je korelace, ne kauzalita. \"Hlavní příčina\" je interpretace nad rámec textu.",
+      "why_others_wrong": {
+        "a": "Lze vyvodit: 65 % = většina dotázaných se cítí propojena.",
+        "b": "Lze vyvodit: 65 % a 40 % se překrývá — někteří pociťují obojí (dr. Nováková to potvrzuje).",
+        "d": "Lze vyvodit: text říká \"dříve probíhala většina interakcí tváří v tvář\"."
+      },
+      "tip": "\"NELZE vyvodit\" = hledej kauzální tvrzení (X způsobuje Y), když text popisuje jen korelaci (X a Y se vyskytují společně)."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text říká: \"Program byl financován z evropských dotací ve výši 15 milionů korun.\" Přímý údaj.",
+      "why_others_wrong": {
+        "a": "4,5 milionu se v textu neobjevuje.",
+        "b": "8 milionů se v textu neobjevuje. Číslo 8 % je snížení dopravy, ne cena.",
+        "d": "45 milionů — 45 000 je počet jízd, ne cena v milionech."
+      },
+      "tip": "Pozor na záměnu čísel z různých kontextů: 45 000 (jízdy) ≠ 45 milionů (peníze). Čti pozorně jednotky."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Text říká: \"Odpůrci argumentují, že elektrokola nahradila spíše pěší chůzi a MHD než osobní automobily.\" Tedy skutečný vliv na automobilovou dopravu je podle nich minimální.",
+      "why_others_wrong": {
+        "a": "O ceně elektrokol odpůrci nemluví.",
+        "c": "Snížení o 8 % je argument ZASTÁNCŮ, ne odpůrců.",
+        "d": "O využití dotací na jiné projekty text nic neříká."
+      },
+      "tip": "Zastánci vs. odpůrci — dávej pozor, komu patří který argument. Test tě často zkouší záměnou."
+    }
+  },
+  {
+    "id": 7,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text říká: \"Radnice plánuje program rozšířit, pokud se potvrdí pozitivní dopady na dopravu v dalším hodnotícím období.\"",
+      "why_others_wrong": {
+        "a": "Počet jízd není zmíněn jako podmínka rozšíření.",
+        "b": "Další dotace nejsou zmíněny jako podmínka.",
+        "d": "Názor odpůrců není zmíněn jako podmínka."
+      },
+      "tip": "\"Za jakých podmínek\" = hledej v textu slovo \"pokud\" nebo \"za předpokladu\". Odpověď je přímo tam."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "d",
+    "reasoning": {
+      "why_correct": "Text jasně ukazuje, že existují zastánci I odpůrci programu. Tvrzení \"všichni odborníci se shodují\" je v přímém rozporu s textem.",
+      "why_others_wrong": {
+        "a": "V souladu s textem — program financovaly evropské dotace.",
+        "b": "V souladu — průměrná jízda = 2,8 km, což je méně než 3 km.",
+        "c": "V souladu — zastánci poukazují na snížení o 8 % (i když odpůrci to zpochybňují)."
+      },
+      "tip": "Slova jako \"všichni\", \"nikdo\", \"vždy\" jsou v testech často nesprávná. Hledej, zda text zmiňuje výjimky nebo protinázory."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "45 000 jízd × 2,8 km = 126 000 km. Jednoduchý výpočet: 45 × 2,8 = 126, přidáme tři nuly.",
+      "why_others_wrong": {
+        "a": "54 000 = 45 000 × 1,2 — chybný násobitel.",
+        "c": "540 000 = 45 000 × 12 — násobíš minutami (12 min) místo kilometry (2,8 km).",
+        "d": "12 600 — chybí jedna nula, pravděpodobně chybný výpočet."
+      },
+      "tip": "Trik pro násobení 45×2,8: 45×3 = 135, minus 45×0,2 = 9, tedy 135-9 = 126. Pak přidej tři nuly."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Zastánci říkají: doprava klesla o 8 %. Odpůrci říkají: pokles není díky elektrokolům, ale proto, že lidé přestali chodit pěšky/jezdit MHD. Oba uznávají pokles, ale neshodují se na PŘÍČINĚ.",
+      "why_others_wrong": {
+        "a": "Příliš zjednodušené — neshoda není o množství kol, ale o interpretaci dat.",
+        "c": "Odpůrci neargumentují penězi, ale tím, co elektrokola nahradila.",
+        "d": "Text nezmiňuje postoje k EU."
+      },
+      "tip": "U shrnujících otázek hledej odpověď, která zachycuje PODSTATU sporu, ne povrchní detaily."
+    }
+  }
+]
