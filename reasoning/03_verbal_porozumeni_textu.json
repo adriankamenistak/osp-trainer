@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Text doslova říká: \"Teplejší voda obsahuje méně rozpuštěného kyslíku.\" Odpověď b) je přímá parafráze tohoto tvrzení.",
+      "why_others_wrong": {
+        "a": "\"Kyslík zcela mizí\" — text říká \"méně\", ne \"žádný\". To je přehánění, které text nepodporuje.",
+        "c": "\"Organismy spotřebovávají více kyslíku\" — text o spotřebě organismů nic neříká. Říká, že voda obsahuje méně kyslíku, ne že organismy berou více.",
+        "d": "\"Obsah se nemění\" — přímý rozpor s textem."
+      },
+      "tip": "U porozumění textu odpovídej POUZE na základě toho, co text říká. Nedoplňuj vlastní znalosti."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text uvádí: \"zesiluje srážky v některých oblastech, zatímco jiné oblasti paradoxně trpí větším suchem.\" Tedy nerovnoměrný vliv — někde více srážek, jinde sucho.",
+      "why_others_wrong": {
+        "a": "\"Rovnoměrně zvyšují\" — text výslovně říká, že efekt je nerovnoměrný (\"některé... zatímco jiné\").",
+        "b": "\"Snižují ve všech oblastech\" — text říká, že v některých oblastech srážky zesilují.",
+        "d": "\"Nesouvisejí\" — text jasně popisuje souvislost: teplejší oceány → více vodní páry → změna srážek."
+      },
+      "tip": "Pozor na odpovědi s absolutními slovy (\"všechny\", \"rovnoměrně\", \"vždy\"). Texty většinou popisují nuancovanější realitu."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text říká, že méně kyslíku \"ohrožuje mořské organismy\" — ale \"ohrožuje\" neznamená \"způsobuje vymírání\". Ohrožení je riziko, vymírání je výsledek. Text o vymírání druhů nic neříká.",
+      "why_others_wrong": {
+        "a": "Lze vyvodit — text ukazuje, že malá změna (0,5 °C) má dalekosáhlé důsledky.",
+        "b": "Lze vyvodit — text říká, že změna je \"rychlejší než cokoli za posledních 10 000 let\".",
+        "d": "Lze vyvodit — text popisuje, že teplejší oceány uvolňují vodní páru do atmosféry."
+      },
+      "tip": "\"NELZE vyvodit\" = hledej odpověď, která jde nad rámec textu. Rozlišuj \"ohrožuje\" vs. \"způsobuje vymírání\" — to jsou různé úrovně tvrzení."
+    }
+  },
+  {
+    "id": 4,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Skupina 7–8 hodin měla nejlepší výsledky. Skupina pod 6 hodin měla o 30 % horší výsledky a skupina nad 9 hodin měla výsledky \"srovnatelné\" se skupinou pod 6 hodin (tedy také horší). Optimum je tedy 7–8 hodin.",
+      "why_others_wrong": {
+        "a": "\"Čím více, tím lepší\" — text vyvrací toto tvrzení. Skupina 9+ hodin měla výsledky srovnatelné se skupinou s nedostatkem spánku.",
+        "c": "\"Nemá vliv\" — studie jasně ukazuje rozdíly mezi skupinami.",
+        "d": "\"Méně než 6 hodin zlepšuje\" — přesný opak, tato skupina měla o 30 % HORŠÍ výsledky."
+      },
+      "tip": "Tento text popisuje \"obrácenou U-křivku\" — příliš málo i příliš mnoho je špatné, optimum je uprostřed."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Autoři říkají, že studenti s dlouhým spánkem mohli mít jiné zdravotní problémy. Tím naznačují, že příliš mnoho spánku nemusí být příčinou horší paměti — mohly to způsobit ty zdravotní problémy. Korelace (spánek a paměť spolu souvisí) ≠ kauzalita (spánek způsobuje horší paměť).",
+      "why_others_wrong": {
+        "a": "\"Zpochybnit vlastní výsledky\" — nezpochybňují data, ale pouze jejich interpretaci. Data jsou platná, jen kauzální závěr nelze udělat.",
+        "c": "\"Studie je nevěrohodná\" — naopak, tím že upozorňují na omezení, zvyšují věrohodnost studie.",
+        "d": "\"Proč málo spánku škodí\" — zmínka o korelaci vs. kauzalitě se týká skupiny s dlouhým spánkem, ne s krátkým."
+      },
+      "tip": "Korelace ≠ kauzalita je klíčový vědecký princip. Dva jevy mohou spolu souviset (korelovat), aniž by jeden způsoboval druhý."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Text říká, že skupina 9+ hodin měla výsledky \"srovnatelné\" (= podobné) se skupinou pod 6 hodin — tedy HORŠÍ než skupina 7–8 hodin. Tvrzení b) říká, že 10 hodin = LEPŠÍ než 7 hodin, což je v přímém rozporu.",
+      "why_others_wrong": {
+        "a": "V souladu s textem — 5 hodin je pod 6, tedy o 30 % horší výsledky než 7 hodin.",
+        "c": "V souladu s textem — studie měla 500 studentů.",
+        "d": "V souladu s textem — přesně to text říká."
+      },
+      "tip": "U otázek \"co je v ROZPORU\" hledej tvrzení, které říká opak toho, co je v textu."
+    }
+  },
+  {
+    "id": 7,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Z textu vyplývá pouze holý fakt: 72 % obyvatel centra podporuje zónu vs. 41 % z okraje. Odpověď c) konstatuje tento fakt bez spekulací. Nic víc z dat vyvodit nelze.",
+      "why_others_wrong": {
+        "a": "\"Vzdělanější\" — text o vzdělání obyvatel nic neříká. To je domněnka bez opory v textu.",
+        "b": "\"Přímo profitovali z čistšího ovzduší\" — to je logická spekulace, ale text tento důvod neuvádí. Může to být pravda, ale z textu to nevyplývá.",
+        "d": "\"Proti ochraně prostředí\" — 41 % obyvatel okraje je PRO, jen méně než v centru. Text neříká, že jsou proti ochraně prostředí obecně."
+      },
+      "tip": "V OSP testech je velmi důležité rozlišovat FAKTA z textu od INTERPRETACÍ. Správná odpověď se drží pouze toho, co text prokazatelně říká."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text zmiňuje: snížení emisí (zastánci), zvýšení kvality života (zastánci), zhoršení dostupnosti obchodů (odpůrci). Bezpečnost chodců nikde zmíněna není.",
+      "why_others_wrong": {
+        "a": "Zmíněno — \"snížením emisí\" je argument zastánců.",
+        "b": "Zmíněno — \"zvýšením kvality života\" je argument zastánců.",
+        "d": "Zmíněno — odpůrci namítají \"zhoršení dostupnosti obchodů\"."
+      },
+      "tip": "U otázek \"co NENÍ zmíněno\" projdi text systematicky a odškrtávej možnosti, které najdeš. Co zbude, je správná odpověď."
+    }
+  }
+]

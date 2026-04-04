@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Sleva 20 % znamená, že zaplatíš 80 % původní ceny. Tedy: původní × 0,8 = 960. Původní = 960 / 0,8 = 1 200 Kč. Kontrola: 1 200 × 0,2 = 240 Kč sleva, 1 200 - 240 = 960 ✓.",
+      "why_others_wrong": {
+        "a": "1 152 = 960 × 1,2. Tato chyba vznikne, když přičteš 20 % k ceně po slevě místo abys počítal zpětně. 20 % z 960 ≠ 20 % z původní ceny!",
+        "c": "1 100 — neodpovídá žádnému výpočtu. 1 100 × 0,8 = 880 ≠ 960.",
+        "d": "1 180 — 1 180 × 0,8 = 944 ≠ 960."
+      },
+      "tip": "ČASTÁ CHYBA: Přičítat procenta k ceně po slevě (960 + 20 %). Správně: dělíš cenou po slevě koeficientem (0,8). Sleva 20 % → dělíš 0,8. Sleva 30 % → dělíš 0,7."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Dívek je 60 % z 30 = 18. Chlapců je 12. Chceme, aby dívky tvořily 50 %. Dívek zůstane 18. Celkem musí být: 18 / 0,5 = 36. Přibýt musí: 36 - 30 = 6 chlapců.",
+      "why_others_wrong": {
+        "a": "4 nových → celkem 34, dívky = 18/34 = 52,9 %. To není 50 %.",
+        "b": "5 nových → celkem 35, dívky = 18/35 = 51,4 %. Stále ne 50 %.",
+        "d": "8 nových → celkem 38, dívky = 18/38 = 47,4 %. To je pod 50 %."
+      },
+      "tip": "Rovnice: počet_dívek / (celkem + x) = 0,5. Řeš x. Neřeš to intuitivně, postav rovnici."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Poměr 2 : 3 → celkem 5 dílů. Jeden díl = 450 / 5 = 90 Kč. Petr má 2 díly → 2 × 90 = 180 Kč. Jana má 3 díly → 3 × 90 = 270 Kč. Kontrola: 180 + 270 = 450 ✓.",
+      "why_others_wrong": {
+        "a": "150 = 450 / 3. Chyba: dělení celku jedním z čísel poměru místo součtem.",
+        "c": "200 — neodpovídá poměru. 200 : 250 = 4 : 5, ne 2 : 3.",
+        "d": "270 je podíl Jany (3 díly), ne Petra."
+      },
+      "tip": "Poměr a : b → celkem dílů = a + b. Jeden díl = celek / (a+b). Podíl = počet dílů × velikost dílu."
+    }
+  },
+  {
+    "id": 4,
+    "correct": "d",
+    "reasoning": {
+      "why_correct": "Auto: 200 km / 100 km/h = 2 hodiny. Vlak: 200 km / 80 km/h = 2,5 hodiny. Vlak vyjel o 30 min dříve. Časová osa (od odjezdu vlaku): Vlak dorazí v čase 2:30. Auto vyjede v 0:30, jede 2h, dorazí v čase 2:30. Dorazí SOUČASNĚ.",
+      "why_others_wrong": {
+        "a": "Chyba: nezapočítání 30minutového náskoku vlaku. Bez náskoku by auto bylo o 30 min rychlejší, ale s náskrokem se to přesně vyrovná.",
+        "b": "Stejná chyba jako a), jen větší.",
+        "c": "Vlak nedorazí dříve — ztráta rychlostí je přesně kompenzována časovým náskokem."
+      },
+      "tip": "Vždy si nakresli časovou osu. Označ odjezdy a příjezdy obou dopravních prostředků na stejné ose."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Kombinace bez opakování: C(5,2) = 5! / (2! × 3!) = (5 × 4) / (2 × 1) = 10. Nezáleží na pořadí — vybíráme skupinu, ne uspořádanou dvojici.",
+      "why_others_wrong": {
+        "a": "8 — neodpovídá žádnému kombinatorickému vzorci pro tyto hodnoty.",
+        "c": "15 = C(6,2). To by platilo pro 6 žáků, ne 5.",
+        "d": "20 = P(5,2) × počet... neodpovídá. Nebo 4 × 5, ale to nemá logiku."
+      },
+      "tip": "Kombinace (nezáleží na pořadí): C(n,k) = n! / (k! × (n-k)!). Pro C(n,2) existuje zkratka: n × (n-1) / 2."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Celkem kuliček: 3 + 4 + 3 = 10. Modrých je 4. Pravděpodobnost = příznivé / celkem = 4/10 = 0,4 = 40 %.",
+      "why_others_wrong": {
+        "a": "30 % = 3/10. To je pravděpodobnost červené nebo zelené, ne modré.",
+        "c": "50 % = 5/10. Žádná barva nemá 5 kuliček.",
+        "d": "33 % ≈ 1/3. To by platilo, kdyby byly 3 barvy po stejném počtu, ale modré jsou 4, ne 3,33."
+      },
+      "tip": "Pravděpodobnost = počet příznivých výsledků / celkový počet výsledků. Vždy nejdřív spočítej celkový počet!"
+    }
+  },
+  {
+    "id": 7,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Průměr: (12 + 8 + 15 + 8 + 22) / 5 = 65 / 5 = 13. Medián: seřadíme 8, 8, 12, 15, 22 → prostřední hodnota = 12. Rozdíl: 13 - 12 = 1.",
+      "why_others_wrong": {
+        "a": "0 by znamenalo, že průměr = medián. To platí u symetrických dat, ale tato data jsou zešikmená (22 táhne průměr nahoru).",
+        "c": "2 — chybný výpočet průměru nebo mediánu.",
+        "d": "3 — chybný výpočet."
+      },
+      "tip": "Medián = prostřední hodnota SEŘAZENÝCH dat. U 5 hodnot je to 3. v pořadí. Průměr = součet / počet. Nezapomeň data nejdřív seřadit!"
+    }
+  },
+  {
+    "id": 8,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Obsah čtverce = 6 × 6 = 36 cm². Vepsaný kruh má průměr = strana čtverce = 6, tedy poloměr r = 3. Obsah kruhu = π × r² = 3,14 × 9 = 28,26 cm². Plocha mezi nimi: 36 - 28,26 = 7,74 cm².",
+      "why_others_wrong": {
+        "b": "8,56 — chybný výpočet, možná záměna poloměru a průměru.",
+        "c": "7,00 — příliš zaokrouhleno nebo chybný výpočet π.",
+        "d": "9,00 — neodpovídá."
+      },
+      "tip": "Vepsaný kruh se dotýká všech stran → průměr kruhu = strana čtverce. Poloměr = strana / 2. Pak: plocha = čtverec - kruh."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Syn = x let, otec = 3x let (třikrát starší). Za 12 let: otec = 3x + 12, syn = x + 12. Podmínka: 3x + 12 = 2(x + 12). Řešení: 3x + 12 = 2x + 24 → x = 12. Kontrola: syn 12, otec 36. Za 12 let: syn 24, otec 48. 48 = 2 × 24 ✓.",
+      "why_others_wrong": {
+        "a": "Syn 10, otec 30. Za 12 let: 22 a 42. 42 / 22 = 1,9 ≠ 2.",
+        "c": "Syn 14, otec 42. Za 12 let: 26 a 54. 54 / 26 = 2,08 ≠ 2.",
+        "d": "Syn 15, otec 45. Za 12 let: 27 a 57. 57 / 27 = 2,11 ≠ 2."
+      },
+      "tip": "Věkové úlohy: označ neznámou (x = syn), vyjádři věk obou (syn = x, otec = 3x), sestav rovnici pro budoucnost. VŽDY ověř zpětným dosazením!"
+    }
+  },
+  {
+    "id": 10,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Soustava rovnic: a + m = 20 (vozidla), 4a + 2m = 56 (kola). Z první: m = 20 - a. Dosadíme: 4a + 2(20 - a) = 56 → 4a + 40 - 2a = 56 → 2a = 16 → a = 8. Kontrola: 8 aut (32 kol) + 12 motorek (24 kol) = 56 kol ✓.",
+      "why_others_wrong": {
+        "a": "6 aut → 14 motorek. 24 + 28 = 52 kol ≠ 56.",
+        "c": "10 aut → 10 motorek. 40 + 20 = 60 kol ≠ 56.",
+        "d": "12 aut → 8 motorek. 48 + 16 = 64 kol ≠ 56."
+      },
+      "tip": "Klasická soustava 2 rovnic o 2 neznámých. Vyjádři jednu proměnnou z jednodušší rovnice a dosaď do druhé. Vždy ověř!"
+    }
+  }
+]

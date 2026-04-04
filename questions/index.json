@@ -1,0 +1,44 @@
+[
+  {
+    "file": "01_verbal_doplnovani_vet.md",
+    "name": "Doplňování vět",
+    "category": "verbal",
+    "icon": "📝",
+    "count": 10
+  },
+  {
+    "file": "02_verbal_slovni_analogie.md",
+    "name": "Slovní analogie",
+    "category": "verbal",
+    "icon": "🔗",
+    "count": 10
+  },
+  {
+    "file": "03_verbal_porozumeni_textu.md",
+    "name": "Porozumění textu",
+    "category": "verbal",
+    "icon": "📖",
+    "count": 8
+  },
+  {
+    "file": "04_analyticka_logicke_usuzovani.md",
+    "name": "Logické usuzování",
+    "category": "analyticka",
+    "icon": "🧩",
+    "count": 10
+  },
+  {
+    "file": "05_analyticka_prace_s_informacemi.md",
+    "name": "Práce s informacemi",
+    "category": "analyticka",
+    "icon": "📊",
+    "count": 7
+  },
+  {
+    "file": "06_analyticka_kvantitativni.md",
+    "name": "Kvantitativní úlohy",
+    "category": "analyticka",
+    "icon": "🔢",
+    "count": 10
+  }
+]

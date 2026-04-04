@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Vztah LÉKAŘ : PACIENT = profesionál, který poskytuje službu : osoba, které je služba určena. Stejný vztah má SOUDCE : OBŽALOVANÝ — soudce rozhoduje o osudu obžalovaného, stejně jako lékař léčí pacienta.",
+      "why_others_wrong": {
+        "a": "Učitel : škola — škola je místo, ne osoba přijímající službu. Správně by bylo učitel : žák.",
+        "c": "Řidič : silnice — silnice je prostředí/nástroj, ne klient. Řidič neposkytuje silnici službu.",
+        "d": "Malíř : barva — barva je nástroj/materiál malíře, ne příjemce služby."
+      },
+      "tip": "U analogií nejdřív pojmenuj vztah slovy: [X] dělá něco pro/s [Y]. Pak hledej stejný vzorec."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "SEMENO se postupně rozvine ve STROM — je to zárodek, ze kterého vyroste výsledný celek. Stejně tak MYŠLENKA se rozvine v KNIHU — z jedné myšlenky vznikne komplexní dílo.",
+      "why_others_wrong": {
+        "a": "Vejce : slepice — tady je problém kauzality (co bylo dřív?). Navíc slepice klade vejce, takže vztah je opačný — dospělec vytváří zárodek.",
+        "c": "Mouka : chléb — mouka je surovina/ingredience, ne zárodek. Ze semena strom vyroste sám, ale z mouky se chléb sám neudělá.",
+        "d": "Základ : střecha — to jsou části jedné stavby, ne vztah zárodek → výsledek."
+      },
+      "tip": "Vztah zárodek → rozvinutý celek vyžaduje, aby z jednoho přirozeně vyrostlo/vzniklo to druhé."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "ŠEPTAT a KŘIČET jsou stejná činnost (mluvení) v různé intenzitě — tiše vs. hlasitě. Stejně tak JÍT a UTÍKAT jsou stejná činnost (pohyb nohama) v různé intenzitě — pomalu vs. rychle.",
+      "why_others_wrong": {
+        "b": "Pít : jíst — to jsou dvě RŮZNÉ činnosti (příjem tekutin vs. potravy), ne stejná činnost v různé intenzitě.",
+        "c": "Spát : snít — snění je součást spánku, ne intenzivnější verze spánku.",
+        "d": "Číst : psát — to jsou opačné činnosti (příjem vs. tvorba textu), ne stupně intenzity."
+      },
+      "tip": "Při analogiích intenzity se ptej: je to STEJNÁ činnost, jen silnější/slabší? Nebo jsou to dvě různé činnosti?"
+    }
+  },
+  {
+    "id": 4,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "VODA → LED: kapalina se změnou teploty mění na pevnou látku (tuhne). LÁVA → HORNINA: tekutá láva se ochlazením mění na pevnou horninu. Oba jsou přechod kapalina → pevná látka při ochlazení.",
+      "why_others_wrong": {
+        "a": "Vzduch : vítr — vítr je pohybující se vzduch, ne jiný skupenský stav. Vzduch zůstává plynem.",
+        "b": "Mléko : sýr — sýr vzniká chemickým procesem (fermentace), ne pouhou změnou teploty. Je to spíš surovina → výrobek.",
+        "d": "Písek : sklo — sklo vzniká z písku tavením (opačný směr — pevná → kapalná → pevná) a je to chemická přeměna, ne prostá změna skupenství."
+      },
+      "tip": "Hledej stejný fyzikální/chemický proces. Voda→led = ochlazení kapaliny na pevnou látku. Který pár má stejný mechanismus?"
+    }
+  },
+  {
+    "id": 5,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "SLOVO je základní jednotka, z jejíchž kombinací v určitém pořadí vzniká VĚTA. NOTA je základní jednotka, z jejíchž kombinací v určitém pořadí vzniká MELODIE. Obě mají sekvenční uspořádání.",
+      "why_others_wrong": {
+        "b": "Barva : paleta — paleta je fyzický předmět, který barvy drží. Barvy na paletě netvoří uspořádaný celek s významem.",
+        "c": "Stránka : kniha — stránka už je sama o sobě komplexní (obsahuje slova, věty). Vztah je spíš část : celek, ne základní jednotka : uspořádaný celek.",
+        "d": "Písmeno : abeceda — abeceda je pouhý seznam, ne smysluplný celek vytvořený z písmen. Písmena v abecedě nemají vzájemný vztah jako slova ve větě."
+      },
+      "tip": "Klíč: slova ve větě mají POŘADÍ a vzájemné vztahy, které tvoří VÝZNAM. Hledej pár se stejnou vlastností."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "ARCHITEKT navrhuje a tvoří BUDOVU jako své dílo. DRAMATIK píše a tvoří DIVADELNÍ HRU jako své dílo. V obou případech je to vztah tvůrce → jeho autorské dílo.",
+      "why_others_wrong": {
+        "a": "Zahradník : květ — zahradník pěstuje květy, ale nevytváří je. Květ roste přirozeně, zahradník jen pomáhá.",
+        "c": "Kuchař : restaurace — restaurace není dílo kuchaře. Kuchař tvoří jídla, ne restauraci.",
+        "d": "Tesař : dřevo — dřevo je materiál, ne výtvor. Tesař používá dřevo k tvorbě nábytku/staveb."
+      },
+      "tip": "Vztah tvůrce : dílo — dílo musí být výsledek tvůrčí/autorské práce, ne jen materiál nebo pracoviště."
+    }
+  },
+  {
+    "id": 7,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "KOMPAS je nástroj, který měří/ukazuje SMĚR. HODINY jsou nástroj, který měří/ukazuje ČAS. Přesně stejný vztah: měřicí nástroj → měřená veličina.",
+      "why_others_wrong": {
+        "b": "Teploměr : nemoc — teploměr měří teplotu, ne nemoc. Nemoc je stav, ne veličina.",
+        "c": "Dalekohled : hvězda — dalekohled neměří hvězdy, přibližuje je. Hvězda je pozorovaný objekt, ne veličina.",
+        "d": "Kalkulačka : matematika — matematika je obor/věda, ne měřená veličina. Kalkulačka počítá, neměří matematiku."
+      },
+      "tip": "Vztah nástroj : veličina — veličina musí být abstraktní měřitelná vlastnost (čas, teplota, směr...), ne konkrétní objekt nebo obor."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "SLIB a ZÁVAZEK jsou významově blízká slova (blízká synonyma) s různým stupněm formálnosti — slib je neformální, závazek formální. ŽÁDOST a PROSBA mají stejný vztah — žádost je formálnější, prosba neformálnější.",
+      "why_others_wrong": {
+        "a": "Otázka : odpověď — to jsou komplementární pojmy (jeden vyvolává druhý), ne synonyma.",
+        "b": "Návrh : zákon — návrh se STÁVÁ zákonem (proces transformace), to není synonymní vztah.",
+        "d": "Strach : panika — panika je extrémní strach (vztah intenzity), ne vztah formálnosti."
+      },
+      "tip": "Rozlišuj typy vztahů: synonyma (= totéž jinak), antonyma (= opak), intenzita (= silnější/slabší), kauzalita (= příčina/následek)."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "MIKROSKOP umožňuje vidět BUŇKU, která je příliš malá pro pouhé oko. TELESKOP umožňuje vidět GALAXII, která je příliš vzdálená pro pouhé oko. Oba: optický nástroj → objekt jinak neviditelný.",
+      "why_others_wrong": {
+        "a": "Brýle : oko — brýle korigují oko, ale oko není objekt pozorování. Navíc oko už vidíme i bez brýlí.",
+        "c": "Sluchátko : zvuk — sluchátko přehrává zvuk, ne zpřístupňuje jinak neslyšitelný zvuk. Navíc zvuk je obecná veličina, ne konkrétní objekt.",
+        "d": "Fotoaparát : obraz — fotoaparát zachycuje/vytváří obraz, ne zpřístupňuje něco jinak neviditelného."
+      },
+      "tip": "Klíčový je vztah \"zpřístupnit něco jinak nepozorovatelné\". Mikroskop → malé, teleskop → vzdálené."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "PŘÍČINA vyvolává NÁSLEDEK — kauzální vztah, kde jedno přímo způsobuje druhé. AKCE vyvolává REAKCI — stejný kauzální vztah (Newtonův třetí zákon, ale i v běžném životě).",
+      "why_others_wrong": {
+        "a": "Otázka : odpověď — odpověď reaguje na otázku, ale otázka ji přímo nezpůsobuje. Můžeš neodpovědět. Není to nutný kauzální vztah.",
+        "c": "Nabídka : poptávka — ekonomické pojmy, které se vzájemně ovlivňují, ale nemají jednosměrný kauzální vztah. Poptávka může existovat i bez nabídky.",
+        "d": "Vstup : výstup — v systémech vstup produkuje výstup, ale je to spíš technický/procesní vztah, ne čistá kauzalita."
+      },
+      "tip": "Kauzální vztah = A nutně způsobuje B. Ne \"A se pojí s B\" nebo \"A a B spolu souvisí\"."
+    }
+  }
+]

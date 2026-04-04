@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Robotika = Po 15:00 a St 15:00. Programování = Út 16:00 a Čt 16:00. Elektronika = Út 15:00 a Pá 15:00. Klíč: v úterý Elektronika je v 15:00 a Programování v 16:00 — různé časy, nepřekrývají se. Všechny tři kroužky mají kompatibilní rozvrh.",
+      "why_others_wrong": {
+        "a": "Robotika (Po, St) + Programování (Út, Čt) + Grafika (St 14:00, Pá 14:00) — kolize ve středu: Robotika 15:00 a Grafika 14:00 jsou stejný den. Pokud 'nepřekrývat' = ne stejný den, pak nelze.",
+        "c": "Robotika (Po, St) + 3D tisk (Po 14:00, Čt 14:00) — kolize v pondělí.",
+        "d": "Robotika (Po, St) + Programování (Út, Čt) + 3D tisk (Po, Čt) — kolize v pondělí i čtvrtku."
+      },
+      "tip": "U rozvrhu vždy systematicky porovnej DNY a ČASY. Dva kroužky ve stejný den nejsou problém, pokud mají různé časy."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Každý kroužek zabírá 2 dny. Máme 5 pracovních dnů. Pokud nechceme dva kroužky ve STEJNÝ DEN, potřebujeme pro každý kroužek 2 unikátní dny. 2 kroužky = 4 dny, zbývá 1 den volný. Pro 3 kroužky bychom potřebovali 6 unikátních dnů, ale máme jen 5. Ověření: Programování (Út, Čt) + Grafika (St, Pá) = 4 různé dny, funguje. Přidání jakéhokoli třetího kroužku vytvoří kolizi.",
+      "why_others_wrong": {
+        "b": "3 kroužky × 2 dny = 6 dnů potřeba, ale máme jen 5. Nemožné bez kolize.",
+        "c": "4 kroužky by potřebovaly 8 unikátních dnů — zcela nemožné.",
+        "d": "5 kroužků by potřebovalo 10 dnů — nemožné."
+      },
+      "tip": "Jednoduchý výpočet: počet kroužků × dny na kroužek ≤ celkem dnů. Zde: x × 2 ≤ 5 → x ≤ 2,5 → max 2."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Průměry: Alena (85+72+90+78)/4 = 325/4 = 81,25. Boris (68+88+75+82)/4 = 313/4 = 78,25. Cecílie (92+65+88+95)/4 = 340/4 = 85,0. David (74+91+70+68)/4 = 303/4 = 75,75. Eva (80+78+82+88)/4 = 328/4 = 82,0. Nejvyšší: Cecílie = 85,0.",
+      "why_others_wrong": {
+        "a": "Alena = 81,25 — druhá nejhorší z nabídky.",
+        "c": "Eva = 82,0 — blízko, ale o 3 body méně než Cecílie.",
+        "d": "Boris = 78,25 — nejnižší průměr z nabídky."
+      },
+      "tip": "Při počítání průměrů si zaokrouhli sčítání: Cecílie: 92+65 = 157, 88+95 = 183, celkem 340. Děleno 4 = 85. Rychlé ověření: Cecílie má dvě 90+ hodnoty."
+    }
+  },
+  {
+    "id": 4,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Hledáme ≥ 90: Alena má 90 (Aj) ✓. Boris: max 88 — ✗. Cecílie má 92 (M) a 95 (L) ✓. David má 91 (Čj) ✓. Eva: max 88 — ✗. Celkem 3 studenti: Alena, Cecílie, David.",
+      "why_others_wrong": {
+        "a": "1 je příliš málo — přehlíží Alenu a/nebo Davida.",
+        "b": "2 — pravděpodobně přehlíží jednoho ze tří studentů.",
+        "d": "4 — Boris ani Eva nemají žádné skóre ≥ 90."
+      },
+      "tip": "Projdi tabulku systematicky sloupec po sloupci a zaznač si, kdo má ≥ 90. Nepočítej z hlavy — piš si."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Dvě podmínky: 1) průměr > 80 a 2) žádný předmět pod 70. Průměr > 80: Alena (81,25) ✓, Cecílie (85) ✓, Eva (82) ✓. Boris a David vypadávají. Žádný předmět < 70: Alena — minimum je 72 (Čj) ✓. Cecílie — minimum je 65 (Čj) ✗ VYPADÁVÁ. Eva — minimum je 78 (Čj) ✓. Výsledek: Alena a Eva.",
+      "why_others_wrong": {
+        "a": "Cecílie nesplňuje druhou podmínku — Čeština 65 je pod 70.",
+        "b": "Eva není jediná — Alena také splňuje obě podmínky.",
+        "d": "Cecílie vypadává kvůli Češtině (65 < 70)."
+      },
+      "tip": "U vícekriteriálních úloh aplikuj podmínky postupně — nejdřív vyfiltruj podle jedné, pak podle druhé. Nezapomeň na žádnou!"
+    }
+  },
+  {
+    "id": 6,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Trasa přes C: Vlak 8:00 → příjezd C 8:45. Přestup min. 5 min → 8:50. Autobusy z C každých 15 min, takže 8:45, 9:00... Nejbližší po 8:50 = 9:00. Cesta 15 min → příjezd D = 9:15. Trasa přes B: Bus 8:00 → příjezd B 8:30. Přestup → 8:35. Autobusy z B každých 30 min. Pokud jedou v X:00 a X:30: nejbližší po 8:35 = 9:00. Cesta 25 min → příjezd D = 9:25. Nejrychlejší = přes C: 9:00 (pokud autobus odjíždí přesně v 8:45 z C a přestup stihneš).",
+      "why_others_wrong": {
+        "a": "8:55 — příliš brzy, ani jedna trasa to nestihne.",
+        "c": "9:05 — možné, ale trasa přes C je rychlejší.",
+        "d": "9:10 — pomalejší než optimální trasa."
+      },
+      "tip": "U dopravních úloh počítej KAŽDOU trasu zvlášť a nezapomeň na čas přestupu. Pozor na jízdní řády — musíš čekat na další spoj!"
+    }
+  },
+  {
+    "id": 7,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Z A do D vedou právě 2 cesty bez vracení: A→B→D a A→C→D. Jiná cesta neexistuje, protože není přímé spojení A→D ani spojení B↔C.",
+      "why_others_wrong": {
+        "a": "1 — přehlíží jednu z tras.",
+        "c": "3 — neexistuje třetí trasa. B a C nejsou propojeny.",
+        "d": "4 — neexistuje tolik kombinací bez vracení se."
+      },
+      "tip": "Nakresli si graf (A spojeno s B a C, B spojeno s D, C spojeno s D) a spočítej všechny cesty shora dolů."
+    }
+  }
+]

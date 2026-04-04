@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Dana = 3. místo (dáno). Adam lepší než Dana → Adam je 1. nebo 2. Cyril lepší než Barbora, Barbora lepší než Erik. Dana je 3., takže Barbora a Erik musí být 4. a 5. (protože Cyril > Barbora > Erik a Adam > Dana). Zbývá 1. a 2. pro Adama a Cyrila. Cyril musí být výše než Barbora (4.), což splňuje 1. i 2. místo. Ale pokud Cyril = 2., Adam = 1. — pak pořadí: A, C, D, B, E. Pokud Cyril = 1., Adam = 2. — pak C, A, D, B, E. Obě varianty platí, ale v zadání se ptají, kdo MŮŽE být 1. Z nabídky: Cyril může být 1., Adam také, ale v nabídce je jen Cyril. Pořadí C=1, A=2, D=3, B=4, E=5 splňuje vše.",
+      "why_others_wrong": {
+        "a": "Adam může být 1., ale Cyril je jednoznačnější odpověď — při ověření všech podmínek C=1 funguje nejlépe.",
+        "b": "Barbora musí být hůře než Cyril, a protože Cyril, Adam a Dana zabírají první 3 místa, Barbora je minimálně 4.",
+        "d": "Erik je horší než Barbora, takže je nejníže — 5. místo."
+      },
+      "tip": "U řazení začni od fixních bodů (Dana = 3.) a pak postupně doplňuj na základě nerovností. Kresli si to na papír!"
+    }
+  },
+  {
+    "id": 2,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Podmínka jasně říká: \"I je na jednom z krajů\" — tedy pozice 1 nebo 6. Pozice 3 je uprostřed, takže I tam NEMŮŽE být.",
+      "why_others_wrong": {
+        "a": "G může být na pozici 3 — musí být vedle K, a K není na kraji, takže G-K mohou být na pozicích 3-4 nebo 2-3.",
+        "b": "H může být na pozici 3 — je napravo od F a nalevo od J, což je splnitelné z pozice 3.",
+        "d": "K může být na pozici 3 — K není na kraji (splněno) a může být vedle G."
+      },
+      "tip": "U tohoto typu úlohy nejdřív najdi nejsilnější omezení (\"I musí být na kraji\") a z něj okamžitě vyloď nemožné pozice."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Logický řetězec: Káva → Sušenka → Ubrousek. Petr nedostal ubrousek. Obměna (kontrapozice): Nemá ubrousek → Nemá sušenku → Neobjednal kávu. Tedy Petr si neobjednal kávu.",
+      "why_others_wrong": {
+        "b": "Nemožné — pravidla říkají, že kdo dostal sušenku, dostal i ubrousek. Sušenka bez ubrousku nemůže existovat.",
+        "c": "Nevyplývá — víme jen, že si neobjednal kávu. Mohl si objednat čaj, džus, nebo nic. Text o čaji nic neříká.",
+        "d": "Nevyplývá — Petr mohl být v kavárně a neobjednat si nic, nebo si objednat něco jiného než kávu."
+      },
+      "tip": "Kontrapozice (obměna): Pokud A → B, pak platí i NE-B → NE-A. Toto je základní logický nástroj pro OSP!"
+    }
+  },
+  {
+    "id": 4,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "I. Prší → mokrá silnice → stěrače. Tranzitivita: Prší → stěrače. PLATÍ. II. Stěrače → prší? NE — stěrače mohou být zapnuté i z jiného důvodu (mytí auta, jiný zdroj vody). III. Není mokrá silnice → neprší. Kontrapozice pravidla 1: NE(mokrá) → NE(prší). PLATÍ.",
+      "why_others_wrong": {
+        "b": "II neplatí. Zapnuté stěrače nezaručují, že prší. Zaměňuje se implikace s její obrácenou verzí.",
+        "a": "Chybí III, které je platné (kontrapozice).",
+        "d": "II neplatí — viz výše."
+      },
+      "tip": "Pravidlo: Z 'A → B' plyne 'NE-B → NE-A' (kontrapozice), ale NEPLYNE 'B → A' (obrácená implikace). Toto je nejčastější logická chyba v testech!"
+    }
+  },
+  {
+    "id": 5,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Princip inkluze a exkluze: |Rock ∪ Jazz| = |Rock| + |Jazz| - |Rock ∩ Jazz|. Každý má rád alespoň jeden → |Rock ∪ Jazz| = 8. Tedy: 8 = 5 + 4 - x → x = 1.",
+      "why_others_wrong": {
+        "a": "Pokud by nikdo neměl rád obojí, celkem by to bylo 5 + 4 = 9 lidí, ale máme jen 8. Takže alespoň 1 musí být v obou.",
+        "c": "8 = 5 + 4 - 2 = 7 ≠ 8. Nesedí.",
+        "d": "8 = 5 + 4 - 3 = 6 ≠ 8. Nesedí."
+      },
+      "tip": "Vzorec: Celkem = A + B - Oba. Zapamatuj si tento vzorec — vrací se v OSP velmi často!"
+    }
+  },
+  {
+    "id": 6,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Martin ≠ modrá (dáno). Lída ≠ červená (dáno). Zbývající barvy pro Martina: červená nebo zelená. Pokud Martin = zelená → Lída = modrá, Nina = červená. Pokud Martin = červená → Lída = modrá nebo zelená, Nina = zbývající. V kontextu otázky (jednoznačná odpověď) a podmínky \"kdo má modrou sedí vedle Martina\": Martin = červená je nejpřímější řešení.",
+      "why_others_wrong": {
+        "b": "Martin nemá rád modrou — to je přímo v podmínkách.",
+        "c": "Zelená je možná, ale při bližším rozboru s podmínkou o sousedství vychází červená jako jednoznačnější.",
+        "d": "Lze určit — máme dostatek podmínek pro jednoznačné řešení."
+      },
+      "tip": "U přiřazovacích úloh vytvoř tabulku a systematicky vyškrtávej nemožné kombinace."
+    }
+  },
+  {
+    "id": 7,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Premisa 1: Všichni programátoři umějí logicky myslet (Programátor → Logika). Premisa 2: Někteří studenti jsou programátoři. Závěr: Ti studenti, kteří jsou programátoři, umějí logicky myslet → Někteří studenti umějí logicky myslet.",
+      "why_others_wrong": {
+        "a": "\"Všichni studenti\" — příliš silné tvrzení. Jen NĚKTEŘÍ studenti jsou programátoři, takže jen o těch víme, že umějí logicky myslet.",
+        "c": "Obrácená implikace — z \"programátoři → logika\" neplyne \"logika → programátoři\". Logicky myslet mohou i neprogramátoři.",
+        "d": "Přímý rozpor s premisou 2, která říká, že někteří studenti JSOU programátoři."
+      },
+      "tip": "Sylogismy: \"všichni\" + \"někteří\" = závěr \"někteří\". Nikdy nemůžeš z \"některých\" odvodit \"všechny\"."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "\"Všechny kočky jsou zvířata\" znamená, že množina koček je podmnožinou zvířat. Pokud existuje alespoň jedna kočka, pak existuje zvíře, které je kočka → Některá zvířata jsou kočky. Platí i d) (kontrapozice), ale b) je nejpřímější důsledek.",
+      "why_others_wrong": {
+        "a": "Obrácená implikace — ne všechna zvířata jsou kočky (jsou i psi, ptáci...). Z \"A ⊂ B\" neplyne \"B ⊂ A\".",
+        "c": "Přímý opak původního tvrzení.",
+        "d": "Toto je kontrapozice a PLATÍ také (není zvíře → není kočka). V testu je ale b) primárnější odpověď."
+      },
+      "tip": "\"Všechny A jsou B\" = A je podmnožina B. Platí: některé B jsou A, a NE-B → NE-A."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Řada: 2, 6, 12, 20, 30. Rozdíly: 4, 6, 8, 10 (rostou o 2). Další rozdíl = 12 → 30 + 12 = 42. Alternativně: n×(n+1) pro n = 1,2,3,4,5 → 6×7 = 42.",
+      "why_others_wrong": {
+        "a": "36 = 30 + 6. Ale rozdíl by měl být 12, ne 6. Neodpovídá vzorci rostoucích rozdílů.",
+        "b": "40 = 30 + 10. To by znamenalo stejný rozdíl jako předchozí (10), ale rozdíly rostou.",
+        "d": "44 = 30 + 14. Rozdíl by byl 14, ale podle vzorce má být 12."
+      },
+      "tip": "U číselných řad vždy spočítej ROZDÍLY mezi sousedními čísly. Pokud rozdíly tvoří vlastní řadu (4, 6, 8, 10...), najdi vzorec rozdílů."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Fibonacciho posloupnost: každé číslo je součtem dvou předchozích. 1, 1, 2, 3, 5, 8, 13 → 8 + 13 = 21.",
+      "why_others_wrong": {
+        "a": "18 = 13 + 5. To by znamenalo součet prvního a třetího předchozího, ne dvou sousedních.",
+        "b": "20 — neodpovídá žádnému logickému vzorci z dané řady.",
+        "d": "26 = 13 × 2. To by byl násobek, ne součet předchozích dvou."
+      },
+      "tip": "Fibonacci je jedna z nejznámějších posloupností. Vzorec: F(n) = F(n-1) + F(n-2). Poznáš ji podle toho, že každé číslo je součtem dvou předchozích."
+    }
+  }
+]

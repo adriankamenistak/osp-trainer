@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Klíčové slovo ve větě je \"přestože\" — to signalizuje protiklad. Věta říká, že projev byl [nějaký], ALE posluchači přesto nereagovali. Aby protiklad dával smysl, projev musel být přesvědčivý — protože u přesvědčivého projevu bychom čekali reakci, ale ta nepřišla.",
+      "why_others_wrong": {
+        "a": "\"Nudný\" by nedával smysl s \"přestože\". Pokud by projev byl nudný, bylo by logické, že posluchači nereagovali — nebyl by žádný protiklad.",
+        "c": "\"Stručný\" nesouvisí s emocemi posluchačů. Stručný projev může být přesvědčivý i nudný — stručnost sama o sobě nevyvolává emoce.",
+        "d": "\"Nesrozumitelný\" — podobně jako u \"nudný\", pokud projev nebyl srozumitelný, je logické, že lidé nereagovali. Chybí protiklad."
+      },
+      "tip": "Kdykoli vidíš ve větě \"přestože\", \"ačkoli\", \"navzdory\" — hledej odpověď, která vytváří logický protiklad s druhou částí věty."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Věta říká, že nová studie ukázala \"zcela opačné závěry\". Pokud jsou závěry opačné, studie předchozí výsledky vyvrátila — prokázala, že neplatí.",
+      "why_others_wrong": {
+        "a": "\"Potvrdila\" je přímý opak — pokud by studie potvrdila předchozí výsledky, nemohla by ukázat opačné závěry.",
+        "b": "\"Rozšířila\" znamená, že by přidala nové poznatky, ale ne opačné. Rozšíření navazuje na existující výsledky, neodporuje jim.",
+        "d": "\"Doplnila\" je podobné jako \"rozšířila\" — doplnění přidává chybějící informace, ale neříká, že původní závěry byly špatné."
+      },
+      "tip": "Všímej si signálních slov jako \"opačné\", \"protikladné\", \"naopak\" — ukazují na negaci nebo vyvrácení."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Věta staví kontrast: Jan je [X], zatímco jeho bratr je impulzivní. \"Rozvážný\" znamená uvážlivý, kdo přemýšlí před rozhodnutím — přesný opak impulzivního jednání.",
+      "why_others_wrong": {
+        "a": "\"Pomalý\" popisuje rychlost, ne kvalitu rozhodování. Člověk může být pomalý a přitom impulzivní — rozhoduje se rychle, jen pomalu jedná.",
+        "c": "\"Nejistý\" znamená váhavý. To není opak impulzivního — nejistý člověk se nerozhoduje ani rychle, ani promyšleně, prostě neví.",
+        "d": "\"Přísný\" popisuje charakter, ne způsob rozhodování. Přísný člověk může být stejně impulzivní."
+      },
+      "tip": "Hledej přesný antonymní (protikladný) vztah. \"Impulzivní\" = rozhoduje se bez rozmyslu → opak = rozhoduje se s rozmyslem = \"rozvážný\"."
+    }
+  },
+  {
+    "id": 4,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Ředitel říká, že pravidla NEJSOU [X], ale mají sloužit k organizaci. To znamená, že lidé si myslí, že pravidla omezují — ale ředitel říká, že jejich účel je pozitivní. \"Restriktivní\" = omezující, a to je přesně ta obava, kterou ředitel vyvrací.",
+      "why_others_wrong": {
+        "a": "\"Dočasná\" — zda jsou pravidla trvalá nebo dočasná nesouvisí s tím, že mají sloužit k organizaci. Dočasná pravidla mohou organizovat stejně dobře.",
+        "b": "\"Závazná\" — pokud by pravidla nebyla závazná, nedávalo by smysl je vůbec zavádět pro organizaci výuky. Toto by byl protimluv.",
+        "d": "\"Komplikovaná\" — složitost pravidel nesouvisí s jejich účelem. I jednoduchá pravidla mohou být restriktivní."
+      },
+      "tip": "Hledej slovo, které by lidi odrazovalo od pravidel, a které ředitel chce vyvrátit — \"restriktivní\" (omezující) je přesně takové slovo."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Věta říká: čím více se snažil [X] svůj omyl, tím více se situace zhoršovala. Logicky — pokud by omyl řešil správně (napravoval), situace by se zlepšovala. Zatajování omylu ale vede k hromadění problémů, takže se situace zhoršuje.",
+      "why_others_wrong": {
+        "a": "\"Napravit\" — pokud by se snažil omyl napravit, situace by se měla zlepšovat, ne zhoršovat. To je v rozporu s větou.",
+        "c": "\"Pochopit\" — snaha pochopit vlastní chybu by nevedla ke zhoršení situace. Pochopení je neutrální nebo pozitivní.",
+        "d": "\"Analyzovat\" — podobně jako \"pochopit\", analýza omylu by nezhoršovala situaci."
+      },
+      "tip": "Ptej se: jaká činnost by při opakovaném provádění ZHORŠOVALA situaci? Zatajování = hromadění lží = eskalace problému."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Výsledek: \"i odpůrci změnili názor\". To je velmi silný efekt — aby odpůrci změnili názor, argumenty musely být přesvědčivé. Žádná jiná vlastnost argumentů by nevedla ke změně názoru odpůrců.",
+      "why_others_wrong": {
+        "a": "\"Originální\" — originální argumenty mohou být zajímavé, ale originalita sama o sobě nemění názory odpůrců.",
+        "b": "\"Kontroverzní\" — kontroverzní argumenty spíše vyvolávají odpor a nesoulad, nevedou ke změně názoru.",
+        "d": "\"Složité\" — složitost argumentů by spíše ztěžovala pochopení, ne přesvědčování."
+      },
+      "tip": "Zaměř se na výsledek věty a ptej se: co muselo platit, aby nastal tento výsledek?"
+    }
+  },
+  {
+    "id": 7,
+    "correct": "d",
+    "reasoning": {
+      "why_correct": "Historik varuje před anachronismem — hodnocením minulosti podle současných měřítek. \"Přenášet hodnoty na minulé civilizace\" přesně popisuje tento problém. Je to ustálené spojení: přenášet (hodnoty/normy) na (jinou dobu/kulturu).",
+      "why_others_wrong": {
+        "a": "\"Srovnávat\" — srovnávání je legitimní historická metoda. Historik by nevaroval před srovnáváním, ale před nekritickým přenášením.",
+        "b": "\"Aplikovat\" — gramaticky i významově blízké, ale \"aplikovat na\" se typicky používá pro metody a postupy, ne pro hodnoty na civilizace.",
+        "c": "\"Projektovat\" — v češtině se \"projektovat hodnoty na\" nepoužívá tak běžně jako \"přenášet\". Navíc \"projektovat\" má více technický/psychologický význam."
+      },
+      "tip": "V češtině existují ustálená slovní spojení. \"Přenášet hodnoty/měřítka na\" je přesně ten výraz, který historici používají pro anachronismus."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Věta popisuje klíčovou vlastnost vědeckého experimentu: při opakování za stejných podmínek dostaneme totožná data. To je definice reprodukovatelnosti — schopnost experiment zopakovat se stejným výsledkem.",
+      "why_others_wrong": {
+        "a": "\"Překvapivé\" — totožná data při opakování nejsou překvapivá, jsou očekávaná. Překvapivé by bylo, kdyby se výsledky lišily.",
+        "c": "\"Statisticky nevýznamné\" — to by znamenalo, že výsledky jsou příliš slabé. Ale věta říká, že jsou totožné — to naopak naznačuje silný výsledek.",
+        "d": "\"Předběžné\" — předběžné výsledky jsou neúplné a mohou se změnit. Ale věta popisuje opakovaně potvrzený výsledek."
+      },
+      "tip": "Definice: Reprodukovatelnost = experiment dává stejné výsledky při opakování. To je základní princip vědecké metody."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "\"Navzdory\" signalizuje protiklad: důkazy byly [X], ALE obhajoba přesto trvala na nevině. Aby to byl silný protiklad, důkazy musely být \"zdrcující\" — tedy tak přesvědčivé, že by se normálně čekalo přiznání viny.",
+      "why_others_wrong": {
+        "a": "\"Přehlíženým\" — pokud by důkazy byly přehlížené, nebylo by překvapivé, že obhajoba trvá na nevině. Chybí protiklad.",
+        "b": "\"Sporným\" — sporné důkazy nejsou jednoznačné, takže trvání na nevině by bylo přirozené, ne překvapivé.",
+        "d": "\"Chybějícím\" — pokud důkazy chybí, trvání na nevině je logické. Opět žádný protiklad."
+      },
+      "tip": "Slovo \"navzdory\" funguje stejně jako \"přestože\" — vždy hledej silný protiklad."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Věta říká, že problém vyžaduje \"systematický přístup a dlouhodobou strategii\". To je opak izolovaného řešení — nelze ho vyřešit odděleně, bez kontextu, jednorázově.",
+      "why_others_wrong": {
+        "a": "\"Efektivně\" — proč by problém nešel řešit efektivně? Systematický přístup je právě efektivní. To nedává smysl.",
+        "c": "\"Vědecky\" — vědecký přístup je právě systematický. Říkat, že nelze řešit vědecky, ale vyžaduje systematiku, by byl protimluv.",
+        "d": "\"Veřejně\" — veřejnost řešení nesouvisí se systematickým přístupem. To je úplně jiná kategorie."
+      },
+      "tip": "Ptej se: co je opakem požadavku? Požadavek = systematický + dlouhodobý → opak = izolovaný + jednorázový."
+    }
+  }
+]
