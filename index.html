@@ -410,11 +410,16 @@
   }
 
   .quiz-actions {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     gap: 12px;
-    justify-content: flex-end;
-    margin-top: auto;
-    padding-top: 16px;
+    justify-content: center;
+    padding: 12px 24px;
+    background: linear-gradient(transparent, var(--bg) 30%);
+    z-index: 100;
   }
 
   .btn {
@@ -626,6 +631,7 @@
   .kbd-hint {
     text-align: center;
     margin-top: 12px;
+    margin-bottom: 80px;
     font-size: 0.8rem;
     color: var(--text-dim);
     opacity: 0.5;
