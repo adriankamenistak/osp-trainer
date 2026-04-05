@@ -704,7 +704,7 @@
     <div class="explanation" id="explanation"></div>
 
     <div class="kbd-hint">
-      Klávesy <span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span> <span class="kbd">4</span> pro výběr &middot; <span class="kbd">Enter</span> pro potvrzení
+      <span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span> <span class="kbd">4</span> vyber &middot; 2× klik potvrdí &middot; <span class="kbd">Enter</span> další
     </div>
 
     <div class="quiz-actions">
@@ -1079,6 +1079,7 @@ async function startTest(test) {
 
 function showQuestion() {
   answered = false;
+  selectedLetter = null;
   const q = questions[currentIdx];
 
   document.getElementById('quiz-counter').textContent = `${currentIdx + 1} / ${questions.length}`;
@@ -1135,8 +1136,24 @@ function showQuestion() {
   questionStartTime = Date.now();
 }
 
+let selectedLetter = null; // for double-click confirm
+
 function selectOption(letter) {
   if (answered) return;
+
+  // First click: select/highlight. Second click on same: confirm.
+  if (selectedLetter !== letter) {
+    selectedLetter = letter;
+    const btns = document.querySelectorAll('.option-btn');
+    btns.forEach(btn => {
+      btn.classList.remove('selected');
+      if (btn.dataset.letter === letter) btn.classList.add('selected');
+    });
+    return;
+  }
+
+  // Second click — confirm answer
+  selectedLetter = null;
   answered = true;
 
   const q = questions[currentIdx];
@@ -1157,6 +1174,7 @@ function selectOption(letter) {
   const btns = document.querySelectorAll('.option-btn');
   btns.forEach(btn => {
     btn.classList.add('locked');
+    btn.classList.remove('selected');
     if (btn.dataset.letter === q.correct) {
       btn.classList.add('correct');
     }
@@ -1216,16 +1234,18 @@ function selectOption(letter) {
   document.getElementById('btn-next').disabled = false;
   document.getElementById('btn-skip').style.display = 'none';
 
-  stopTimer();
+  // Only stop timer in per-question mode; global timer keeps running
+  if (!globalTimerMode) stopTimer();
 }
 
 function skipQuestion() {
   if (answered) return;
+  selectedLetter = null;
   const timeTaken = (Date.now() - questionStartTime) / 1000;
   answers.push({ selected: null, correct: questions[currentIdx].correct, isCorrect: false, time: timeTaken });
   streak = 0;
   updateStreakBadge();
-  stopTimer();
+  if (!globalTimerMode) stopTimer();
   nextQuestion();
 }
 
@@ -1442,6 +1462,8 @@ function showScreen(id) {
 
 function goHome() {
   stopTimer();
+  globalTimerMode = false;
+  timerInterval = null;
   renderHome();
   showScreen('home');
 }
