@@ -5,7 +5,8 @@
     "name": "Mix 1 — Denní trénink",
     "category": "mix",
     "icon": "🎯",
-    "count": 10
+    "count": 35,
+    "time": 1500
   },
   {
     "date": "2026-04-06",
@@ -13,7 +14,8 @@
     "name": "Mix 2 — Denní trénink",
     "category": "mix",
     "icon": "🎯",
-    "count": 10
+    "count": 35,
+    "time": 1500
   },
   {
     "date": "2026-04-07",
@@ -21,7 +23,8 @@
     "name": "Mix 3 — Denní trénink",
     "category": "mix",
     "icon": "🎯",
-    "count": 10
+    "count": 35,
+    "time": 1500
   },
   {
     "date": "2026-04-08",
@@ -29,7 +32,8 @@
     "name": "Mix 4 — Denní trénink",
     "category": "mix",
     "icon": "🎯",
-    "count": 10
+    "count": 35,
+    "time": 1500
   },
   {
     "date": "2026-04-09",
@@ -37,6 +41,7 @@
     "name": "Finální simulace",
     "category": "mix",
     "icon": "🏆",
-    "count": 15
+    "count": 35,
+    "time": 1500
   }
 ]

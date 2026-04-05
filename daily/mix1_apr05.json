@@ -1,132 +1,457 @@
 [
   {
     "id": 1,
-    "correct": "b",
+    "correct": "a",
     "reasoning": {
-      "why_correct": "Kolegové oceňují jeho schopnost najít řešení. Systematický přístup = uspořádaný, metodický — přesně to vede k úspěšnému řešení problémů a respektu.",
+      "why_correct": "Věta obsahuje kontrast: vystupování působí sebevědomě, ale ve skutečnosti trpí něčím opačným. 'Ačkoli' vyjadřuje tento rozpor a 'nejistota' je opakem sebevědomí.",
       "why_others_wrong": {
-        "a": "Chaotický přístup by nevzbudil respekt ani nevedl k řešením.",
-        "c": "Riskantní přístup může být úspěšný, ale nevzbuzuje stabilní respekt za schopnost řešení.",
-        "d": "Povrchní přístup by nevedl k nalezení skutečných řešení."
+        "b": "'Protože' naznačuje příčinu, ne kontrast. Navíc 'odvaha' by nebyla 'trpění'.",
+        "c": "'Jelikož' je příčinná spojka — pokud by trpěl nejistotou PROTOŽE působí sebevědomě, nedává to smysl.",
+        "d": "'Ačkoli' je správná spojka, ale 'rozhodnost' není v rozporu se sebevědomým vystupováním."
       },
-      "tip": "Hledej slovo, které logicky vede k VÝSLEDKU popsanému ve větě (respekt + schopnost řešit)."
+      "tip": "Hledej kontrast: spojka vyjadřující rozpor + slovo, které je opakem toho, co je řečeno v první části."
     }
   },
   {
     "id": 2,
-    "correct": "a",
+    "correct": "c",
     "reasoning": {
-      "why_correct": "RADIÁTOR je zařízení, které PRODUKUJE teplo. ŽÁROVKA je zařízení, které PRODUKUJE světlo. Vztah: produkt : jeho zdroj/zařízení.",
+      "why_correct": "Redundantní = nadbytečný, zbytečný. Nepostradatelný = nutný, bez čeho se nelze obejít. To je přesný opak, tedy NENÍ synonymem.",
       "why_others_wrong": {
-        "b": "Elektřina je energetický zdroj pro žárovku, ne produkt. Teplo:radiátor ≠ světlo:elektřina.",
-        "c": "Tma je ABSENCE světla, ne jeho zdroj. To by bylo jako říct teplo:chlad.",
-        "d": "Stín je důsledek blokování světla, ne zdroj."
+        "a": "Nadbytečný je přímé synonymum redundantního.",
+        "b": "Přebytečný znamená totéž — něco navíc, co není potřeba.",
+        "d": "Zbytný = postradatelný, tedy velmi blízké synonymum redundantního."
       },
-      "tip": "Vztah produkt:zdroj. Radiátor VYRÁBÍ teplo, žárovka VYRÁBÍ světlo."
+      "tip": "Redundantní pochází z latiny (redundare = přetékat). Nepostradatelný je jeho antonymum."
     }
   },
   {
     "id": 3,
-    "correct": "c",
+    "correct": "b",
     "reasoning": {
-      "why_correct": "Rozdíly: 3, 5, 7, 9 → rostou o 2 (lichá čísla). Další rozdíl = 11. Tedy 27 + 11 = 38.",
+      "why_correct": "Vzorec: každé číslo = předchozí × 2 + 2. Tedy: 2→6 (2×2+2), 6→14 (6×2+2), 14→30 (14×2+2), 30→62 (30×2+2), 62→126 (62×2+2).",
       "why_others_wrong": {
-        "a": "35 = 27+8 — chybný rozdíl, měl by být 11.",
-        "b": "36 = 27+9 — použil jsi stejný rozdíl jako předtím, ale rozdíly rostou.",
-        "d": "40 = 27+13 — přeskočil jsi na 13 místo 11."
+        "a": "124 by odpovídalo prostému zdvojnásobení (62×2), ale chybí přičtení 2.",
+        "c": "128 = 2⁷, ale řada nesleduje mocniny dvojky.",
+        "d": "130 nevyplývá z žádného konzistentního vzorce aplikovaného na řadu."
       },
-      "tip": "Vždy spočítej ROZDÍLY a pak ROZDÍLY ROZDÍLŮ. Pokud druhé rozdíly jsou konstantní, máš kvadratický vzorec."
+      "tip": "Zkus najít vztah: (číslo × 2 + konstanta). Ověř na prvních členech."
     }
   },
   {
     "id": 4,
-    "correct": "b",
+    "correct": "c",
     "reasoning": {
-      "why_correct": "Kontrapozice: Cvičí pravidelně → je zdravější. Obměna: Není zdravější → necvičí pravidelně. Marek není zdravější → Marek necvičí pravidelně.",
+      "why_correct": "Chirurg používá SKALPEL jako svůj hlavní nástroj. Sochař používá DLÁTO jako svůj hlavní nástroj. Vztah: odborník : jeho nástroj.",
       "why_others_wrong": {
-        "a": "\"Není zdravější\" neznamená \"je nemocný\". Může být průměrně zdravý, jen ne ZDRAVĚJŠÍ.",
-        "c": "Tvrzení o cvičení platí v kontextu úlohy — nemůžeš zpochybňovat premisu.",
-        "d": "\"Nikdy necvičil\" je silnější tvrzení než \"necvičí pravidelně\". Mohl cvičit nepravidelně."
+        "a": "Hlína je materiál, ne nástroj. Chirurg nepoužívá skalpel jako materiál.",
+        "b": "Socha je výsledek práce sochaře, ne jeho nástroj.",
+        "d": "Galerie je místo vystavení, ne nástroj."
       },
-      "tip": "Kontrapozice: A→B znamená ¬B→¬A. Ale pozor: \"necvičí pravidelně\" ≠ \"nikdy necvičí\"."
+      "tip": "Analogie odborník:nástroj. Ptej se: čím ten člověk PRACUJE?"
     }
   },
   {
     "id": 5,
-    "correct": "c",
+    "correct": "b",
     "reasoning": {
-      "why_correct": "Transparentní = průhledný, otevřený, jasný. Opak = tajný = skrytý, neprůhledný.",
+      "why_correct": "(a+b)² − (a−b)² = (a²+2ab+b²) − (a²−2ab+b²) = 4ab. Tedy 3◆5 = 4×3×5 = 60.",
       "why_others_wrong": {
-        "a": "Průhledný je SYNONYMUM transparentního.",
-        "b": "Čitelný je blízké synonymum — čitelný dokument = transparentní informace.",
-        "d": "Viditelný je blízké — transparentní proces je dobře viditelný."
+        "a": "30 by bylo 2ab, ne 4ab — chyba ve výpočtu rozkladu.",
+        "c": "48 by odpovídalo 4×3×4, tedy chybnému dosazení.",
+        "d": "64 = (3+5)² = 8², ale to není správný vzorec."
       },
-      "tip": "Tři ze čtyř odpovědí jsou synonyma. Správná odpověď je ta ODLIŠNÁ. Tento vzorec se v testech opakuje."
+      "tip": "Algebraický trik: (a+b)² − (a−b)² se vždy zjednoduší na 4ab."
     }
   },
   {
     "id": 6,
-    "correct": "b",
+    "correct": "a",
     "reasoning": {
-      "why_correct": "P = (5/10) × (4/9) = 20/90 = 2/9. První tah: 5 červených z 10. Druhý tah: zbývají 4 červené z 9 kuliček.",
+      "why_correct": "Text uvádí experiment pouze ve skleníku a na omezeném vzorku. Navíc kritici nabízejí alternativní vysvětlení. Nelze tedy tvrdit, že hudba má PŘÍMÝ vliv na VŠECHNY rostliny.",
       "why_others_wrong": {
-        "a": "1/4 = (5/10)² — chyba: po prvním tahu se počet kuliček změní na 9, ne zůstane 10.",
-        "c": "1/2 = 5/10 — to je pravděpodobnost jedné červené, ne dvou.",
-        "d": "5/10 = pravděpodobnost prvního tahu, ne obou."
+        "b": "Text explicitně zmiňuje omezení: skleníkové podmínky, omezený vzorek.",
+        "c": "Kritici přímo nabízejí alternativu — vibrace ovlivňující mikroorganismy.",
+        "d": "Text uvádí, že rostliny rostly o 15 % rychleji."
       },
-      "tip": "Bez vracení: P(oba) = P(1.) × P(2.|1.). Po vytažení první kuličky se změní jak čitatel, tak jmenovatel!"
+      "tip": "U otázek 'NELZE vyvodit' hledej možnost, která zobecňuje příliš (všechny, vždy, přímý)."
     }
   },
   {
     "id": 7,
-    "correct": "a",
+    "correct": "b",
     "reasoning": {
-      "why_correct": "\"Ačkoli\" signalizuje protiklad: měl zkušenosti (pozitivum) → ALE první den byl stresující (negativum). Zkušenosti by měly pomoci, ale nestačily.",
+      "why_correct": "Po slevě 20 % zbývá 80 % = 0,8. Po další slevě 25 % z toho: 0,8 × 0,75 = 0,6. Tedy zaplatíme 60 %, sleva je 40 %.",
       "why_others_wrong": {
-        "b": "\"Protože\" + \"snadný\" — logicky konzistentní, ale chybí napětí. Věta by byla banální.",
-        "c": "\"Jelikož\" + \"klidný\" — totéž jako b), žádný protiklad. Příliš očekávané.",
-        "d": "\"Přestože\" + \"úspěšný\" — přestože měl zkušenosti, byl úspěšný? To nedává smysl — úspěch by se čekal."
+        "a": "45 % by bylo prostým součtem 20+25, ale slevy se nesčítají — druhá se počítá z už snížené ceny.",
+        "c": "35 % neodpovídá žádnému správnému výpočtu.",
+        "d": "55 % je příliš vysoká sleva pro dané procenta."
       },
-      "tip": "Spojky \"ačkoli/přestože\" vyžadují PROTIKLAD. \"Protože/jelikož\" vyžadují LOGICKÝ DŮSLEDEK."
+      "tip": "Nikdy nesčítej slevy! Násobíš: (1−0,20) × (1−0,25) = 0,60. Sleva = 1 − 0,60 = 0,40."
     }
   },
   {
     "id": 8,
     "correct": "b",
     "reasoning": {
-      "why_correct": "a ▲ b = (a+b)/(a-b). Dosadíme: (7+3)/(7-3) = 10/4 = 2,5.",
+      "why_correct": "Ambivalentní = rozpolcený, mající protichůdné pocity. Antonymum je jednoznačný = nemající pochybnosti, jasný v postoji.",
       "why_others_wrong": {
-        "a": "2 — chybný výpočet, možná zaokrouhlení dolů.",
-        "c": "10/4 je SPRÁVNÝ zlomek = 2,5. Ale odpověď c) ho prezentuje jako zlomek, zatímco b) jako desetinné číslo. Obě jsou stejné, ale b) je konvenčnější.",
-        "d": "4 = (7-3) — počítáš jen jmenovatel."
+        "a": "Rozporuplný je de facto synonymum ambivalentního, ne antonymum.",
+        "c": "Nestálý se týká proměnlivosti v čase, ne vnitřního rozporu.",
+        "d": "Váhavý je blízké synonymum, ne antonymum."
       },
-      "tip": "Dosaď mechanicky a spočítej. 10/4 = 2,5. Pozor: c) a b) jsou matematicky totéž, ale v testu by byla jen jedna správná."
+      "tip": "Ambivalentní (ambi = oba) = dva protichůdné postoje. Opak = jeden jasný postoj = jednoznačný."
     }
   },
   {
     "id": 9,
-    "correct": "c",
+    "correct": "a",
     "reasoning": {
-      "why_correct": "Text říká: \"problém není v třídění, ale v kapacitě zpracovatelských závodů, které nestíhají vytříděný materiál zpracovat.\" Přímá citace.",
+      "why_correct": "'Zatímco' vyjadřuje kontrast: experti předpovídali růst, ale data ukazují opak — prohlubující se recesi.",
       "why_others_wrong": {
-        "a": "Text říká, že 78 % třídí — problém NENÍ v kvalitě třídění.",
-        "b": "78 % je vysoké číslo — málo domácností třídí není problém podle textu.",
-        "d": "O ceně recyklace text nic neříká."
+        "b": "'Protože' by naznačovalo příčinu, navíc 'ustupující recese' by nebyla v rozporu s růstem.",
+        "c": "'Jelikož' je příčinná spojka a nedává smysl s protikladem růst vs. recese.",
+        "d": "'Zatímco' je správné, ale 'ustupující recese' by znamenala zlepšení — to není v kontrastu s předpovědí růstu."
       },
-      "tip": "Hledej v textu slova \"problém je/není v...\" — autor přímo identifikuje příčinu."
+      "tip": "Kontrast vyžaduje: spojku protikladu (zatímco/ačkoli) + opačný význam (růst vs. prohlubující se recese)."
     }
   },
   {
     "id": 10,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Celkem 10 kuliček. P(obě červené) = (5/10) × (4/9) = 20/90 = 2/9.",
+      "why_others_wrong": {
+        "a": "1/4 = 0,25, ale 2/9 ≈ 0,222. Chyba z nesprávného výpočtu.",
+        "c": "1/5 = 2/10, ale to ignoruje, že po vytažení první kuličky se mění počet.",
+        "d": "5/18 by odpovídalo jinému výpočtu — možná záměna čitatele/jmenovatele."
+      },
+      "tip": "Výběr bez vracení: P = (počet příznivých 1. tah / celkem) × (počet příznivých 2. tah / celkem−1)."
+    }
+  },
+  {
+    "id": 11,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Jde o faktoriály: 1!=1, 1!=1, 2!=2, 3!=6, 4!=24, 5!=120, 6!=720.",
+      "why_others_wrong": {
+        "a": "620 neodpovídá žádnému faktoriálu.",
+        "c": "240 = 2×120, ale vzorec je n!, ne 2×předchozí.",
+        "d": "600 = 5×120, ale správně je 6×120 = 720."
+      },
+      "tip": "Faktoriálová řada: každý člen = předchozí × pořadové číslo. 120 × 6 = 720."
+    }
+  },
+  {
+    "id": 12,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Paradox je něco, co narušuje/odporuje logice. Disonance je něco, co narušuje/odporuje harmonii. Vztah: narušení : oblast, kterou narušuje.",
+      "why_others_wrong": {
+        "a": "Zvuk je příliš obecný pojem. Disonance se vztahuje specificky k harmonii, ne ke zvuku obecně.",
+        "c": "Hudba je širší obor, ale disonance je konkrétně porušení harmonie, ne hudby.",
+        "d": "Rytmus je jiný aspekt hudby, disonance se týká harmonie (souzvuků)."
+      },
+      "tip": "Hledej vztah 'narušení:norma'. Paradox narušuje logiku, disonance narušuje harmonii."
+    }
+  },
+  {
+    "id": 13,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Text přímo uvádí, že odpůrci argumentují zvýšením cen bytů kvůli snížení nabídky.",
+      "why_others_wrong": {
+        "a": "Starosta plán NESCHVÁLIL v citaci — řekl, že je to kompromis, ale rada ho schválila. Neodmítl ho.",
+        "c": "Regulace OMEZUJE výšku budov, nezakazuje veškerou výstavbu.",
+        "d": "Zastánci chtějí CHRÁNIT architektonický ráz, ne zvýšit počet bytů."
+      },
+      "tip": "Čti přesně, co text říká. Nedomýšlej si závěry, které nejsou explicitně uvedeny."
+    }
+  },
+  {
+    "id": 14,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Kontrapozice: P→Q je logicky ekvivalentní ¬Q→¬P. Pokud 'studuje denně'→'složí', pak 'nesložil'→'nestudoval denně'.",
+      "why_others_wrong": {
+        "a": "Výrok říká, že KAŽDÝ kdo studuje denně, složí. Nelze tedy studovat denně a nesložit.",
+        "c": "O přihlášení text nic neříká — je to irelevantní informace.",
+        "d": "Obtížnost přijímaček je irelevantní — logický závěr vyplývá čistě z pravidla."
+      },
+      "tip": "Kontrapozice: Pokud A→B, pak ¬B→¬A. To je jediný logicky platný závěr z implikace a negace důsledku."
+    }
+  },
+  {
+    "id": 15,
+    "correct": "d",
+    "reasoning": {
+      "why_correct": "Dichotomie (rozdělení na dva), bifurkace (rozvětvení na dva), dualita (dvojnost) — všechna souvisejí s číslem DVĚ. Monotónnost (jednotvárnost) se týká jednoho/stálosti.",
+      "why_others_wrong": {
+        "a": "Dichotomie = rozdělení na dvě části (di- = dva), patří do skupiny.",
+        "b": "Bifurkace = rozvětvení na dvě větve (bi- = dva), patří do skupiny.",
+        "c": "Dualita = dvojakost (du- = dva), patří do skupiny."
+      },
+      "tip": "Hledej společný jmenovatel: di-, bi-, du- = předpony pro DVĚ. Mono- = jedna."
+    }
+  },
+  {
+    "id": 16,
     "correct": "a",
     "reasoning": {
-      "why_correct": "Klára > Jan (věkem). Lukáš není nejmladší (≠ 10). Pokud Lukáš ≠ 10 a Klára > Jan → Jan musí být nejmladší = 10. Klára a Lukáš jsou 14 a 17 (Klára > Jan splněno pro obě varianty).",
+      "why_correct": "4★3 = (16+9)/(4+3) = 25/7 ≈ 3,57. Pak (25/7)★5 = ((625/49)+25)/((25/7)+5) = (1850/49)/(60/7) = 1850×7/(49×60) = 12950/2940 = 185/42 ≈ 4,40. Zaokrouhleno na celé číslo = 4.",
       "why_others_wrong": {
-        "b": "14 — Jan by mohl mít 14, ale pak Lukáš ≠ 10, Klára > Jan → Klára = 17, Lukáš = 10. Jenže Lukáš NENÍ nejmladší — rozpor!",
-        "c": "17 — pokud Jan = 17, pak Klára > 17, ale maximální věk je 17. Rozpor.",
-        "d": "Lze určit jednoznačně — Jan = 10."
+        "b": "5 by vzniklo zaokrouhlením nahoru, ale 4,40 se zaokrouhluje dolů na 4.",
+        "c": "6 je příliš vysoké číslo — vzniklo by chybou ve výpočtu.",
+        "d": "7 by odpovídalo úplně jinému výrazu."
       },
-      "tip": "Začni od nejsilnějšího omezení: Lukáš ≠ nejmladší → Lukáš ≠ 10. Klára > Jan → Jan ≠ nejstarší. Jan je tedy nejmladší = 10."
+      "tip": "U vnořených operací nejdřív vyřeš vnitřní závorku, pak dosadíš výsledek do vnější. Zaokrouhluj až na konci."
+    }
+  },
+  {
+    "id": 17,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Emil je na pozici 1 (levý kraj). Dana je napravo od Emila. Adam sedí vedle Barbory. Cyril nesmí být na kraji. Pokud Emil=1, pak zkusme: E, A, C, B, D nebo E, B, C, A, D. Cyril na pozici 3 (ne kraj), Adam vedle Barbory, Dana napravo od Emila. Řešení: E(1), A(2), C(3), B(4), D(5) — A vedle B (pozice 2,4? Ne, nejsou vedle sebe). Zkusme: E(1), B(2), C(3), A(4), D(5) — A vedle B? Ne (pozice 2 a 4). Zkusme: E(1), D(2), C(3), A(4), B(5) — A vedle B ✓, Cyril ne na kraji ✓, Dana napravo od Emila ✓. Cyril na pozici 3.",
+      "why_others_wrong": {
+        "a": "Adam musí sedět vedle Barbory — v platném řešení je Adam na pozici 4.",
+        "b": "Barbora musí sedět vedle Adama — v platném řešení je na pozici 5.",
+        "d": "Dana je v platném řešení na pozici 2."
+      },
+      "tip": "Začni od nejpřísnějších podmínek (Emil na kraji, Cyril ne na kraji) a postupně doplňuj."
+    }
+  },
+  {
+    "id": 18,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "'Přestože' vyjadřuje rozpor: argumenty podložené daty by měly být přijaty, ale oponenti je odmítli jako irelevantní (nepodstatné).",
+      "why_others_wrong": {
+        "b": "'Protože' + 'relevantní': pokud by argumenty byly relevantní A podložené daty, nedává smysl, že by je oponenti odmítali.",
+        "c": "'Přestože' je správné, ale 'přesvědčivé' by znamenalo, že je oponenti přijali — to je rozpor s 'odmítli'.",
+        "d": "'Jelikož' naznačuje příčinu — argumenty podložené daty PROTO odmítli jako irelevantní? Nedává logický smysl."
+      },
+      "tip": "Odmítnutí navzdory důkazům = kontrast. Hledej spojku protikladu + negativní hodnocení."
+    }
+  },
+  {
+    "id": 19,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Původní cena = 100. Po +50 %: 150. Po −50 % z 150: 75. Rozdíl: 100 − 75 = 25. Tedy cena je o 25 % nižší.",
+      "why_others_wrong": {
+        "a": "Častý omyl: +50 % a −50 % se NEVYRUŠÍ. Pokles se počítá z vyšší hodnoty.",
+        "c": "10 % neodpovídá žádnému správnému výpočtu.",
+        "d": "Cena klesla, ne stoupla."
+      },
+      "tip": "Procenta se nepřičítají/neodčítají! 50 % nárůst a 50 % pokles = pokles o 25 %. Vždy počítej z aktuální hodnoty."
+    }
+  },
+  {
+    "id": 20,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Efemérní (pomíjivý) je antonymum k trvalý. Transparentní (průhledný) má antonymum neprůhledný. Vztah: slovo : jeho antonymum.",
+      "why_others_wrong": {
+        "a": "Průhledný je SYNONYMUM transparentního, ne antonymum.",
+        "b": "Jasný je blízké synonymum, ne antonymum.",
+        "d": "Čistý není antonymem transparentního."
+      },
+      "tip": "Analogie antonymní dvojice. Efemérní↔trvalý, tedy transparentní↔neprůhledný."
+    }
+  },
+  {
+    "id": 21,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Rozdíly: 2, 4, 8, 16 — každý rozdíl je dvojnásobek předchozího. Další rozdíl = 32. Tedy 33 + 32 = 65.",
+      "why_others_wrong": {
+        "a": "49 by odpovídalo přičtení 16 znovu, ale rozdíly se zdvojnásobují.",
+        "b": "57 by odpovídalo přičtení 24, ale vzorec je mocniny 2.",
+        "d": "61 neodpovídá žádnému logickému pokračování."
+      },
+      "tip": "Podívej se na ROZDÍLY mezi členy. Pokud tvoří vlastní řadu (zde mocniny 2), máš klíč."
+    }
+  },
+  {
+    "id": 22,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Inkluze-exkluze: |F ∪ B| = 18 + 12 − 5 = 25. Žáci, kteří nehrají nic: 30 − 25 = 5.",
+      "why_others_wrong": {
+        "a": "3 by vzniklo chybným odečtením 5 od obou skupin zvlášť.",
+        "c": "7 by odpovídalo chybnému výpočtu 30 − 18 − 12 + 7 (s jiným průnikem).",
+        "d": "10 by bylo 30 − 18 − 12, ale to nezohledňuje průnik (počítáme hráče obou sportů dvakrát)."
+      },
+      "tip": "Vzorec inkluze-exkluze: |A ∪ B| = |A| + |B| − |A ∩ B|. Pak odečti od celku."
+    }
+  },
+  {
+    "id": 23,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Kritici poukazují na to, že studie nezohledňují socioekonomický status — tedy relevantní proměnnou, která může výsledky zkreslit.",
+      "why_others_wrong": {
+        "a": "Text neříká, že bilingvní děti mluví hůře — jen začínají později, ale pak mají výhody.",
+        "c": "Nikdo v textu netvrdí, že kognitivní flexibilita není důležitá.",
+        "d": "Kritici nezpochybňují bilingvismus jako celek, jen metodologii studií."
+      },
+      "tip": "Rozlišuj mezi zpochybněním ZÁVĚRŮ a zpochybněním METODY. Kritici zde útočí na metodu."
+    }
+  },
+  {
+    "id": 24,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Někteří logici jsou šachisté. Žádný šachista není muzikant. Tedy ti logici, kteří jsou šachisté, NEJSOU muzikanti. Tedy nutně: někteří logici nejsou muzikanti.",
+      "why_others_wrong": {
+        "a": "'Někteří logici jsou šachisté' neznamená, že ti logici musí být zrovna matematici.",
+        "b": "Matematici jsou logici, ale nemusí být šachisté. Mohou tedy být muzikanti.",
+        "d": "Z 'někteří logici jsou šachisté' neplyne, že VŠICHNI šachisté jsou logici (a tím méně matematici)."
+      },
+      "tip": "Sylogismus: pokud A⊂B, B∩C≠∅ a C∩D=∅, pak B∩(¬D)≠∅. Někteří B nejsou D."
+    }
+  },
+  {
+    "id": 25,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Víkend (Pá–Ne): Děti = 45+60+55 = 160. Celkem = (78+45+25)+(95+60+30)+(82+55+28) = 148+185+165 = 498. Podíl = 160/498 ≈ 0,3213 = 32 %.",
+      "why_others_wrong": {
+        "a": "28 % je příliš nízké — vzniklo by vynecháním jednoho dne.",
+        "c": "35 % je příliš vysoké, neodpovídá výpočtu.",
+        "d": "38 % by vyžadovalo podstatně více dětských vstupenek."
+      },
+      "tip": "Sečti zvlášť dětské vstupenky za Pá–Ne a celkové vstupenky za Pá–Ne, pak vyděl."
+    }
+  },
+  {
+    "id": 26,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Pragmatický = zaměřený na praxi, praktické řešení. Praktický je nejbližší synonymum.",
+      "why_others_wrong": {
+        "a": "Teoretický je antonymum pragmatického.",
+        "c": "Dogmatický = rigidně se držící doktríny. Pragmatik je naopak flexibilní.",
+        "d": "Idealistický = zaměřený na ideály, opak pragmatického přístupu."
+      },
+      "tip": "Pragmatický (z řec. pragma = čin, skutek) = praktický, zaměřený na výsledky."
+    }
+  },
+  {
+    "id": 27,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "x⊕4 = 2x−4+3 = 2x−1. Pak (2x−1)⊕2 = 2(2x−1)−2+3 = 4x−2−2+3 = 4x−1. Rovnice: 4x−1 = 15, tedy 4x = 16, x = 4.",
+      "why_others_wrong": {
+        "a": "Pro x=3: 4×3−1 = 11 ≠ 15.",
+        "c": "Pro x=5: 4×5−1 = 19 ≠ 15.",
+        "d": "Pro x=6: 4×6−1 = 23 ≠ 15."
+      },
+      "tip": "U vnořených operací postupuj zevnitř ven. Nejdřív vyřeš vnitřní operaci s x, pak dosaď do vnější."
+    }
+  },
+  {
+    "id": 28,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Katarze je uvolnění/pročištění emocí. Katalýza je urychlení/spuštění reakce. Vztah: proces : oblast, na kterou působí.",
+      "why_others_wrong": {
+        "a": "Pocit je synonymum emoce, ne oblast katalýzy.",
+        "c": "Chemie je obor, ne to, co katalýza přímo ovlivňuje (ovlivňuje reakci).",
+        "d": "Výbuch je dramatická událost, ne přesný protějšek ke katalýze."
+      },
+      "tip": "Oba pojmy mají řecký kořen. Katarze čistí emoce, katalýza urychluje reakce."
+    }
+  },
+  {
+    "id": 29,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "'Ačkoli' vyjadřuje kontrast s předchozími výzkumy. Nová studie odhalila opak — tedy čokoláda snižuje tlak (zatímco předchozí studie naznačovaly zvyšování).",
+      "why_others_wrong": {
+        "a": "'Ačkoli' je správné, ale 'zvyšuje' by nebyl opak toho, co naznačovaly předchozí výzkumy (věta říká 'opak').",
+        "b": "'Protože' neodpovídá — pokud předchozí výzkumy naznačovaly opak, nemůže být příčinný vztah.",
+        "d": "'Jelikož' + 'zvyšuje': příčinná spojka a špatný směr účinku."
+      },
+      "tip": "Klíčové slovo je 'opak'. Pokud dřívější výzkumy naznačovaly zvyšování, nová studie musí ukazovat snižování."
+    }
+  },
+  {
+    "id": 30,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Variace bez opakování: V(5,3) = 5 × 4 × 3 = 60. Na 1. místo 5 možností, na 2. místo 4, na 3. místo 3.",
+      "why_others_wrong": {
+        "a": "125 = 5³ — to by platilo S opakováním.",
+        "c": "120 = 5! — to je počet permutací všech 5 číslic, ne třímístných kódů.",
+        "d": "80 neodpovídá žádnému správnému kombinatorickému vzorci."
+      },
+      "tip": "Variace bez opakování: n!/(n−k)! = 5!/2! = 60. Nebo prostě 5×4×3."
+    }
+  },
+  {
+    "id": 31,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Rozdíly: 3, 6, 12, 24 — každý je dvojnásobek předchozího. Další rozdíl = 48. Tedy 49 + 48 = 97.",
+      "why_others_wrong": {
+        "a": "73 by odpovídalo přičtení 24 znovu (konstantní rozdíl), ale rozdíly rostou.",
+        "b": "85 by odpovídalo přičtení 36, ale správný vzorec dává 48.",
+        "d": "91 neodpovídá žádnému konzistentnímu vzorci."
+      },
+      "tip": "Opět se podívej na řadu rozdílů: 3, 6, 12, 24 → geometrická řada s kvocientem 2."
+    }
+  },
+  {
+    "id": 32,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Text říká, že žáci trávící čas venku se DOBROVOLNĚ hlásili — nebyli náhodně přiřazeni. To je klasické selekční zkreslení (selection bias).",
+      "why_others_wrong": {
+        "a": "Text nezmiňuje velikost vzorku jako problém.",
+        "c": "Kontrolní skupina existovala — žáci uvnitř.",
+        "d": "O délce experimentu se text nezmiňuje."
+      },
+      "tip": "Pokud si účastníci SAMI vybírají skupinu, jde o selekční zkreslení. Řešením je randomizace."
+    }
+  },
+  {
+    "id": 33,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Kontrapozice: 'Pokud prší → bere deštník' je logicky ekvivalentní 'nebere deštník → neprší'. Klára si nevzala deštník, tedy neprší.",
+      "why_others_wrong": {
+        "b": "To, zda Klára deštník vlastní, není relevantní — výrok je o tom, zda si ho BERE.",
+        "c": "Zapomenutí je spekulace, ne logický závěr.",
+        "d": "Budoucí počasí nelze z výroku vyvodit."
+      },
+      "tip": "Opět kontrapozice: P→Q, ¬Q, tedy ¬P. Jednoduché a spolehlivé logické pravidlo."
+    }
+  },
+  {
+    "id": 34,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Klára = dějepis. Jan nemá mat. ani bio → Jan = čeština nebo dějepis. Ale Klára má dějepis, takže Jan = čeština. Marie nemá mat. → Marie = biologie (zbývá mat. a bio, ale ne mat.). Lukáš nemá češtinu → zbývá matematika.",
+      "why_others_wrong": {
+        "a": "Jan nemá rád matematiku (to je přímo řečeno v podmínkách).",
+        "b": "Klára má ráda dějepis (to je přímo řečeno).",
+        "d": "Marie nemá ráda matematiku (to je přímo řečeno). Marie má biologii."
+      },
+      "tip": "Vylučovací metoda: vyloučením ostatních z matematiky zbude Lukáš."
+    }
+  },
+  {
+    "id": 35,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Celková cena: 350+280+190 = 820 Kč. Nejlevnější (190 Kč) je zdarma. Ušetří 190 Kč. Procento: 190/820 × 100 ≈ 23,17 % ≈ 23 %.",
+      "why_others_wrong": {
+        "a": "19 % by odpovídalo slevě asi 156 Kč, což není cena žádné z knih.",
+        "c": "27 % by odpovídalo slevě asi 221 Kč — příliš vysoké.",
+        "d": "33 % = 1/3, ale sleva je na nejlevnější kus, ne na průměr."
+      },
+      "tip": "U akce '3 za 2' se vždy nejlevnější kus dá zdarma. Počítej slevu z CELKOVÉ původní ceny."
     }
   }
 ]

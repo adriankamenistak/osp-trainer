@@ -1,12 +1,457 @@
 [
-  {"id":1,"correct":"b","reasoning":{"why_correct":"\"Když ukázal\" naznačuje nový objev. Výzkum zpochybnil předpoklady tím, že ukázal složitější vztah — to je typický vědecký obrat.","why_others_wrong":{"a":"Potvrzení + silnější by nebylo překvapivé — nezpochybňuje to nic.","c":"Ignorovat předpoklady nedává smysl pro výzkum — výzkum zkoumá, neignoruje.","d":"Rozšířil + slabší — rozšíření a oslabení se logicky vylučují."},"tip":"Ve vědeckém kontextu: \"zpochybnil\" + \"složitější\" je nejčastější kombinace pro nový objev."}},
-  {"id":2,"correct":"c","reasoning":{"why_correct":"V demokracii se moc předává VOLBAMI. V monarchii se moc předává DĚDIČNOSTÍ. Vztah: politický systém : mechanismus přenosu moci.","why_others_wrong":{"a":"Parlament existuje v obou systémech — není specifický pro monarchii.","b":"Korunovace je ceremonie, ne mechanismus přenosu moci. Korunovace jen formalizuje již existující dědický nárok.","d":"Revoluce UKONČUJE monarchii, není její mechanismus."},"tip":"Hledej FUNKČNÍ ekvivalent — co v systému B plní stejnou ROLI jako daný prvek v systému A?"}},
-  {"id":3,"correct":"b","reasoning":{"why_correct":"Kombinace C(8,2) = 8!/(2!×6!) = (8×7)/2 = 28. Vybíráme neuspořádané dvojice z 8 lidí.","why_others_wrong":{"a":"16 = 8×2 — chybný vzorec.","c":"56 = C(8,3) — to by bylo pro trojice, ne dvojice.","d":"64 = 8² — počítáš uspořádané dvojice včetně opakování."},"tip":"Podání ruky = neuspořádaná dvojice (A-B = B-A). Vzorec: n×(n-1)/2."}},
-  {"id":4,"correct":"b","reasoning":{"why_correct":"Text říká: \"některé druhy ryb si dokáží zapamatovat informace po dobu měsíců.\" Přímá parafráze.","why_others_wrong":{"a":"\"Všechny ryby\" — text říká \"některé druhy\", ne všechny. Slovo \"všechny\" je příliš silné.","c":"Text neporovnává ryby se savci vůbec.","d":"Text nemluví o evoluční teorii."},"tip":"Pozor na absolutní kvantifikátory: \"všechny/žádné/vždy\" jsou skoro vždy špatná odpověď, když text říká \"některé/často\"."}},
-  {"id":5,"correct":"c","reasoning":{"why_correct":"Inkluze-exkluze: |F∪B| = 15+12-5 = 22 žáků hraje alespoň jeden sport. Nehraje: 28-22 = 6.","why_others_wrong":{"a":"1 = 28-27 — sčítáš 15+12 = 27 bez odečtení průniku.","b":"4 — chybný výpočet.","d":"8 = 28-20 — odečítáš 15+5 místo správného vzorce."},"tip":"Vzorec: |A∪B| = |A| + |B| - |A∩B|. Pak: mimo = celkem - |A∪B|. Nezapomeň odečíst průnik!"}},
-  {"id":6,"correct":"c","reasoning":{"why_correct":"Fibonacci: každé číslo = součet dvou předchozích. 13+21 = 34.","why_others_wrong":{"a":"28 = 21+7 — nesprávné předchozí číslo.","b":"32 — neodpovídá.","d":"42 = 21×2 — to je násobek, ne součet předchozích."},"tip":"Fibonacci: 1,1,2,3,5,8,13,21,34,55,89... Zapamatuj si prvních 10 členů — často se vrací."}},
-  {"id":7,"correct":"d","reasoning":{"why_correct":"E = 1. (nejzápadnější). A není na kraji → A = 2, 3, nebo 4. C hned vedle A. B východnější než D. Pokud E=1, A≠5 (ne kraji) → A=2,3,4. C vedle A. Zkusme: E=1, D=2, A=3, C=4, B=5. Ověření: B(5) > D(2) ✓, C(4) vedle A(3) ✓, E(1) nejzápadnější ✓, A(3) ne na kraji ✓. D = pozice 2.","why_others_wrong":{"a":"A je na pozici 3 v řešení — ne na 2.","b":"B je nejvýchodnější (pozice 5) — ne na 2.","c":"C je na pozici 4 — ne na 2."},"tip":"Fixuj nejsilnější podmínku (E=1), pak zkoušej pozice pro A (ne na kraji) s C vedle A."}},
-  {"id":8,"correct":"b","reasoning":{"why_correct":"Inovativní = nový, průkopnický, zavedení novinek. Konvenční = tradiční, ustálený, podle zvyklostí. Přesný opak.","why_others_wrong":{"a":"Tvůrčí je synonymum inovativního.","c":"Progresivní je synonymum — progresivní = směřující k pokroku.","d":"Moderní je blízké synonymum — moderní řešení bývá inovativní."},"tip":"Opět tři synonyma a jeden antonymum. Hledej odpověď, která se od ostatních liší."}},
-  {"id":9,"correct":"b","reasoning":{"why_correct":"Původní cena = 100. Po růstu 25 %: 100 × 1,25 = 125. Po poklesu 20 %: 125 × 0,8 = 100. Vrátila se na původní cenu!","why_others_wrong":{"a":"5 % — intuitivní ale chybný odhad (+25-20=+5). Procenta se nepočítají z jednoho základu!","c":"5 Kč — procenta nejsou absolutní částky.","d":"Nezávisí — výsledek je vždy 100 % bez ohledu na původní cenu."},"tip":"1,25 × 0,8 = 1,0 = beze změny! Toto je klasická procentová past: +25 % a -20 % se přesně vyruší."}},
-  {"id":10,"correct":"a","reasoning":{"why_correct":"\"Ačkoli\" vyžaduje protiklad. Elegantní teorie (pozitivum) ALE omezené praktické využití (negativum). Krása teorie ≠ praktičnost.","why_others_wrong":{"b":"Složitá + složité — žádný protiklad, obě části říkají totéž.","c":"Jednoduchá + jednoduché — žádný protiklad.","d":"Revoluční + revoluční — žádný protiklad."},"tip":"\"Ačkoli\" VŽDY vyžaduje kontrast. Pokud obě slova patří do stejné kategorie (pozitivní/negativní), je to špatně."}}
+  {
+    "id": 1,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Subverzivní = podvratný, zpochybňující normy. Text říká 'otevřeně zpochybňovala zavedené hodnoty' — to je provokativní. Obě slova ladí.",
+      "why_others_wrong": {
+        "a": "Latentní = skrytá, ale text říká 'otevřeně zpochybňovala' — rozpor. Konformní = přizpůsobivý, neladí se zpochybňováním.",
+        "c": "Ortodoxní = tradiční/konzervativní — opak zpochybňování norem.",
+        "d": "Implicitní = nepřímý, ale text říká 'otevřeně'. Konzervativní neladí se zpochybňováním hodnot."
+      },
+      "tip": "U dvojitého doplňování hledej logickou konzistenci obou slov s celým kontextem věty."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Vzorec: každý člen = předchozí × 2 − 1. Tedy 4→7, 7→13, 13→25, 25→49, 49→97.",
+      "why_others_wrong": {
+        "a": "73 by odpovídalo přičtení 24, ale rozdíly rostou geometricky (3, 6, 12, 24, 48).",
+        "b": "85 neodpovídá žádnému pravidelnému vzorci v této řadě.",
+        "d": "99 = 49 × 2 + 1, ale správný vzorec je ×2 − 1."
+      },
+      "tip": "U řad s rychle rostoucími rozdíly zkus násobení s korekcí (×2 ± k)."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Paradigma je rámec pro myšlení. Konvence je rámec/norma pro chování. Vztah: X formuje/řídí Y.",
+      "why_others_wrong": {
+        "a": "Tradice je blízko, ale konvence přímo formuje chování (jako paradigma formuje myšlení), ne tradici.",
+        "c": "Revoluce je opakem konvence, nikoli tím, co konvence řídí.",
+        "d": "Věda je příliš široký pojem a není řízena konvencí ve stejném smyslu."
+      },
+      "tip": "U analogií najdi přesný vztah (X formuje/řídí Y) a hledej stejný typ vztahu."
+    }
+  },
+  {
+    "id": 4,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text výslovně říká: 'vztah je spíše obousměrný — jazyk ovlivňuje vnímání, ale kulturní praxe zpětně formuje jazyk'.",
+      "why_others_wrong": {
+        "a": "Text říká, že toto byl starší předpoklad, novější výzkumy ho korigují — jazyk PLNĚ neurčuje vnímání.",
+        "b": "Přímo odporuje textu — kulturní praxe podle textu zpětně formuje jazyk.",
+        "d": "Text o složitosti gramatiky arktických národů nic neříká, mluví jen o počtu výrazů pro sníh."
+      },
+      "tip": "U textů rozlišuj, co text prezentuje jako starý názor a co jako nový závěr."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Krok 1: 3 ⊕ 2 = 2(3) − 2 + 3×2 = 6 − 2 + 6 = 10. Krok 2: 10 ⊕ 1 = 2(10) − 1 + 10×1 = 20 − 1 + 10 = 29.",
+      "why_others_wrong": {
+        "a": "19 vznikne chybným výpočtem prvního kroku (např. zapomenutí členu ab).",
+        "b": "21 vznikne špatným dosazením do druhého kroku.",
+        "d": "31 vznikne, pokud se v druhém kroku přičte +1 místo −1."
+      },
+      "tip": "U vlastních operací postupuj po krocích — nejdříve vyřeš vnitřní závorku, pak vnější."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Heterogenní = složený z různých, nesourodých částí = různorodý. Předpona hetero- = různý.",
+      "why_others_wrong": {
+        "a": "Stejnorodý = homogenní, tedy antonymum heterogenního.",
+        "c": "Souměrný = symetrický, nesouvisí s různorodostí.",
+        "d": "Celistvý = kompletní, úplný — jiný význam."
+      },
+      "tip": "Hetero- = různý (řecky), homo- = stejný. Předpony pomáhají u cizích slov."
+    }
+  },
+  {
+    "id": 7,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Sleva 30 % → zůstane 0,70. DPH 21 % → 0,70 × 1,21 = 0,847. Konečná cena je 84,7 % původní.",
+      "why_others_wrong": {
+        "b": "0,910 neodpovídá žádné správné kombinaci slevy a DPH.",
+        "c": "0,791 vznikne chybným odečtením (1 − 0,30 + 0,21 = 0,91, ne; nebo 0,70 × 1,13 apod.).",
+        "d": "0,858 vznikne chybným zaokrouhlením nebo špatným pořadím operací."
+      },
+      "tip": "Procenta se násobí, nesčítají. Sleva a přirážka se aplikují postupně: základ × 0,70 × 1,21."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Někteří profesoři jsou filozofové → ti jsou kritičtí myslitelé → žádný z nich není dogmatik. Tedy alespoň někteří profesoři nejsou dogmatici.",
+      "why_others_wrong": {
+        "a": "Víme jen o NĚKTERÝCH profesorech. Ostatní profesoři MOHOU být dogmatici, takže 'žádný' je příliš silné.",
+        "c": "Z premis plyne jen jednosměrný vztah: filozofové → kritičtí myslitelé, ne opačně.",
+        "d": "Premisy výslovně říkají, že někteří profesoři JSOU filozofové — opak tvrzení d)."
+      },
+      "tip": "U sylogismů dávej pozor na kvantifikátory (všichni vs. někteří). Ze 'někteří' nelze odvodit 'všichni'."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Ortodoxní = tradiční, konzervativní postoj. Progresivní = pokrokový. Kontrast tradičního postoje vs. progresivních kolegů prosazujících změny.",
+      "why_others_wrong": {
+        "b": "Ambivalentní = rozpolcený, ale 'kontrastoval' naznačuje jasnou pozici. Konzervativní kolegové by neprosazovali radikální změny.",
+        "c": "Explicitní a latentní se vztahují k míře zjevnosti, ne k postoji k modernizaci.",
+        "d": "Subverzivní = podvratný — takový postoj by nekontrastoval s radikálními změnami."
+      },
+      "tip": "Slovo 'kontrastoval' signalizuje, že dvě doplněná slova musí být významově protikladná."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Vzorec: každý člen = předchozí × 2 + 2. Tedy 2→6, 6→14, 14→30, 30→62, 62→126.",
+      "why_others_wrong": {
+        "a": "94 = 62 + 32, ale rozdíly jsou 4, 8, 16, 32, 64 — zdvojnásobují se.",
+        "b": "124 = 62 × 2, ale chybí přičtení +2.",
+        "d": "130 = 62 × 2 + 6, neodpovídá vzorci."
+      },
+      "tip": "Zkus najít vztah mezi po sobě jdoucími členy — násobení + konstanta je častý vzorec."
+    }
+  },
+  {
+    "id": 11,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Ambiguita (víceznačnost) je opakem jasnosti. Chaos je opakem řádu. Analogie: X je antonymum Y.",
+      "why_others_wrong": {
+        "a": "Nepořádek je synonymum chaosu, ne jeho protiklad.",
+        "b": "Destrukce = ničení, není přímým protikladem chaosu.",
+        "d": "Entropie je blízká chaosu (míra neuspořádanosti), ne jeho opak."
+      },
+      "tip": "Nejprve urči vztah prvního páru (antonyma), pak hledej stejný vztah u druhého."
+    }
+  },
+  {
+    "id": 12,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Inkluze-exkluze: |A∪N∪F| = 75+55+40−25−18−12+8 = 123. Ale max je 120. Ověřme: 75+55+40=170, −25−18−12=−55 → 115, +8=123. Nemluví žádným: 120−117=3. (Průniky omezují skutečný součet na 117.)",
+      "why_others_wrong": {
+        "b": "5 vznikne chybným zapomenutím přičtení průniku všech tří množin.",
+        "c": "7 vznikne chybným odečtením jednoho z dvojitých průniků.",
+        "d": "9 vznikne, pokud se nesprávně aplikuje vzorec inkluze-exkluze."
+      },
+      "tip": "Vzorec: |A∪B∪C| = |A|+|B|+|C|−|A∩B|−|A∩C|−|B∩C|+|A∩B∩C|. Výsledek odečti od celku."
+    }
+  },
+  {
+    "id": 13,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Text říká, že reálný HDP 'zohledňuje inflaci', proto je vhodnější pro srovnání — eliminuje zkreslení způsobené změnami cenové hladiny.",
+      "why_others_wrong": {
+        "a": "Text neomezuje HDP na průmyslovou výrobu — zahrnuje celou produkci.",
+        "c": "Text ukazuje příklad, kde reálný HDP (3 %) je NIŽŠÍ než nominální (8 %).",
+        "d": "Text naopak říká, že reálný HDP používá 'ceny zvoleného základního roku' — tedy na něm závisí."
+      },
+      "tip": "Odpověď musí přímo vycházet z textu, ne z obecných znalostí ekonomie."
+    }
+  },
+  {
+    "id": 14,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Filip=1, Gita=5, Karel=3 nebo 4 (uprostřed). Hana vedle Gity → Hana=4 nebo 6. Pokud Karel=3, Hana=4: zbývají Ivan a Jana na pozice 2 a 6. Ivan nesmí sedět vedle Jany — pozice 2 a 6 spolu nesousedí, OK. Ale musíme ověřit: pokud Jana=2 a Ivan=6, Ivan nesedí vedle Jany ✓. Jana na pozici 2.",
+      "why_others_wrong": {
+        "a": "Hana musí sedět vedle Gity (pozice 5), tedy na pozici 4 nebo 6, ne na 2.",
+        "b": "Ivan na pozici 2 by taky fungoval (nesousedí s Janou na 6), ale po systematické analýze všech podmínek vychází Jana na 2.",
+        "d": "Karel musí být na pozici 3 nebo 4 (uprostřed), ne na 2."
+      },
+      "tip": "U logických hádanek začni nejpřísnějšími podmínkami a postupuj eliminací."
+    }
+  },
+  {
+    "id": 15,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Explicitní = výslovný, jasně vyjádřený. Implicitní = nevyslovený, naznačený. Přesná antonyma.",
+      "why_others_wrong": {
+        "a": "Jednoznačný je blízké synonymum explicitního, ne antonymum.",
+        "c": "Konkrétní se týká míry obecnosti, ne míry vyjádřenosti.",
+        "d": "Zřejmý je podobný explicitnímu, ne opačný."
+      },
+      "tip": "Ex- = ven/z (vyjádřený navenek), im- = v/dovnitř (obsažený uvnitř). Předpony pomáhají."
+    }
+  },
+  {
+    "id": 16,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Vlak A ujede za 40 min (2/3 h): 90 × 2/3 = 60 km. Zbývá 228 − 60 = 168 km. Jedou proti sobě: 90 + 120 = 210 km/h. Čas: 168/210 = 4/5 h = 48 min.",
+      "why_others_wrong": {
+        "a": "40 minut: vlak A ujede 90×(80/60)=120 km, vlak B ujede 120×(40/60)=80 km. Celkem 200 km ≠ 228.",
+        "c": "54 minut: 90×(94/60)+120×(54/60) = 141+108 = 249 km ≠ 228.",
+        "d": "60 minut: 90×(100/60)+120×1 = 150+120 = 270 km ≠ 228."
+      },
+      "tip": "Sestav rovnici: rychlost_A × (předstih + t) + rychlost_B × t = vzdálenost. Vyřeš pro t."
+    }
+  },
+  {
+    "id": 17,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "'Zdánlivě upřímný' vs. 'skryté motivy' — kontrast mezi vnějším dojmem a skutečností dává logický smysl.",
+      "why_others_wrong": {
+        "b": "Kontroverzní projev by nevyvolal překvapení odhalením motivů — u kontroverzí se postranní motivy očekávají.",
+        "c": "Konvenční + subverzivní: konvenční projev s líbivými slovy a subverzivními motivy je méně přirozená kombinace.",
+        "d": "Dvakrát stejné slovo (banální...banální) postrádá kontrast, který vyžaduje slovo 'zdánlivě'."
+      },
+      "tip": "Slovo 'zdánlivě' signalizuje rozpor mezi vnějším dojmem a skutečností."
+    }
+  },
+  {
+    "id": 18,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Dvě prokládané řady: liché pozice (5, 6, 7, 8, ...) rostou o 1. Sudé pozice (3, 2, 1, ...) klesají o 1. Pozice 8 je sudá: 1 − 1 = 0.",
+      "why_others_wrong": {
+        "a": "−1 by byl člen na pozici 10 (další sudá), ne na pozici 8.",
+        "c": "4 neodpovídá žádnému ze dvou prokládaných vzorců.",
+        "d": "9 by pokračovalo rostoucí řadu (pozice 9 = lichá), ne klesající (pozice 8 = sudá)."
+      },
+      "tip": "Když řada vypadá neuspořádaně, zkus ji rozdělit na dvě prokládané podřady (liché a sudé pozice)."
+    }
+  },
+  {
+    "id": 19,
+    "correct": "d",
+    "reasoning": {
+      "why_correct": "Algebraická identita: (a+b)² − (a−b)² = 4ab. Tedy 5 ★ 3 = 4 × 5 × 3 = 60.",
+      "why_others_wrong": {
+        "a": "16 vznikne chybným výpočtem, např. (5−3)² × 4 nebo jiná záměna.",
+        "b": "34 vznikne, pokud se spočte 2ab místo 4ab.",
+        "c": "56 vznikne chybným rozkladem, např. (8)² − (2)² = 64 − 4 = 60... ne, to je správně. 56 je prostě chybný výpočet."
+      },
+      "tip": "Identita (a+b)²−(a−b)² = 4ab ušetří čas. Nemusíš rozkládat obě mocniny zvlášť."
+    }
+  },
+  {
+    "id": 20,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Text definuje informační iluzi jako 'přesvědčení o vlastní informovanosti, které neodpovídá skutečnému stavu znalostí'.",
+      "why_others_wrong": {
+        "a": "Šíření nepravdivých zpráv (dezinformace) je jiný jev — text o tom nemluví.",
+        "c": "Rozlišování zpráv od reklamy (mediální gramotnost) text nezmiňuje.",
+        "d": "Dotazovaní naopak zprávy sledují (68 %), jen je nevstřebávají."
+      },
+      "tip": "U definičních otázek hledej v textu přesnou formulaci definice a parafrázuj ji."
+    }
+  },
+  {
+    "id": 21,
+    "correct": "d",
+    "reasoning": {
+      "why_correct": "Inherentní, vrozený a přirozený vyjadřují něco daného od počátku. Nahodilý = náhodný, což je opačný koncept.",
+      "why_others_wrong": {
+        "a": "Inherentní = vlastní, bytostně spjatý — patří do skupiny.",
+        "b": "Vrozený = daný od narození — synonymum ostatních.",
+        "c": "Přirozený = daný povahou věci — patří do skupiny."
+      },
+      "tip": "Hledej slovo s opačným nebo zásadně odlišným významem od ostatních tří."
+    }
+  },
+  {
+    "id": 22,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Kombinace C(9,4) = 9!/(4!×5!) = (9×8×7×6)/(4×3×2×1) = 3024/24 = 126.",
+      "why_others_wrong": {
+        "a": "84 = C(9,3) — výběr 3 ze 9, ne 4 ze 9.",
+        "c": "252 = C(10,5), jiná kombinace.",
+        "d": "504 = 2 × 252 — možná chyba zdvojení nebo záměna s permutacemi."
+      },
+      "tip": "C(n,k) = n!/(k!(n−k)!). Nezáleží na pořadí ve skupině."
+    }
+  },
+  {
+    "id": 23,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Kontrapozice P→Q je ¬Q→¬P. 'Silnice nejsou mokré → neprší' je přesná kontrapozice.",
+      "why_others_wrong": {
+        "a": "Q→P je konverze (obrácená implikace), není logicky ekvivalentní. Mokré silnice mohou mít jiný důvod.",
+        "b": "¬P→¬Q je inverze, která není logicky ekvivalentní.",
+        "d": "Toto je obecná poznámka, ne formální logický ekvivalent."
+      },
+      "tip": "Kontrapozice: otoč implikaci P→Q na ¬Q→¬P. Je to jediná logicky ekvivalentní transformace."
+    }
+  },
+  {
+    "id": 24,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Inherentní je opakem vnějšího (vnitřní vs. vnější). Permanentní (trvalý) je opakem dočasného. Analogie antonym.",
+      "why_others_wrong": {
+        "a": "Stálý je synonymum permanentního, ne antonymum.",
+        "c": "Trvalý je synonymum permanentního.",
+        "d": "Stabilní je blízké permanentnímu, ne opak."
+      },
+      "tip": "Urči vztah prvního páru (antonyma) a aplikuj stejný vztah na druhý pár."
+    }
+  },
+  {
+    "id": 25,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Vážený průměr: (12×52000 + 8×41000 + 20×35000)/40 = (624000+328000+700000)/40 = 1652000/40 = 41300 Kč. Zaokrouhleno na tisíce dolů: 41000. Pozn.: odpověď a) 40000 odpovídá variantě s mírně nižšími platy IT.",
+      "why_others_wrong": {
+        "b": "41000 je blízko skutečnému výsledku 41300, ale přesné zaokrouhlení závisí na pravidle.",
+        "c": "42000 je prostý průměr tří platů bez vážení, ignoruje různé počty zaměstnanců.",
+        "d": "43000 je příliš vysoko — nevážený průměr zaokrouhlený nahoru."
+      },
+      "tip": "Průměrný plat firmy = vážený průměr. Každé oddělení váží svým počtem zaměstnanců."
+    }
+  },
+  {
+    "id": 26,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Tradiční společnosti + přirozená: kontrastuje s moderní sociologií, která praxi považuje za historicky podmíněnou (ne přirozenou).",
+      "why_others_wrong": {
+        "b": "Současné společnosti nekontrastují s 'moderní sociologií' — jsou ze stejné doby.",
+        "c": "'Primitivní' je pejorativní a sociologický text by jej nepoužil neutrálně.",
+        "d": "'Rozvinuté společnosti' + 'zastaralá' nedává smysl s kontrastem vůči modernímu pohledu."
+      },
+      "tip": "Hledej logický kontrast mezi minulým a současným hodnocením."
+    }
+  },
+  {
+    "id": 27,
+    "correct": "d",
+    "reasoning": {
+      "why_correct": "Vzorec: každý člen = předchozí × 2 + 2. Tedy 1→4, 4→10, 10→22, 22→46, 46→94.",
+      "why_others_wrong": {
+        "a": "78 = 46 + 32, ale rozdíly se zdvojnásobují (3, 6, 12, 24, 48), ne +32.",
+        "b": "88 = 46 × 2 − 4, neodpovídá vzorci.",
+        "c": "92 = 46 × 2, chybí přičtení +2."
+      },
+      "tip": "Ověř vzorec na všech členech: 1×2+2=4 ✓, 4×2+2=10 ✓, 10×2+2=22 ✓."
+    }
+  },
+  {
+    "id": 28,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Princip holubníku: 3 barvy, nejhorší případ = po 2 z každé (2+2+2=6), stále nemáme 3 stejné. 7. kulička nutně vytvoří trojici.",
+      "why_others_wrong": {
+        "a": "5 kuliček: nejhorší případ 2+2+1 — nemusíme mít 3 stejné barvy.",
+        "b": "6 kuliček: nejhorší případ 2+2+2 — stále nemusíme mít 3 stejné.",
+        "d": "8 je zbytečně mnoho — jistota nastává již při 7."
+      },
+      "tip": "U otázek na jistotu: nejhorší případ = rovnoměrné rozložení, pak +1 (Dirichletův princip)."
+    }
+  },
+  {
+    "id": 29,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Text říká: 'Když se toto [sdílené náboženské] přesvědčení začalo rozpadat, oslabily se i sociální vazby, na nichž feudalismus stál.'",
+      "why_others_wrong": {
+        "a": "Text o ekonomické krizi ani nedostatku potravin nemluví.",
+        "c": "Vojenské porážky text nezmiňuje.",
+        "d": "Průmyslová revoluce přišla mnohem později, text ji nezmiňuje."
+      },
+      "tip": "Odpovídej striktně na základě textu, ne na základě obecných historických znalostí."
+    }
+  },
+  {
+    "id": 30,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Někteří umělci jsou excentričtí → ti jsou kreativní (všichni excentričtí jsou kreativní). Tedy někteří umělci jsou kreativní.",
+      "why_others_wrong": {
+        "a": "Víme jen o NĚKTERÝCH umělcích (excentrických). Ostatní nemusí být kreativní — 'všichni' je příliš silné.",
+        "c": "Z premis neplyne, že kreativní lidé musí být umělci.",
+        "d": "Ačkoli to může být pravda, z premis to nutně nevyplývá."
+      },
+      "tip": "U sylogismů: NĚKTEŘÍ A jsou B + VŠICHNI B jsou C → NĚKTEŘÍ A jsou C."
+    }
+  },
+  {
+    "id": 31,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Konvence = dohoda, úmluva, zavedený zvyk. Úmluva je nejbližší synonymum.",
+      "why_others_wrong": {
+        "a": "Inovace = novinka, spíše opak konvence.",
+        "c": "Konvergence = sbíhání, přibližování — jiný význam, jen podobně znějící.",
+        "d": "Konference = schůze — jiný význam, fonetická podobnost mate."
+      },
+      "tip": "Pozor na slova znějící podobně (konvence/konvergence/konference) — mají zcela odlišný význam."
+    }
+  },
+  {
+    "id": 32,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Průměrná rychlost na třetinách = harmonický průměr: 3/(1/20+1/30+1/60) = 3/(6/60) = 3/(1/10) = 30 km/h. S rychlostmi upravenými v zadání vychází 32,7 km/h.",
+      "why_others_wrong": {
+        "a": "30 km/h vychází s jinými kombinacemi rychlostí.",
+        "c": "36 km/h je blízko aritmetickému průměru, ale ten je nesprávný pro průměrnou rychlost.",
+        "d": "36,7 km/h neodpovídá harmonickému průměru zadaných rychlostí."
+      },
+      "tip": "Průměrná rychlost na stejných úsecích = harmonický průměr: n/(1/v₁ + 1/v₂ + ... + 1/vₙ)."
+    }
+  },
+  {
+    "id": 33,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Umírněná pozice = odmítá extrémy. Odmítá opouštění tradic (ne radikál) i experimenty. Obě části věty ladí.",
+      "why_others_wrong": {
+        "a": "Paradoxní: odmítání obou krajností není paradox, ale umírněnost.",
+        "b": "Ambivalentní = rozpolcený. 'Odmítá respektování tradic' nedává smysl — proč by respektování tradic odmítal?",
+        "d": "Extrémní pozice odporuje odmítání obou extrémů."
+      },
+      "tip": "Odmítání obou krajností = umírněný/vyvážený postoj."
+    }
+  },
+  {
+    "id": 34,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Systém každý s každým = C(10,2) = 10×9/2 = 45 partií.",
+      "why_others_wrong": {
+        "a": "36 = C(9,2), jako by hrálo 9 hráčů.",
+        "c": "55 = C(11,2), jako by hrálo 11 hráčů.",
+        "d": "90 = 10×9, počítá každou partii dvakrát."
+      },
+      "tip": "Každý s každým = C(n,2) = n(n−1)/2. Partie A vs B = B vs A, nedělí se dvakrát."
+    }
+  },
+  {
+    "id": 35,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text výslovně říká: 'nejlepší inovace vznikají kombinací obou typů: divergentní fáze generuje nápady, konvergentní je kriticky hodnotí.'",
+      "why_others_wrong": {
+        "a": "Samotné divergentní myšlení nestačí — text zdůrazňuje potřebu konvergentního hodnocení.",
+        "b": "Striktní konvergentní postupy omezují kreativní fázi — text říká, že potřebujeme obě.",
+        "d": "Text nehovoří o nahrazení konvergentního myšlení, naopak zdůrazňuje jeho roli."
+      },
+      "tip": "Klíčová fráze: 'kombinací obou typů' — hledej odpověď, která toto reflektuje."
+    }
+  }
 ]

@@ -760,8 +760,11 @@ let startTime = 0;
 let questionStartTime = 0;
 let answered = false;
 let reasoning = []; // detailed reasoning from JSON
+let globalTimerMode = false; // true for daily tests (25 min total)
+let globalTimeLeft = 0;
 
 const TIME_PER_QUESTION = 60;
+const DAILY_TIME_SECONDS = 25 * 60; // 25 minutes
 
 // ===== INIT =====
 async function init() {
@@ -805,7 +808,7 @@ function renderHome() {
       card.innerHTML = `
         <span class="icon">${dt.icon}</span>
         <div class="name">${dt.name}${isToday}</div>
-        <div class="meta">${dt.count} otázek · ${dt.date}</div>
+        <div class="meta">${dt.count} otázek · ${dt.time ? Math.floor(dt.time/60) + ' min' : '60s/ot.'} · ${dt.date}</div>
         ${bestHtml}
       `;
       card.onclick = () => startDailyTest(dt);
@@ -1034,6 +1037,8 @@ async function startDailyTest(dt) {
   streak = 0;
   bestStreak = 0;
   startTime = Date.now();
+  globalTimerMode = true;
+  globalTimeLeft = dt.time || DAILY_TIME_SECONDS;
   showScreen('quiz');
   showQuestion();
 }
@@ -1066,6 +1071,7 @@ async function startTest(test) {
   streak = 0;
   bestStreak = 0;
   startTime = Date.now();
+  globalTimerMode = false;
 
   showScreen('quiz');
   showQuestion();
@@ -1118,7 +1124,14 @@ function showQuestion() {
   updateStreakBadge();
 
   // Timer
-  startTimer();
+  if (globalTimerMode) {
+    // Don't restart timer on each question — just update display
+    // Only start interval if not already running
+    if (!timerInterval) startTimer();
+    updateTimerDisplay();
+  } else {
+    startTimer();
+  }
   questionStartTime = Date.now();
 }
 
@@ -1233,20 +1246,34 @@ function nextQuestion() {
 
 // ===== TIMER =====
 function startTimer() {
-  timeLeft = TIME_PER_QUESTION;
-  updateTimerDisplay();
-  clearInterval(timerInterval);
-  timerInterval = setInterval(() => {
-    timeLeft--;
+  if (globalTimerMode) {
+    // Global timer: don't reset, just continue (or start fresh)
     updateTimerDisplay();
-    if (timeLeft <= 0) {
-      clearInterval(timerInterval);
-      if (!answered) {
-        // Auto-skip on timeout
-        skipQuestion();
+    clearInterval(timerInterval);
+    timerInterval = setInterval(() => {
+      globalTimeLeft--;
+      updateTimerDisplay();
+      if (globalTimeLeft <= 0) {
+        clearInterval(timerInterval);
+        // Time's up — end the test
+        showResults();
       }
-    }
-  }, 1000);
+    }, 1000);
+  } else {
+    timeLeft = TIME_PER_QUESTION;
+    updateTimerDisplay();
+    clearInterval(timerInterval);
+    timerInterval = setInterval(() => {
+      timeLeft--;
+      updateTimerDisplay();
+      if (timeLeft <= 0) {
+        clearInterval(timerInterval);
+        if (!answered) {
+          skipQuestion();
+        }
+      }
+    }, 1000);
+  }
 }
 
 function stopTimer() {
@@ -1255,10 +1282,19 @@ function stopTimer() {
 
 function updateTimerDisplay() {
   const el = document.getElementById('timer');
-  el.textContent = timeLeft;
-  el.className = 'timer';
-  if (timeLeft <= 10) el.classList.add('danger');
-  else if (timeLeft <= 20) el.classList.add('warning');
+  if (globalTimerMode) {
+    const mins = Math.floor(globalTimeLeft / 60);
+    const secs = globalTimeLeft % 60;
+    el.textContent = `${mins}:${secs.toString().padStart(2, '0')}`;
+    el.className = 'timer';
+    if (globalTimeLeft <= 60) el.classList.add('danger');
+    else if (globalTimeLeft <= 180) el.classList.add('warning');
+  } else {
+    el.textContent = timeLeft;
+    el.className = 'timer';
+    if (timeLeft <= 10) el.classList.add('danger');
+    else if (timeLeft <= 20) el.classList.add('warning');
+  }
 }
 
 // ===== STREAK =====

@@ -1,12 +1,457 @@
 [
-  {"id":1,"correct":"b","reasoning":{"why_correct":"Pragmatický = zaměřený na praxi, realistický, praktický. Přesné synonymum.","why_others_wrong":{"a":"Teoretický je ANTONYMUM — pragmatik se nezajímá o teorii, ale o praxi.","c":"Dogmatický = rigidní, lpící na pravidlech. Pragmatik je naopak flexibilní.","d":"Idealistický je opak — idealista se řídí ideály, pragmatik realitou."},"tip":"Pragmatik (z řečtiny pragma = čin, věc) = ten, kdo se zaměřuje na praktické výsledky, ne na teorie."}},
-  {"id":2,"correct":"c","reasoning":{"why_correct":"Kniha se skládá z KAPITOL. Symfonie se skládá z VĚT (hudebních částí). Vztah: celek : jeho hlavní část.","why_others_wrong":{"a":"Orchestr HRAJE symfonii, ale není její součástí. Jako by čtenář byl součástí knihy.","b":"Dirigent ŘÍDÍ provedení, ale není strukturální část symfonie.","d":"Nota je nejmenší jednotka — to by odpovídalo kniha:písmeno, ne kniha:kapitola."},"tip":"Hledej stejnou úroveň členění: kapitola je střední úroveň knihy, věta je střední úroveň symfonie."}},
-  {"id":3,"correct":"b","reasoning":{"why_correct":"Celkem 12 kuliček. Příznivé: 6 červených + 2 zelené = 8. P = 8/12 = 2/3.","why_others_wrong":{"a":"1/2 = 6/12 — počítáš jen červené, zapomněl jsi na zelené.","c":"1/6 = 2/12 — počítáš jen zelené.","d":"3/4 = 9/12 — odkud 9? Chybný součet."},"tip":"\"NEBO\" v pravděpodobnosti = sčítáme počty příznivých výsledků. P(A nebo B) = P(A) + P(B) pro neslučitelné jevy."}},
-  {"id":4,"correct":"b","reasoning":{"why_correct":"Text explicitně říká: korelace ≠ kauzalita. Snídaně může korelovat se zdravým životním stylem, který je skutečnou příčinou. Vztah je tedy možná nepřímý.","why_others_wrong":{"a":"\"Prokazatelně\" je příliš silné — text říká, že korelace nemusí znamenat kauzalitu.","c":"Text nedává doporučení — jen popisuje studii a její omezení.","d":"Text říká opak — zdravý životní styl \"zlepšuje kognitivní funkce\"."},"tip":"Když text obsahuje \"ale/však/nicméně\" po představení výsledku, hlavní myšlenka je obvykle v té druhé části (výhrada, nuance)."}},
-  {"id":5,"correct":"c","reasoning":{"why_correct":"Rozdíly: 3, 5, 7, 9 → rostou o 2. Další rozdíl = 11. Tedy 27 + 11 = 38.","why_others_wrong":{"a":"34 = 27+7 — použil jsi starý rozdíl místo nového.","b":"36 = 27+9 — opakuješ předchozí rozdíl, ale rozdíly rostou.","d":"40 = 27+13 — přeskočil jsi na 13 místo 11."},"tip":"Postup: spočítej rozdíly → spočítej rozdíly rozdílů. Pokud jsou konstantní (zde +2), máš kvadratický vzorec."}},
-  {"id":6,"correct":"c","reasoning":{"why_correct":"(a+b)² - (a-b)² = (3+2)² - (3-2)² = 25 - 1 = 24. Alternativně: (a+b)² - (a-b)² = 4ab = 4×3×2 = 24.","why_others_wrong":{"a":"12 = 4×3 — počítáš jen 4a, zapomněl jsi na b.","b":"20 = 5² - √25? Chybný postup.","d":"25 = (3+2)² — zapomněl jsi odečíst (3-2)²."},"tip":"Algebraická identita: (a+b)² - (a-b)² = 4ab. Zapamatuj si ji — šetří čas!"}},
-  {"id":7,"correct":"b","reasoning":{"why_correct":"\"Zatímco\" signalizuje kontrast. Inovativní přístup (pozitivní) vs. průměrné výsledky (negativní) — příslib se nenaplnil.","why_others_wrong":{"a":"Pečlivý + vynikající — obě pozitivní, žádný kontrast. \"Zatímco\" by bylo zbytečné.","c":"Ledabylý + skvělé — kontrast existuje, ale \"chvályhodný\" + \"ledabylý\" je rozpor. Ledabylý přístup není chvályhodný.","d":"Povrchní + očekávané — povrchní přístup není chvályhodný. Navíc povrchní → očekávané není kontrast."},"tip":"Dvojité doplňování: první slovo musí sedět s přívlastkem (\"chvályhodný\"), druhé musí tvořit kontrast s \"zatímco\"."}},
-  {"id":8,"correct":"b","reasoning":{"why_correct":"Filip = pozice 3 (uprostřed). Eva vedle Filipa → Eva = 2 nebo 4. Gita ne na kraji → Gita = 2, 3, nebo 4. Gita ≠ 3 (Filip). Honza vlevo od Ivany. Zkusme: Eva = 2, pak Gita = 4. Zbývají pozice 1 a 5 pro Honzu a Ivanu. Honza vlevo od Ivany → Honza = 1, Ivana = 5. Řešení: Honza(1), Eva(2), Filip(3), Gita(4), Ivana(5). ✓","why_others_wrong":{"a":"Eva sedí na pozici 2 (vedle Filipa), ne na 1.","c":"Gita nesedí na kraji (podmínka), takže nemůže být na pozici 1.","d":"Ivana je na pozici 5 — Honza musí být vlevo od ní, takže Ivana nemůže být na 1."},"tip":"Začni od nejsilnější podmínky (Filip = 3), pak přidávej další omezení postupně."}},
-  {"id":9,"correct":"b","reasoning":{"why_correct":"Po první slevě: 1200 × 0,7 = 840 Kč. Po druhé slevě: 840 × 0,9 = 756 Kč. Slevy se násobí, nesčítají!","why_others_wrong":{"a":"720 = 1200 × 0,6 — sčítáš slevy (30+10=40 %). CHYBA: druhá sleva se počítá z již snížené ceny.","c":"780 — chybný mezivýpočet.","d":"840 = 1200 × 0,7 — zapomněl jsi na druhou slevu."},"tip":"Postupné slevy se NÁSOBÍ: celkový koeficient = 0,7 × 0,9 = 0,63. Konečná cena = 1200 × 0,63 = 756."}},
-  {"id":10,"correct":"b","reasoning":{"why_correct":"\"Přestože\" vyžaduje kontrast. Experiment přinesl data (pozitivní) ALE metodologie zpochybněna (negativní). Typický vědecký scénář.","why_others_wrong":{"a":"Přinesl + schválena — obě pozitivní, žádný kontrast. \"Přestože\" by bylo zbytečné.","c":"Ztratil + potvrzena — ztratit data nedává smysl pro experiment.","d":"Opomněl + oceněna — opomenout data a být oceněn? Logický rozpor."},"tip":"\"Přestože/ačkoli\" = VŽDY hledej kontrast. Jedna část věty pozitivní, druhá negativní."}}
+  {
+    "id": 1,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Kontrast 'přestože... ve skutečnosti' vyžaduje, aby rétorika vypadala dobře (přesvědčivě), ale postrádala obsah (substanci). To je logicky konzistentní protiklad.",
+      "why_others_wrong": {
+        "b": "Pokud by rétorika působila zmateně, nebylo by překvapivé, že postrádá logiku — chybí kontrast.",
+        "c": "Agresivní rétorika bez emocí nedává smysl — agresivita je projev emocí.",
+        "d": "Nudná rétorika bez struktury nevytváří žádný kontrast — obojí je negativní."
+      },
+      "tip": "U dvojitého doplňování hledej kontrast mezi zdáním a skutečností."
+    }
+  },
+  {
+    "id": 2,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Geometrická posloupnost s kvocientem 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162, 162×3=486.",
+      "why_others_wrong": {
+        "a": "324 = 162×2, to by byl kvocient 2, ne 3.",
+        "c": "504 neodpovídá žádnému pravidelnému násobení.",
+        "d": "468 neodpovídá žádnému pravidelnému násobení."
+      },
+      "tip": "Vždy si ověř poměr po sobě jdoucích členů — pokud je konstantní, jde o geometrickou posloupnost."
+    }
+  },
+  {
+    "id": 3,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Eufemismus = zjemnělé, mírnější vyjádření nepříjemné nebo tabuizované skutečnosti (např. 'odešel' místo 'zemřel').",
+      "why_others_wrong": {
+        "a": "Přehnané zveličení je hyperbola, nikoli eufemismus.",
+        "c": "Výrok, který si odporuje, je paradox (nebo oxymóron).",
+        "d": "Skrytý posměch formou chvály je ironie/sarkasmus."
+      },
+      "tip": "Eufemismus = eu (dobře) + pheme (řeč) — doslova 'mluvit pěkně'."
+    }
+  },
+  {
+    "id": 4,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "a ■ b = 3a − 2b + ab. Pro a=4, b=3: 3(4) − 2(3) + 4(3) = 12 − 6 + 12 = 18.",
+      "why_others_wrong": {
+        "a": "16 by vyšlo při chybném výpočtu, např. vynecháním členu ab.",
+        "c": "14 by vyšlo při záměně znamének.",
+        "d": "20 by vyšlo při chybném násobení 3×4=12 a přičtení 8 místo 6."
+      },
+      "tip": "Dosaď pečlivě do vzorce a počítej krok po kroku."
+    }
+  },
+  {
+    "id": 5,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Ironie je mírnější forma, sarkasmus je její ostřejší verze. Stejně tak nedůvěra je mírnější, cynismus je její krajní, zraňující forma.",
+      "why_others_wrong": {
+        "a": "Přátelství je opak nedůvěry, ne její zesílení.",
+        "c": "Optimismus nemá s nedůvěrou žádný stupňovitý vztah.",
+        "d": "Lhostejnost není zesílená nedůvěra, ale absence zájmu."
+      },
+      "tip": "Hledej vztah stupňování intenzity: mírná forma → krajní forma."
+    }
+  },
+  {
+    "id": 6,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "800 × 1,25 = 1000. Poté 1000 × 0,80 = 800. Zvýšení o 25 % a snížení o 20 % se navzájem vyruší.",
+      "why_others_wrong": {
+        "b": "840 by vyšlo při chybném výpočtu 25 % − 20 % = 5 % nárůst.",
+        "c": "780 by vyšlo při mylném odečtení 20 z 800.",
+        "d": "820 vychází z nesprávného přístupu k procentům."
+      },
+      "tip": "Procenta se nepočítají ze stejného základu! Zvýšení o X % a snížení o X % se nevyruší — tady to vychází jen díky konkrétním číslům (25 % a 20 %)."
+    }
+  },
+  {
+    "id": 7,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Kontrast: laici viděli altruismus (nezištnost), ale odborníci viděli kalkul (vypočítavost). 'Zatímco...spíše' signalizuje protiklad.",
+      "why_others_wrong": {
+        "b": "Egoismus a idealismus — pokud by veřejnost viděla egoismus, nechválila by ho.",
+        "c": "Odvaha a strach spolu sice kontrastují, ale věta by nedávala smysl se slovem 'motivovaný'.",
+        "d": "Nihilismus a nadšení — nihilismus není čin, který by veřejnost obdivovala."
+      },
+      "tip": "Hledej dvojici, kde první slovo je pozitivní (pohled veřejnosti) a druhé je jeho skrytý protiklad."
+    }
+  },
+  {
+    "id": 8,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Vennův diagram: |A ∪ N| = 18 + 14 − 6 = 26. Žáci bez jazyka: 30 − 26 = 4.",
+      "why_others_wrong": {
+        "a": "2 by vyšlo, kdyby průnik byl 2, ne 6.",
+        "c": "6 je počet žáků učících se obojí, ne žádný jazyk.",
+        "d": "8 by vyšlo při chybném odečítání bez použití principu inkluze-exkluze."
+      },
+      "tip": "|A ∪ B| = |A| + |B| − |A ∩ B|. Zbytek = celkem − |A ∪ B|."
+    }
+  },
+  {
+    "id": 9,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text říká, že se 'mění povaha toho, co můžeme s jistotou tvrdit' — tedy hranice poznání, nikoli platnost zákonů.",
+      "why_others_wrong": {
+        "a": "Text neříká, že Newton byl vyvrácen — jen že deterministický pohled byl zpochybněn.",
+        "b": "Text výslovně popírá naprostou náhodnost ('to však neznamená...').",
+        "d": "Text netvrdí, že zákony neplatí — jen že mají jinou povahu."
+      },
+      "tip": "Pozor na extrémní formulace (zcela, úplně, nikdy) — texty je obvykle nepodporují."
+    }
+  },
+  {
+    "id": 10,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Správné uspořádání: E(1)-A(2)-F(3)-D(4)-B(5)-C(6). Kontrola: B napravo od A ✓, C(6) a D(4) mají mezi sebou 2 lidi (pozice 5) — ne, to je jen 1. Alternativa: E(1)-A(2)-D(3)-F(4)-B(5)-C(6). C a D: pozice 3 a 6, mezi nimi 4,5 = 2 lidé ✓. F(4) nesousedí s B(5)? Sousedí. Řešení: E(1)-A(2)-B(3)-F(4)-D(5)-C(6). B napravo A ✓, D(5) a C(6) — 0 lidí mezi. Špatně. E(1)-A(2)-B(3)-D(4)-F(5)-C(6). C(6) a D(4): 1 člověk mezi — špatně. Správně: uprostřed (pozice 3,4) sedí D a F.",
+      "why_others_wrong": {
+        "a": "B sedí na 5. místě, ne uprostřed.",
+        "c": "B není na 3. ani 4. místě v platném uspořádání.",
+        "d": "A sedí na 2. místě, ne uprostřed."
+      },
+      "tip": "U řazení začni od nejstriktnějších podmínek a postupně ověřuj každou."
+    }
+  },
+  {
+    "id": 11,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Antipatie = odpor, nechuť. Její opak je afinita = náklonnost, příbuznost, sympatie.",
+      "why_others_wrong": {
+        "a": "Apatie = lhostejnost, bezúčast — to není opak antipatie, ale absence emocí.",
+        "b": "Empatie = schopnost vcítit se — to je jiný koncept než opak odporu.",
+        "d": "Averze = odpor, nechuť — to je synonymum antipatie, ne antonymum."
+      },
+      "tip": "Antipatie (anti- = proti) × afinita (affinitas = příbuznost, blízkost)."
+    }
+  },
+  {
+    "id": 12,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Rozdíly: 3, 6, 12, 24 — každý rozdíl je dvojnásobek předchozího. Další rozdíl = 48. Takže 46 + 48 = 94.",
+      "why_others_wrong": {
+        "a": "92 = 46 × 2, ale pravidlo není násobení ×2, nýbrž přičítání zdvojnásobujících se rozdílů.",
+        "c": "88 neodpovídá žádnému systematickému pravidlu.",
+        "d": "96 = 48 × 2, ale to by byl špatný výpočet — přičítáme 48 k 46, ne násobíme."
+      },
+      "tip": "Když přímý vzorec nefunguje, spočítej rozdíly mezi členy a hledej vzor v nich."
+    }
+  },
+  {
+    "id": 13,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Hyperbola je jazykový prostředek založený na zveličení. Paradox je jazykový prostředek založený na zdánlivém protikladu. Vztah: prostředek → jeho podstata.",
+      "why_others_wrong": {
+        "b": "Shoda je opak paradoxu, ne jeho podstata.",
+        "c": "Přehánění je podstata hyperboly, ne paradoxu.",
+        "d": "Zjednodušení nemá s paradoxem žádný vztah."
+      },
+      "tip": "V analogiích hledej identický typ vztahu: definice, funkce, stupňování, část-celek."
+    }
+  },
+  {
+    "id": 14,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Společný výkon: 1/12 + 1/15 + 1/20 = 5/60 + 4/60 + 3/60 = 12/60 = 1/5. Čas = 5 dní.",
+      "why_others_wrong": {
+        "a": "4 dny by vyšly, kdyby pracovníci měli vyšší výkon.",
+        "c": "6 dní — chybné sčítání zlomků (např. vynechání jednoho pracovníka).",
+        "d": "7 dní — příliš pomalé, neodpovídá součtu výkonů."
+      },
+      "tip": "Úlohy na společnou práci: sečti výkony (1/čas) a převrať na čas."
+    }
+  },
+  {
+    "id": 15,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Nihilismus = nic nemá smysl. Altruismus = pomoc druhým. Text přesně tyto dva pojmy definuje a staví do kontrastu.",
+      "why_others_wrong": {
+        "b": "Idealismus a materialismus nekorespondují s definicemi v textu.",
+        "c": "Realismus a humanismus — realismus nepopírá smysl existence.",
+        "d": "Skepticismus a empirismus — skepticismus neznamená popření smyslu."
+      },
+      "tip": "Klíčové definice: nihilismus (nic nemá smysl), altruismus (pomoc druhým), cynismus (nedůvěra v motivy), skepticismus (pochybování)."
+    }
+  },
+  {
+    "id": 16,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "P(obě červené) = C(5,2)/C(12,2) = 10/66 = 5/33.",
+      "why_others_wrong": {
+        "b": "5/36 by vyšlo při chybném celkovém počtu kombinací (např. 72/2 = 36).",
+        "c": "25/144 = (5/12)² — to by platilo při vracení kuliček, ale taháme bez vracení.",
+        "d": "1/6 ≈ 0,167, ale 5/33 ≈ 0,152 — blízké hodnoty, ale 1/6 je nepřesné."
+      },
+      "tip": "Bez vracení: P = C(příznivé, k) / C(celkem, k). Nikdy nenásobuj pravděpodobnosti nezávislých tahů!"
+    }
+  },
+  {
+    "id": 17,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Text uvádí jak přínos AI (lepší diagnostika), tak rizika (předpojatost dat, nejasná odpovědnost). Hlavní argument je tedy vyvážený — AI přináší obojí.",
+      "why_others_wrong": {
+        "a": "Text netvrdí, že AI je vždy lepší — jen u 'některých typů nádorů'.",
+        "c": "Text netvrdí, že AI nemůže být spolehlivá — jen upozorňuje na konkrétní rizika.",
+        "d": "Otázka odpovědnosti je zmíněna jako otevřený problém, ne jako jasný závěr."
+      },
+      "tip": "Hlavní argument = celkové vyznění textu, ne jeden dílčí bod."
+    }
+  },
+  {
+    "id": 18,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Poměr 3:5, celkem 8 dílů. 32/8 = 4 žáci na díl. Dívky: 5 × 4 = 20.",
+      "why_others_wrong": {
+        "a": "12 = 3 × 4, to je počet chlapců, ne dívek.",
+        "b": "18 neodpovídá žádnému dílu poměru.",
+        "d": "22 nevychází z poměru 3:5 při celku 32."
+      },
+      "tip": "Poměr: sečti díly, vyděl celek počtem dílů, pak vynásob příslušným dílem."
+    }
+  },
+  {
+    "id": 19,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Eufemismy zjemňují nepříjemná fakta. Kritici říkají, že jde o manipulaci — maskování závažnosti. Obě slova do kontextu přesně zapadají.",
+      "why_others_wrong": {
+        "b": "Hyperboly nepředstavují přijatelnější způsob — naopak zveličují. A 'lhaní' je příliš přímočaré.",
+        "c": "Paradoxy nejsou nástrojem zjemnění. Ironie nesouvisí s maskováním závažnosti.",
+        "d": "Sarkasmus není nástroj zjemnění — je to kousavý výsměch."
+      },
+      "tip": "Hledej logickou vazbu: první blank = co dělal, druhý blank = čím ho obvinili."
+    }
+  },
+  {
+    "id": 20,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "(a+b)² − (a−b)² = a²+2ab+b² − (a²−2ab+b²) = 4ab. Pro a=5, b=3: 4×5×3 = 60.",
+      "why_others_wrong": {
+        "a": "30 = 2ab, ale správně je 4ab.",
+        "c": "45 = 3ab — chybný koeficient.",
+        "d": "16 = (5−3)² × 4 — nesprávný postup."
+      },
+      "tip": "Algebraický vzorec: (a+b)² − (a−b)² = 4ab. Stojí za zapamatování."
+    }
+  },
+  {
+    "id": 21,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Architekt tvoří budovu, dramatik tvoří drama. Vztah: tvůrce → jeho dílo.",
+      "why_others_wrong": {
+        "a": "Divadlo je místo, kde se drama hraje, ne dílo dramatika.",
+        "b": "Herec drama interpretuje, ale netvoří ho.",
+        "d": "Jeviště je prostor pro představení, ne dílo dramatika."
+      },
+      "tip": "Vztah tvůrce–dílo: malíř→obraz, básník→báseň, skladatel→skladba, architekt→budova."
+    }
+  },
+  {
+    "id": 22,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "729 = 3⁶. Pokud se bakterie ztrojnásobí 6×, pak počáteční stav = 729/3⁶ = 729/729 = 1.",
+      "why_others_wrong": {
+        "b": "3 by znamenalo na konci 3 × 3⁶ = 2187, ne 729.",
+        "c": "9 by vedlo ke konečnému stavu 9 × 729 = 6561.",
+        "d": "27 by vedlo k příliš velkému výsledku."
+      },
+      "tip": "Exponenciální růst: konečná hodnota = počáteční × (násobič)^počet_kroků."
+    }
+  },
+  {
+    "id": 23,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Někteří myslitelé jsou pesimisté. Žádný optimista není pesimista. → Ti myslitelé, kteří jsou pesimisty, nejsou optimisty. Tedy: někteří myslitelé nejsou optimisté.",
+      "why_others_wrong": {
+        "a": "Víme jen, že filozofové jsou myslitelé, ale nevíme, zda ti pesimističtí myslitelé jsou zrovna filozofové.",
+        "b": "Někteří filozofové mohou být optimisté — nemáme důkaz opaku.",
+        "d": "Text říká, že jen někteří myslitelé jsou pesimisté — ne že pesimisté jsou filozofové."
+      },
+      "tip": "Sylogismy: dávej pozor na 'některý' vs. 'všichni'. Z 'někteří A jsou B' neplyne 'někteří C jsou B'."
+    }
+  },
+  {
+    "id": 24,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Text říká, že Ostromová ukázala, že komunity zvládnou spravovat zdroje 'bez privatizace i bez státní regulace' — tedy třetí cestu založenou na samosprávě s vlastními pravidly.",
+      "why_others_wrong": {
+        "a": "Text výslovně uvádí, že řešení funguje BEZ privatizace.",
+        "b": "Text výslovně uvádí, že řešení funguje BEZ státní regulace.",
+        "d": "Ostromová nevyvrátila tragédii — nabídla jiný způsob, jak ji řešit."
+      },
+      "tip": "Hledej, co text PŘÍMO tvrdí, ne co bys z něj mohl domyslet."
+    }
+  },
+  {
+    "id": 25,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Kombinace 2 ze 6: C(6,2) = 6!/((2!)(4!)) = (6×5)/(2×1) = 15.",
+      "why_others_wrong": {
+        "a": "12 = 6×2, ale správně je kombinace, ne násobení.",
+        "c": "18 = 6×3, ale správný vzorec je C(6,2).",
+        "d": "30 = 6×5, to jsou uspořádané dvojice (permutace), ne kombinace."
+      },
+      "tip": "Počet zápasů = C(n,2) = n(n−1)/2. Každý pár hraje jen jednou."
+    }
+  },
+  {
+    "id": 26,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Sarkasmus je ostřejší, útočnější forma ironie — míří přímo proti konkrétní osobě s cílem zranit nebo ponížit.",
+      "why_others_wrong": {
+        "a": "Ironie nemusí být pozitivní — může být i negativní, jen je mírnější.",
+        "c": "Sarkasmus naopak OBSAHUJE skrytý význam — to je jeho podstata.",
+        "d": "Obě formy mohou být psané i mluvené, médium je nerozlišuje."
+      },
+      "tip": "Sarkasmus (řecky 'sarkazein' = trhat maso) — je to ironie, která 'bolí'."
+    }
+  },
+  {
+    "id": 27,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Vlak A má náskok 90 km (1 hodina × 90 km/h). Vlak B dohání rychlostí 120−90 = 30 km/h. Čas = 90/30 = 3 hodiny.",
+      "why_others_wrong": {
+        "a": "Za 2 hodiny by vlak B ujel 240 km, vlak A by byl ve 270 km — ještě nedohoněn.",
+        "c": "Za 4 hodiny by B byl na 480 km a A na 450 km — B už by byl daleko napřed.",
+        "d": "2,5 hodiny: B = 300 km, A = 315 km — ještě nedohoněn."
+      },
+      "tip": "Dohánění: čas = náskok / (rozdíl rychlostí)."
+    }
+  },
+  {
+    "id": 28,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Tvrdil jednu věc, ale dělal opak = paradox (rozpor). Publikum to vnímalo jako urážku (nerespektování jejich inteligence).",
+      "why_others_wrong": {
+        "b": "Hyperbola (zveličení) neodpovídá popisu rozporu, a poklona je opak kontextu.",
+        "c": "Eufemismy (zjemnění) neodpovídají popisu, a výzva neodpovídá reakci publika.",
+        "d": "Ironie by mohla částečně sedět, ale pobídka nedává smysl v kontextu 'vůči inteligenci'."
+      },
+      "tip": "Paradox = rozpor mezi tím, co někdo říká, a tím, co dělá."
+    }
+  },
+  {
+    "id": 29,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Pro lichý součet potřebujeme jedno sudé a jedno liché číslo. Sudé: {2}, liché: {5,7,11,13,17}. Příznivé: C(1,1)×C(5,1) = 5. Celkem: C(6,2) = 15. P = 5/15 = 1/3.",
+      "why_others_wrong": {
+        "b": "2/5 = 6/15, ale příznivých kombinací je jen 5, ne 6.",
+        "c": "1/2 by platilo, kdyby byla polovina čísel sudých a polovina lichých.",
+        "d": "5/15 = 1/3, takže d) je jen jiný zápis, ale ve zjednodušeném tvaru je správně a)."
+      },
+      "tip": "Sudý + lichý = lichý. Lichý + lichý = sudý. Sudý + sudý = sudý."
+    }
+  },
+  {
+    "id": 30,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Text říká, že >3 hodiny škodí (osamělost +40 %), ale <1 hodina může vazby posilovat. Záleží tedy na míře používání.",
+      "why_others_wrong": {
+        "a": "'Vždy' je příliš absolutní — text uvádí, že mírné používání může být prospěšné.",
+        "c": "Text výslovně říká, že longitudinální data ukázala příčinnost, ne jen korelaci.",
+        "d": "Text zmiňuje pozitivní efekt u mírného používání pod 1 hodinu."
+      },
+      "tip": "Pozor na absolutní výroky ('vždy', 'nikdy', 'žádný') — texty je zřídka podporují."
+    }
+  },
+  {
+    "id": 31,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Poměr 3:4:5, celkem 12 dílů = 60 cm → 1 díl = 5 cm. Strany: 15, 20, 25. Pravoúhlý trojúhelník (3-4-5). Obsah = (15 × 20)/2 = 150 cm².",
+      "why_others_wrong": {
+        "a": "120 = (15 × 16)/2 — chybné rozměry.",
+        "c": "180 = (15 × 24)/2 — neodpovídá žádné straně.",
+        "d": "200 = (20 × 20)/2 — chybný výpočet s oběma odvěsnami stejnými."
+      },
+      "tip": "Trojúhelník 3:4:5 je VŽDY pravoúhlý. Obsah = (odvěsna1 × odvěsna2)/2."
+    }
+  },
+  {
+    "id": 32,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "Epilog = závěrečná část knihy. Koda = závěrečná část hudební skladby. Vztah: závěrečná část → celek.",
+      "why_others_wrong": {
+        "a": "Báseň nemá typicky kodu — to je hudební termín.",
+        "c": "Film má epilog, ne kodu.",
+        "d": "Obraz nemá kodu ani epilog v tradičním smyslu."
+      },
+      "tip": "Koda (z italského 'coda' = ocas) — závěr hudební skladby."
+    }
+  },
+  {
+    "id": 33,
+    "correct": "c",
+    "reasoning": {
+      "why_correct": "Výrok 'složil zkoušku → navštěvoval přednášky' nic neříká o těch, kdo nesložili. Petr nesložil, takže mohl i nemusel navštěvovat přednášky.",
+      "why_others_wrong": {
+        "a": "Klasická chyba negace antecedentu: z 'A→B' a 'ne-A' NEPLYNE 'ne-B'.",
+        "b": "Stejná chyba — z nesplnění podmínky nelze usuzovat na navštěvování.",
+        "d": "Toto je domněnka bez logického podkladu — text o dostatečnosti nic neříká."
+      },
+      "tip": "Z implikace A→B a ¬A nelze vyvodit NIC o B. Jen z A→B a ¬B plyne ¬A (kontrapozice)."
+    }
+  },
+  {
+    "id": 34,
+    "correct": "b",
+    "reasoning": {
+      "why_correct": "100 000 × 1,08³ = 100 000 × 1,259712 = 125 971,2 Kč ≈ 125 971 Kč.",
+      "why_others_wrong": {
+        "a": "124 000 = 100 000 + 3×8 000, to je prosté úročení, ne složené.",
+        "c": "126 500 je nepřesný odhad zaokrouhlením.",
+        "d": "130 000 je příliš vysoké — odpovídá spíše 10% úroku."
+      },
+      "tip": "Složené úročení: FV = PV × (1 + r)^n. Nezaměňuj s prostým úročením (PV × (1 + n×r))."
+    }
+  },
+  {
+    "id": 35,
+    "correct": "a",
+    "reasoning": {
+      "why_correct": "Nihilismus popírá smysl existence. Altruismus nachází smysl v pomoci druhým. Přesně odpovídá definicím ve větě.",
+      "why_others_wrong": {
+        "b": "Cynismus = nedůvěra v motivy lidí, ne popření smyslu. Skepticismus = pochybování, ne pomoc druhým.",
+        "c": "Materialismus nepopírá smysl existence. Idealismus nestaví na pomoci druhým.",
+        "d": "Fatalismus = víra v osud, ne popření smyslu. Hédonismus = hledání slasti, ne pomoc druhým."
+      },
+      "tip": "Nihilismus (lat. nihil = nic), altruismus (lat. alter = druhý)."
+    }
+  }
 ]
