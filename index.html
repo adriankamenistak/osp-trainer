@@ -1518,6 +1518,11 @@ function selectOption(letter) {
 
   // Only stop timer in per-question mode; global timer keeps running
   if (!globalTimerMode) stopTimer();
+
+  // Auto-advance after short delay so user sees result
+  setTimeout(() => {
+    if (answered) nextQuestion();
+  }, isCorrect ? 800 : 1800);
 }
 
 function skipQuestion() {
