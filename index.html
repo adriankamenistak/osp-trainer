@@ -647,6 +647,133 @@
     margin: 0 2px;
   }
 
+  /* ===== ANALYSIS DASHBOARD ===== */
+  .analysis-section {
+    margin-top: 24px;
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: 20px;
+    border: 1px solid rgba(108,99,255,0.15);
+  }
+  .analysis-section h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  .type-bars { display: flex; flex-direction: column; gap: 10px; }
+  .type-bar-row { display: flex; align-items: center; gap: 10px; }
+  .type-bar-label { font-size: 0.85rem; width: 160px; flex-shrink: 0; color: var(--text-dim); }
+  .type-bar-track { flex: 1; height: 10px; background: var(--surface2); border-radius: 5px; overflow: hidden; }
+  .type-bar-fill { height: 100%; border-radius: 5px; transition: width 0.8s ease; }
+  .type-bar-pct { font-size: 0.8rem; font-weight: 700; width: 36px; text-align: right; }
+  .weak-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+  .weak-tag {
+    background: rgba(255,71,87,0.15);
+    color: var(--danger);
+    border: 1px solid rgba(255,71,87,0.3);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .strong-tag {
+    background: rgba(0,200,150,0.12);
+    color: var(--success);
+    border: 1px solid rgba(0,200,150,0.3);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .analysis-tip {
+    margin-top: 16px;
+    padding: 12px 16px;
+    background: rgba(255,179,71,0.1);
+    border-left: 3px solid var(--warning);
+    border-radius: 0 8px 8px 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  /* ===== PRICING SECTION ===== */
+  .pricing-section {
+    margin-top: 40px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(108,99,255,0.15);
+  }
+  .pricing-title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 6px;
+  }
+  .pricing-sub {
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+  }
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+  }
+  .pricing-card {
+    background: var(--surface);
+    border: 1px solid rgba(108,99,255,0.2);
+    border-radius: var(--radius);
+    padding: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .pricing-card.featured {
+    border-color: var(--primary);
+    box-shadow: 0 0 32px var(--primary-glow);
+  }
+  .pricing-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: var(--primary);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .pricing-tier { font-size: 0.8rem; font-weight: 700; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .pricing-price { font-size: 2rem; font-weight: 900; margin-bottom: 4px; }
+  .pricing-price span { font-size: 0.9rem; font-weight: 400; color: var(--text-dim); }
+  .pricing-desc { font-size: 0.85rem; color: var(--text-dim); margin-bottom: 16px; }
+  .pricing-features { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .pricing-features li { font-size: 0.85rem; display: flex; gap: 8px; align-items: flex-start; }
+  .pricing-features li::before { content: '✓'; color: var(--success); font-weight: 700; flex-shrink: 0; }
+  .pricing-features li.na::before { content: '–'; color: var(--text-dim); }
+  .pricing-features li.na { color: var(--text-dim); }
+  .pricing-cta {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: inherit;
+    transition: var(--transition);
+  }
+  .pricing-cta.free { background: var(--surface2); color: var(--text); }
+  .pricing-cta.basic { background: rgba(108,99,255,0.2); color: var(--primary); border: 1px solid var(--primary); }
+  .pricing-cta.pro { background: linear-gradient(135deg, var(--primary), #8b7dff); color: white; box-shadow: 0 4px 16px var(--primary-glow); }
+  .pricing-cta:hover { transform: translateY(-2px); }
+  .pricing-note { text-align: center; font-size: 0.8rem; color: var(--text-dim); margin-top: 16px; }
+
   /* ===== RESPONSIVE ===== */
   @media (max-width: 600px) {
     .container { padding: 16px; }
@@ -682,6 +809,80 @@
 
     <div class="category-label">Analytická sekce</div>
     <div class="test-grid" id="analyticka-grid"></div>
+
+    <!-- STATS BANNER -->
+    <div id="stats-banner" style="display:none;margin-top:24px;background:var(--surface);border-radius:var(--radius);padding:16px 20px;border:1px solid rgba(108,99,255,0.2);cursor:pointer" onclick="showStatsScreen()">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div style="font-weight:700;font-size:1rem">📊 Moje statistiky</div>
+          <div style="font-size:0.85rem;color:var(--text-dim)" id="stats-summary-text">Zjisti své silné a slabé stránky</div>
+        </div>
+        <div style="font-size:1.5rem">→</div>
+      </div>
+    </div>
+
+    <!-- PRICING -->
+    <div class="pricing-section">
+      <div class="pricing-title">OSP Trainer</div>
+      <div class="pricing-sub">Připrav se na přijímačky se systémem, který se přizpůsobuje tobě</div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-tier">Free</div>
+          <div class="pricing-price">0 Kč <span>/ navždy</span></div>
+          <div class="pricing-desc">Základní procvičování bez omezení</div>
+          <ul class="pricing-features">
+            <li>7 tematických testů</li>
+            <li>Detailní vysvětlení odpovědí</li>
+            <li>Statistiky výsledků</li>
+            <li class="na">Denní mixy (35 otázek)</li>
+            <li class="na">AI personalizace</li>
+            <li class="na">Analýza slabých míst</li>
+          </ul>
+          <button class="pricing-cta free" onclick="document.querySelector('.test-grid').scrollIntoView({behavior:'smooth'})">Začít zdarma</button>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-tier">Basic</div>
+          <div class="pricing-price">49 Kč <span>/ měsíc</span></div>
+          <div class="pricing-desc">Každodenní trénink před přijímačkami</div>
+          <ul class="pricing-features">
+            <li>Vše z Free</li>
+            <li>Denní mixy 35 otázek</li>
+            <li>25minutový timer (real OSP podmínky)</li>
+            <li>Přehled slabých typů otázek</li>
+            <li class="na">AI personalizace</li>
+            <li class="na">Generované otázky na míru</li>
+          </ul>
+          <button class="pricing-cta basic">Brzy k dispozici</button>
+        </div>
+        <div class="pricing-card featured">
+          <div class="pricing-badge">🔥 Nejlepší</div>
+          <div class="pricing-tier">Pro</div>
+          <div class="pricing-price">129 Kč <span>/ měsíc</span></div>
+          <div class="pricing-desc">Systém, který se učí s tebou</div>
+          <ul class="pricing-features">
+            <li>Vše z Basic</li>
+            <li>AI analýza tvých výsledků</li>
+            <li>Denní test generovaný na míru</li>
+            <li>+20 % otázek z tvých slabých oblastí</li>
+            <li>Doporučení co trénovat</li>
+            <li>Neomezená historie výsledků</li>
+          </ul>
+          <button class="pricing-cta pro">Brzy k dispozici</button>
+        </div>
+      </div>
+      <div class="pricing-note">💡 Aktuálně v beta verzi — vše je zdarma. Přijímačky na SSPŠ jsou 10. dubna.</div>
+    </div>
+
+  </div>
+
+  <!-- STATS SCREEN -->
+  <div id="stats" class="screen">
+    <div style="margin-bottom:16px">
+      <button class="btn btn-ghost" onclick="showScreen('home');renderHome()" style="padding:6px 14px;font-size:0.85rem">&larr; Zpět</button>
+    </div>
+    <h2 style="font-size:1.4rem;font-weight:800;margin-bottom:4px">Moje statistiky</h2>
+    <p style="color:var(--text-dim);font-size:0.9rem;margin-bottom:24px">Analýza tvých silných a slabých stránek</p>
+    <div id="stats-content"></div>
   </div>
 
   <!-- QUIZ SCREEN -->
@@ -731,12 +932,19 @@
 
     <div class="results-stats" id="results-stats"></div>
 
+    <!-- Analysis by question type -->
+    <div class="analysis-section" id="results-analysis" style="display:none">
+      <h3>📊 Analýza podle typu otázky</h3>
+      <div class="type-bars" id="type-bars"></div>
+      <div id="analysis-recommendation" style="margin-top:16px"></div>
+    </div>
+
     <div class="results-breakdown">
       <h3>Přehled odpovědí</h3>
       <div id="results-list"></div>
     </div>
 
-    <div class="results-actions">
+    <div class="results-actions" style="padding-bottom:24px">
       <button class="btn btn-ghost" onclick="goHome()">Zpět na menu</button>
       <button class="btn btn-primary" onclick="retryTest()">Zkusit znovu</button>
     </div>
@@ -761,6 +969,64 @@ let questionStartTime = 0;
 let answered = false;
 let reasoning = []; // detailed reasoning from JSON
 let globalTimerMode = false; // true for daily tests (25 min total)
+
+// ===== QUESTION TYPE DETECTION =====
+const QUESTION_TYPES = {
+  'Doplňování vět':    { keywords: ['doplňte', 'doplň', 'chybí', 'zatímco', 'přestože', 'navzdory', 'ačkoli', '______'], color: '#6c63ff' },
+  'Synonyma/Antonyma': { keywords: ['synonymem', 'antonymem', 'synonym', 'antonym', 'opak', 'stejný význam'], color: '#ff6584' },
+  'Slovní analogie':   { keywords: [': ?', '= ?', 'analogie', ' : '], color: '#00c896' },
+  'Porozumění textu':  { keywords: ['text', 'odstavec', 'vyplývá', 'nelze vyvodit', 'rozporu', 'autor'], color: '#ffb347' },
+  'Číselné řady':      { keywords: ['řada', 'posloupnost', 'pokračuje', 'číslo pokračuje', 'fibonacci', 'řadě:'], color: '#a78bfa' },
+  'Smyšlené operace':  { keywords: ['operace', 'definována', 'platí:', '◆', '★', '♦', '■', '⊕', '▲', '♣'], color: '#f472b6' },
+  'Procenta a zlomky': { keywords: ['procent', '%', 'sleva', 'zdražení', 'zdražil', 'zlomek', 'poměr'], color: '#34d399' },
+  'Logické usuzování': { keywords: ['platí', 'vyplývá', 'nutně', 'kontrapozice', 'sylogismus', 'všichni', 'někteří', 'žádný', 'pokud'], color: '#60a5fa' },
+  'Kombinatorika':     { keywords: ['kombinac', 'permutac', 'způsob', 'kolik možností', 'pravděpodobnost', 'náhodně'], color: '#fb923c' },
+  'Řazení/Zebra':      { keywords: ['sedí', 'stojí', 'místo', 'pořadí', 'platí:', '- ', 'pozici', 'patře'], color: '#e879f9' },
+  'Práce s daty':      { keywords: ['tabulka', 'graf', 'průměr', 'součet', 'celkem', 'kolik celkem'], color: '#38bdf8' },
+  'Nepatří':           { keywords: ['nepatří', 'nevhodné', 'nesedí', 'nepasuje', 'odlišné'], color: '#facc15' },
+};
+
+function detectQuestionType(text) {
+  const lower = (text || '').toLowerCase();
+  for (const [type, cfg] of Object.entries(QUESTION_TYPES)) {
+    if (cfg.keywords.some(k => lower.includes(k.toLowerCase()))) return type;
+  }
+  return 'Ostatní';
+}
+
+// ===== STATS ENGINE =====
+function loadAllStats() {
+  try { return JSON.parse(localStorage.getItem('osp-type-stats') || '{}'); } catch { return {}; }
+}
+
+function saveTypeStats(questionsArr, answersArr) {
+  const stats = loadAllStats();
+  questionsArr.forEach((q, i) => {
+    const a = answersArr[i];
+    if (!a) return;
+    const type = detectQuestionType(q.text);
+    if (!stats[type]) stats[type] = { correct: 0, total: 0 };
+    stats[type].total++;
+    if (a.isCorrect) stats[type].correct++;
+  });
+  localStorage.setItem('osp-type-stats', JSON.stringify(stats));
+}
+
+function getWeakTypes(stats) {
+  return Object.entries(stats)
+    .filter(([, v]) => v.total >= 2)
+    .sort((a, b) => (a[1].correct/a[1].total) - (b[1].correct/b[1].total))
+    .slice(0, 3)
+    .map(([type]) => type);
+}
+
+function getStrongTypes(stats) {
+  return Object.entries(stats)
+    .filter(([, v]) => v.total >= 2 && v.correct/v.total >= 0.75)
+    .sort((a, b) => (b[1].correct/b[1].total) - (a[1].correct/a[1].total))
+    .slice(0, 3)
+    .map(([type]) => type);
+}
 let globalTimeLeft = 0;
 
 const TIME_PER_QUESTION = 60;
@@ -816,6 +1082,22 @@ function renderHome() {
     });
   } else {
     dailySection.style.display = 'none';
+  }
+
+  // Stats banner
+  const statsBanner = document.getElementById('stats-banner');
+  const statsSummary = document.getElementById('stats-summary-text');
+  const stats = loadAllStats();
+  const entries = Object.entries(stats);
+  if (entries.length > 0) {
+    const totalQ = entries.reduce((s, [, v]) => s + v.total, 0);
+    const totalC = entries.reduce((s, [, v]) => s + v.correct, 0);
+    const pct = Math.round((totalC / totalQ) * 100);
+    const weak = getWeakTypes(stats);
+    statsSummary.textContent = `${totalQ} otázek · ${pct}% úspěšnost${weak.length > 0 ? ' · Procvič: ' + weak[0] : ''}`;
+    statsBanner.style.display = 'block';
+  } else {
+    statsBanner.style.display = 'none';
   }
 
   // Regular tests
@@ -1403,8 +1685,68 @@ function showResults() {
   const scoreKey = currentTest._daily ? 'daily_' + currentTest._dailyFile : currentTest.file;
   saveBestScore(scoreKey, pct);
 
+  // Save type stats & render analysis
+  saveTypeStats(questions, answers);
+  renderResultsAnalysis();
+
   // Confetti for great results
   if (pct >= 90) launchConfetti();
+}
+
+function renderResultsAnalysis() {
+  const stats = loadAllStats();
+  const typesInTest = {};
+
+  questions.forEach((q, i) => {
+    const a = answers[i];
+    if (!a) return;
+    const type = detectQuestionType(q.text);
+    if (!typesInTest[type]) typesInTest[type] = { correct: 0, total: 0 };
+    typesInTest[type].total++;
+    if (a.isCorrect) typesInTest[type].correct++;
+  });
+
+  const entries = Object.entries(typesInTest).sort((a, b) => b[1].total - a[1].total);
+  if (entries.length === 0) return;
+
+  const analysisEl = document.getElementById('results-analysis');
+  const barsEl = document.getElementById('type-bars');
+  const recEl = document.getElementById('analysis-recommendation');
+
+  barsEl.innerHTML = '';
+  entries.forEach(([type, data]) => {
+    const pct = Math.round((data.correct / data.total) * 100);
+    const color = (QUESTION_TYPES[type] || {}).color || '#6c63ff';
+    const row = document.createElement('div');
+    row.className = 'type-bar-row';
+    row.innerHTML = `
+      <div class="type-bar-label">${type}</div>
+      <div class="type-bar-track"><div class="type-bar-fill" style="width:0%;background:${color}" data-pct="${pct}"></div></div>
+      <div class="type-bar-pct" style="color:${color}">${pct}%</div>
+    `;
+    barsEl.appendChild(row);
+  });
+
+  // Animate bars
+  requestAnimationFrame(() => {
+    barsEl.querySelectorAll('.type-bar-fill').forEach(el => {
+      el.style.width = el.dataset.pct + '%';
+    });
+  });
+
+  // Recommendations
+  const allStats = loadAllStats();
+  const weak = getWeakTypes(allStats);
+  const strong = getStrongTypes(allStats);
+  let recHtml = '';
+  if (weak.length > 0) {
+    recHtml += `<div style="margin-bottom:10px">⚠️ <strong>Zaměř se více na:</strong> ${weak.map(t => `<span style="color:${(QUESTION_TYPES[t]||{}).color||'#ff6584'};font-weight:600">${t}</span>`).join(', ')}</div>`;
+  }
+  if (strong.length > 0) {
+    recHtml += `<div>✅ <strong>Silné oblasti:</strong> ${strong.map(t => `<span style="color:${(QUESTION_TYPES[t]||{}).color||'#00c896'};font-weight:600">${t}</span>`).join(', ')}</div>`;
+  }
+  recEl.innerHTML = recHtml;
+  analysisEl.style.display = 'block';
 }
 
 function formatTime(seconds) {
@@ -1434,6 +1776,77 @@ function launchConfetti() {
   }
 
   setTimeout(() => container.remove(), 5000);
+}
+
+// ===== STATS SCREEN =====
+function showStatsScreen() {
+  const stats = loadAllStats();
+  const contentEl = document.getElementById('stats-content');
+  const entries = Object.entries(stats).sort((a, b) => b[1].total - a[1].total);
+
+  if (entries.length === 0) {
+    contentEl.innerHTML = '<div style="color:var(--text-dim);text-align:center;padding:40px 0">Ještě nemáš žádné statistiky. Udělej první test!</div>';
+    showScreen('stats');
+    return;
+  }
+
+  const totalCorrect = entries.reduce((s, [, v]) => s + v.correct, 0);
+  const totalQ = entries.reduce((s, [, v]) => s + v.total, 0);
+  const overallPct = Math.round((totalCorrect / totalQ) * 100);
+  const weak = getWeakTypes(stats);
+  const strong = getStrongTypes(stats);
+
+  let html = `
+    <div style="display:flex;gap:16px;margin-bottom:24px;flex-wrap:wrap">
+      <div class="stat" style="flex:1;min-width:100px"><div class="stat-value">${overallPct}%</div><div class="stat-label">celková úspěšnost</div></div>
+      <div class="stat" style="flex:1;min-width:100px"><div class="stat-value">${totalQ}</div><div class="stat-label">otázek zodpovězeno</div></div>
+      <div class="stat" style="flex:1;min-width:100px"><div class="stat-value">${entries.length}</div><div class="stat-label">typů otázek</div></div>
+    </div>
+  `;
+
+  if (weak.length > 0) {
+    html += `<div style="background:rgba(255,71,87,0.1);border:1px solid rgba(255,71,87,0.3);border-radius:12px;padding:16px;margin-bottom:16px">
+      <div style="font-weight:700;margin-bottom:8px">⚠️ Procvič tyto typy otázek</div>
+      ${weak.map(t => {
+        const v = stats[t];
+        const pct = Math.round((v.correct / v.total) * 100);
+        const color = (QUESTION_TYPES[t] || {}).color || '#ff6584';
+        return `<div style="display:flex;justify-content:space-between;margin:6px 0"><span style="color:${color};font-weight:600">${t}</span><span>${pct}% (${v.correct}/${v.total})</span></div>`;
+      }).join('')}
+    </div>`;
+  }
+
+  if (strong.length > 0) {
+    html += `<div style="background:rgba(0,200,150,0.1);border:1px solid rgba(0,200,150,0.3);border-radius:12px;padding:16px;margin-bottom:24px">
+      <div style="font-weight:700;margin-bottom:8px">✅ Tvoje silné stránky</div>
+      ${strong.map(t => {
+        const v = stats[t];
+        const pct = Math.round((v.correct / v.total) * 100);
+        const color = (QUESTION_TYPES[t] || {}).color || '#00c896';
+        return `<div style="display:flex;justify-content:space-between;margin:6px 0"><span style="color:${color};font-weight:600">${t}</span><span>${pct}% (${v.correct}/${v.total})</span></div>`;
+      }).join('')}
+    </div>`;
+  }
+
+  html += '<h3 style="margin-bottom:16px;font-size:1rem">Všechny typy otázek</h3><div class="type-bars">';
+  entries.forEach(([type, data]) => {
+    const pct = Math.round((data.correct / data.total) * 100);
+    const color = (QUESTION_TYPES[type] || {}).color || '#6c63ff';
+    html += `
+      <div class="type-bar-row">
+        <div class="type-bar-label">${type}</div>
+        <div class="type-bar-track"><div class="type-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+        <div class="type-bar-pct" style="color:${color}">${pct}%</div>
+      </div>`;
+  });
+  html += '</div>';
+
+  html += `<div style="margin-top:24px;text-align:center">
+    <button class="btn btn-ghost" onclick="if(confirm('Opravdu smazat všechny statistiky?')){localStorage.removeItem('osp-type-stats');showScreen('home');renderHome();}" style="font-size:0.8rem;color:var(--text-dim)">🗑️ Smazat statistiky</button>
+  </div>`;
+
+  contentEl.innerHTML = html;
+  showScreen('stats');
 }
 
 // ===== LOCAL STORAGE =====

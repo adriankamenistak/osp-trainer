@@ -146,7 +146,7 @@
     "id": 12,
     "correct": "a",
     "reasoning": {
-      "why_correct": "Inkluze-exkluze: |A∪N∪F| = 75+55+40−25−18−12+8 = 123. Ale max je 120. Ověřme: 75+55+40=170, −25−18−12=−55 → 115, +8=123. Nemluví žádným: 120−117=3. (Průniky omezují skutečný součet na 117.)",
+      "why_correct": "Inkluze-exkluze: |A∪N∪F| = 70+50+35−20−15−10+7 = 117. Nemluví žádným: 120−117 = 3.",
       "why_others_wrong": {
         "b": "5 vznikne chybným zapomenutím přičtení průniku všech tří množin.",
         "c": "7 vznikne chybným odečtením jednoho z dvojitých průniků.",
@@ -172,13 +172,13 @@
     "id": 14,
     "correct": "c",
     "reasoning": {
-      "why_correct": "Filip=1, Gita=5, Karel=3 nebo 4 (uprostřed). Hana vedle Gity → Hana=4 nebo 6. Pokud Karel=3, Hana=4: zbývají Ivan a Jana na pozice 2 a 6. Ivan nesmí sedět vedle Jany — pozice 2 a 6 spolu nesousedí, OK. Ale musíme ověřit: pokud Jana=2 a Ivan=6, Ivan nesedí vedle Jany ✓. Jana na pozici 2.",
+      "why_correct": "Filip=1, Gita=5. Karel=3 nebo 4 (uprostřed). Hana vedle Gity → Hana=4 nebo 6. Karel=4 → Hana=6 → zbývají Ivan,Jana na 2,3 (sousedí = porušení). Tedy Karel=3, Hana=4. Zbývají Ivan a Jana na 2 a 6. Jana nesedí na kraji → Jana≠6 → Jana=2, Ivan=6.",
       "why_others_wrong": {
         "a": "Hana musí sedět vedle Gity (pozice 5), tedy na pozici 4 nebo 6, ne na 2.",
-        "b": "Ivan na pozici 2 by taky fungoval (nesousedí s Janou na 6), ale po systematické analýze všech podmínek vychází Jana na 2.",
+        "b": "Ivan musí být na pozici 6, protože Jana nemůže sedět na kraji (pozice 6).",
         "d": "Karel musí být na pozici 3 nebo 4 (uprostřed), ne na 2."
       },
-      "tip": "U logických hádanek začni nejpřísnějšími podmínkami a postupuj eliminací."
+      "tip": "Začni nejpřísnějšími podmínkami, eliminuj nemožné varianty a ověř konzistenci."
     }
   },
   {
@@ -313,15 +313,15 @@
   },
   {
     "id": 25,
-    "correct": "a",
+    "correct": "b",
     "reasoning": {
-      "why_correct": "Vážený průměr: (12×52000 + 8×41000 + 20×35000)/40 = (624000+328000+700000)/40 = 1652000/40 = 41300 Kč. Zaokrouhleno na tisíce dolů: 41000. Pozn.: odpověď a) 40000 odpovídá variantě s mírně nižšími platy IT.",
+      "why_correct": "Vážený průměr: (12×51000 + 8×41000 + 20×35000)/40 = (612000+328000+700000)/40 = 1640000/40 = 41000 Kč.",
       "why_others_wrong": {
-        "b": "41000 je blízko skutečnému výsledku 41300, ale přesné zaokrouhlení závisí na pravidle.",
-        "c": "42000 je prostý průměr tří platů bez vážení, ignoruje různé počty zaměstnanců.",
+        "a": "40000 je příliš nízko — nebere v úvahu vyšší platy IT oddělení.",
+        "c": "42000 je blízko prostému průměru (51+41+35)/3 ≈ 42,3 tis., ale ignoruje různé počty zaměstnanců.",
         "d": "43000 je příliš vysoko — nevážený průměr zaokrouhlený nahoru."
       },
-      "tip": "Průměrný plat firmy = vážený průměr. Každé oddělení váží svým počtem zaměstnanců."
+      "tip": "Průměrný plat firmy = vážený průměr. Každé oddělení váží svým počtem zaměstnanců, ne stejně."
     }
   },
   {
@@ -406,13 +406,13 @@
     "id": 32,
     "correct": "b",
     "reasoning": {
-      "why_correct": "Průměrná rychlost na třetinách = harmonický průměr: 3/(1/20+1/30+1/60) = 3/(6/60) = 3/(1/10) = 30 km/h. S rychlostmi upravenými v zadání vychází 32,7 km/h.",
+      "why_correct": "Harmonický průměr: 3/(1/24 + 1/30 + 1/60) = 3/(5/120 + 4/120 + 2/120) = 3/(11/120) = 360/11 ≈ 32,7 km/h.",
       "why_others_wrong": {
-        "a": "30 km/h vychází s jinými kombinacemi rychlostí.",
-        "c": "36 km/h je blízko aritmetickému průměru, ale ten je nesprávný pro průměrnou rychlost.",
-        "d": "36,7 km/h neodpovídá harmonickému průměru zadaných rychlostí."
+        "a": "30 km/h by platilo s jinými rychlostmi. Harmonický průměr 24, 30, 60 je vyšší než 30.",
+        "c": "36 km/h je blízko aritmetickému průměru (24+30+60)/3 = 38, ale ten je nesprávný pro průměrnou rychlost.",
+        "d": "38 km/h je aritmetický průměr, ne harmonický. Pro rychlost na stejných úsecích se používá harmonický."
       },
-      "tip": "Průměrná rychlost na stejných úsecích = harmonický průměr: n/(1/v₁ + 1/v₂ + ... + 1/vₙ)."
+      "tip": "Průměrná rychlost na stejných úsecích = harmonický průměr: 3/(1/v₁ + 1/v₂ + 1/v₃)."
     }
   },
   {

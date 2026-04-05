@@ -144,7 +144,7 @@ d) entropie
 ---
 
 ### Otázka 12
-Na konferenci je 120 účastníků. 75 mluví anglicky, 55 mluví německy, 40 mluví francouzsky. 25 mluví anglicky i německy, 18 mluví anglicky i francouzsky, 12 mluví německy i francouzsky. 8 mluví všemi třemi jazyky. Kolik účastníků nemluví žádným z těchto jazyků?
+Na konferenci je 120 účastníků. 70 mluví anglicky, 50 mluví německy, 35 mluví francouzsky. 20 mluví anglicky i německy, 15 mluví anglicky i francouzsky, 10 mluví německy i francouzsky. 7 mluví všemi třemi jazyky. Kolik účastníků nemluví žádným z těchto jazyků?
 
 a) 3
 b) 5
@@ -175,6 +175,7 @@ d) Protože nezávisí na zvoleném základním roku.
 - Gita sedí hned vedle Hany.
 - Ivan nesedí vedle Jany.
 - Karel sedí přesně uprostřed (3. nebo 4. pozice).
+- Jana nesedí na kraji.
 
 Pokud Filip sedí na pozici 1 a Gita na pozici 5, kdo sedí na pozici 2?
 
