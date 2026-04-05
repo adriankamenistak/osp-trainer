@@ -47,7 +47,7 @@ fi
 
 echo "🔄 Pulling latest from GitHub..."
 cd "$DIR"
-git pull origin master
+git pull origin "$BRANCH"
 
 echo "🚀 Deploying to Cloudflare..."
 wrangler pages deploy "$DIR" --project-name="$PROJECT" --branch="$BRANCH"
