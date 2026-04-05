@@ -847,48 +847,63 @@ function renderHome() {
 // ===== MARKDOWN PARSER =====
 function parseMarkdown(md) {
   const parsed = [];
-  // Split by ### Otázka
-  const blocks = md.split(/###\s*Otázka\s*\d+/i);
-  // First block is the header, skip it — but check for context texts
-  const headerBlock = blocks[0];
 
-  // Extract shared context texts (## Text A, ## Text B, etc. or > blockquotes in header)
+  // Extract shared context texts: find ## Text X followed by > blockquote
   let sharedContexts = {};
-  const textSections = headerBlock.split(/##\s*(Text\s+[A-Z])/i);
-  // textSections: ['intro', 'Text A', 'content...', 'Text B', 'content...']
-  for (let i = 1; i < textSections.length; i += 2) {
-    const label = textSections[i].trim();
-    const content = textSections[i + 1] || '';
-    // Extract blockquote
-    const bqMatch = content.match(/>\s*.+/gs);
+  const textHeaderRegex = /##\s*(Text\s+[A-Z])\s*\n([\s\S]*?)(?=##\s*Text\s+[A-Z]|###\s*Otázka|$)/gi;
+  let tm;
+  while ((tm = textHeaderRegex.exec(md)) !== null) {
+    const label = tm[1].trim();
+    const content = tm[2];
+    const bqMatch = content.match(/^>\s*.+/gm);
     if (bqMatch) {
       sharedContexts[label] = bqMatch.join('\n').replace(/^>\s*/gm, '').trim();
     }
   }
 
+  // Map each question to its parent ## Text section by position
+  const questionPositions = [];
+  const qRegex = /###\s*Otázka\s*\d+/gi;
+  let qm;
+  while ((qm = qRegex.exec(md)) !== null) {
+    questionPositions.push(qm.index);
+  }
+
+  // Find positions of ## Text headers
+  const textPositions = [];
+  const tRegex = /##\s*(Text\s+[A-Z])/gi;
+  let ttm;
+  while ((ttm = tRegex.exec(md)) !== null) {
+    textPositions.push({ pos: ttm.index, label: ttm[1].trim() });
+  }
+
+  // For each question, find which ## Text it falls under
+  function getContextForPosition(pos) {
+    let bestLabel = null;
+    for (const tp of textPositions) {
+      if (tp.pos < pos) bestLabel = tp.label;
+      else break;
+    }
+    return bestLabel ? (sharedContexts[bestLabel] || '') : '';
+  }
+
+  // Split by ### Otázka
+  const blocks = md.split(/###\s*Otázka\s*\d+/i);
+
   for (let i = 1; i < blocks.length; i++) {
     const block = blocks[i];
-    const q = parseQuestionBlock(block, sharedContexts, i);
+    const posContext = getContextForPosition(questionPositions[i - 1] || 0);
+    const q = parseQuestionBlock(block, sharedContexts, i, posContext);
     if (q) parsed.push(q);
   }
   return parsed;
 }
 
-function parseQuestionBlock(block, sharedContexts, idx) {
+function parseQuestionBlock(block, sharedContexts, idx, posContext) {
   const lines = block.split('\n');
 
-  // Find context reference (## Text X before question, or blockquote in question)
-  let context = '';
-  const contextRefMatch = block.match(/(?:Text|Úloha)\s+[A-Z]/i);
-  if (contextRefMatch) {
-    const key = contextRefMatch[0].trim();
-    for (const [k, v] of Object.entries(sharedContexts)) {
-      if (k.includes(key.split(' ').pop())) {
-        context = v;
-        break;
-      }
-    }
-  }
+  // Use positional context (from ## Text section) or find inline context
+  let context = posContext || '';
 
   // Extract blockquote as context if present in the block itself
   const blockquoteLines = lines.filter(l => l.trim().startsWith('>'));
