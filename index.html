@@ -83,6 +83,12 @@
     100% { opacity: 1; transform: scale(1); }
   }
 
+  @keyframes pulse {
+    0%, 100% { opacity: 0.5; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.03); }
+  }
+  #tap-hint.pulse { animation: pulse 1.4s ease-in-out infinite; }
+
   @keyframes confettiFall {
     0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
     100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
@@ -902,6 +908,9 @@
     <div class="question-context" id="question-context"></div>
     <div class="question-text" id="question-text"></div>
     <div class="options" id="options"></div>
+    <div id="tap-hint" style="display:none;align-items:center;justify-content:center;gap:8px;margin-top:12px;color:var(--text-dim);font-size:0.85rem;cursor:pointer" onclick="nextQuestion()">
+      <span style="font-size:1.1rem">👆</span> Klikni pro pokračování
+    </div>
     <div class="explanation" id="explanation"></div>
 
     <div class="kbd-hint">
@@ -1397,6 +1406,7 @@ function showQuestion() {
   // Hide explanation
   document.getElementById('explanation').classList.remove('visible');
   document.getElementById('explanation').textContent = '';
+  const th = document.getElementById('tap-hint'); if (th) th.style.display = 'none';
 
   // Buttons
   document.getElementById('btn-next').disabled = true;
@@ -1418,24 +1428,16 @@ function showQuestion() {
   questionStartTime = Date.now();
 }
 
-let selectedLetter = null; // for double-click confirm
+let selectedLetter = null; // unused, kept for compatibility
 
 function selectOption(letter) {
-  if (answered) return;
-
-  // First click: select/highlight. Second click on same: confirm.
-  if (selectedLetter !== letter) {
-    selectedLetter = letter;
-    const btns = document.querySelectorAll('.option-btn');
-    btns.forEach(btn => {
-      btn.classList.remove('selected');
-      if (btn.dataset.letter === letter) btn.classList.add('selected');
-    });
+  // If already answered: any click advances to next question (umimeto style)
+  if (answered) {
+    nextQuestion();
     return;
   }
 
-  // Second click — confirm answer
-  selectedLetter = null;
+  // First click — confirm answer immediately
   answered = true;
 
   const q = questions[currentIdx];
@@ -1512,17 +1514,19 @@ function selectOption(letter) {
     }
   }
 
-  // Enable next
+  // Enable next + show "tap to continue" hint on option buttons
   document.getElementById('btn-next').disabled = false;
   document.getElementById('btn-skip').style.display = 'none';
 
+  // Show "tap to continue" hint
+  const tapHint = document.getElementById('tap-hint');
+  if (tapHint) {
+    tapHint.style.display = 'flex';
+    tapHint.classList.add('pulse');
+  }
+
   // Only stop timer in per-question mode; global timer keeps running
   if (!globalTimerMode) stopTimer();
-
-  // Auto-advance after short delay so user sees result
-  setTimeout(() => {
-    if (answered) nextQuestion();
-  }, isCorrect ? 800 : 1800);
 }
 
 function skipQuestion() {
