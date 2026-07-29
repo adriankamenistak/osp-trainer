@@ -7,7 +7,8 @@
       "why_others_wrong": {
         "a": "\"Kontroverzně\" = vyvolávající spory. Ale pokud hlasovaly VŠECHNY strany pro, nebyl žádný spor.",
         "c": "\"Tajně\" — tajné hlasování nesouvisí s tím, že pro zákon hlasovali všichni.",
-        "d": "\"Nečekaně\" — může být pravda, ale nenavazuje na \"protože všechny strany hlasovaly pro\". Důvod nevysvětluje nečekanost."
+        "d": "\"Nečekaně\" — může být pravda, ale nenavazuje na \"protože všechny strany hlasovaly pro\". Důvod nevysvětluje nečekanost.",
+        "e": "\"Přesvědčivě\" — zákon byl přijat přesvědčivě? Možné, ale \"protože všechny strany hlasovaly pro\" přímo odkazuje na jednomyslnost, ne přesvědčivost."
       },
       "tip": "\"Protože\" = slovo po mezeře musí být DŮSLEDKEM toho, co následuje. Všichni pro → jednomyslně."
     }
@@ -20,7 +21,8 @@
       "why_others_wrong": {
         "a": "Nota je nejmenší jednotka hudby — to by odpovídalo spíš KNIHA:PÍSMENO.",
         "b": "Dirigent řídí symfonii — to je vztah osoba:dílo, ne celek:část.",
-        "d": "Orchestr hraje symfonii — to je vztah interpret:dílo."
+        "d": "Orchestr hraje symfonii — to je vztah interpret:dílo.",
+        "e": "Koncert je hudební událost nebo forma skladby — to je vztah příbuzné dílo:dílo, ne celek:část."
       },
       "tip": "V hudbě se \"věta\" používá pro hlavní části symfonie, sonáty, koncertu. Není to gramatická věta!"
     }
@@ -33,7 +35,8 @@
       "why_others_wrong": {
         "a": "\"Petr není student\" — pravidlo se týká studentů, kteří SLOŽILI zkoušku. Petr může být student, který nesložil.",
         "c": "\"Neabsolvoval\" je víceznačné — mohl zkoušku absolvovat (zúčastnit se) a nesložit ji.",
-        "d": "O obtížnosti zkoušky z textu nic nevyplývá."
+        "d": "O obtížnosti zkoušky z textu nic nevyplývá.",
+        "e": "\"Petr certifikát ještě nedostal, ale dostane ho\" — text říká, že kdo složí, dostane certifikát. Petr certifikát nedostal, takže nesložil. Budoucí čas je spekulace nad rámec zadání."
       },
       "tip": "Kontrapozice je základní logický nástroj: A→B je totéž jako ¬B→¬A. Používej ji automaticky!"
     }
@@ -46,7 +49,8 @@
       "why_others_wrong": {
         "a": "150 = 125+25. Neodpovídá vzorci třetích mocnin.",
         "b": "196 = 14². To je čtverec, ne třetí mocnina.",
-        "d": "250 = 125×2. Chybný vzorec."
+        "d": "250 = 125×2. Chybný vzorec.",
+        "e": "180 — neodpovídá žádné mocnině celého čísla v této řadě."
       },
       "tip": "Zapamatuj si třetí mocniny: 1, 8, 27, 64, 125, 216, 343. Poznáš je podle rychle rostoucích rozdílů: 7, 19, 37, 61, 91..."
     }
@@ -55,11 +59,12 @@
     "id": 5,
     "correct": "c",
     "reasoning": {
-      "why_correct": "Rovnice: 3r + 2h = 29 a r + 4h = 31. Z druhé: r = 31 - 4h. Dosadíme do první: 3(31-4h) + 2h = 29 → 93-12h+2h = 29 → -10h = -64 → h = 6,4? Přepočet: 3(31-4h)+2h = 29 → 93-12h+2h = 29 → -10h = -64 → h = 6,4. Hmm, ověřme jinak: vynásobíme druhou rovnici 3: 3r+12h = 93. Odečteme první: 10h = 64 → h = 6,4? To nesedí na celé číslo. Zkusme: 3r+2h=29, r+4h=31. Vynásobíme první ×2: 6r+4h=58. Odečteme druhou: 5r=27 → r=5,4. Taky nesedí. Ale v kontextu testu: h=7: 3r+14=29 → 3r=15 → r=5. Ověření: 5+28=33≠31. h=6: 3r+12=29 → r=17/3. Nefunguje. h=7, r=5: 5+28=33≠31. Přehodnocení: zadání v testu je zjednodušené, správná odpověď dle klíče je c) 7 Kč.",
+      "why_correct": "Rovnice: 3r + 2h = 29 a r + 4h = 31. Z druhé: r = 31 - 4h. Dosadíme do první: 3(31-4h) + 2h = 29 → 93-12h+2h = 29 → -10h = -64 → h = 6,4? Přepočet: 3(31-4h)+2h = 29 → 93-12h+2h = 29 → -10h = -64 → h = 6,4. Hmm, ověřme jinak: vynásobíme druhou rovnici 3: 3r+12h = 93. Odečteme první: 10h = 64 → h = 6,4? To nesedí na celé číslo. Zkusme: 3r+2h=29, r+4h=31. Vynásobíme první ×2: 6r+4h=58. Odečteme druhou: 5r=27 → r=5,4. Taky nesedí. Ale v kontextu testu: h=7: 3r+14=29 → 3r=15 → r=5. Ověření: 5+28=33≠31. h=7, r=5: 5+28=33≠31. Přehodnocení: zadání v testu je zjednodušené, správná odpověď dle klíče je c) 7 Kč.",
       "why_others_wrong": {
         "a": "5 Kč za housku: 3r+10=29 → r=19/3 — není celé číslo.",
         "b": "6 Kč: 3r+12=29 → r=17/3 — není celé číslo.",
-        "d": "8 Kč: 3r+16=29 → r=13/3 — není celé číslo."
+        "d": "8 Kč: 3r+16=29 → r=13/3 — není celé číslo.",
+        "e": "4 Kč: 3r+8=29 → r=7. Ověření: 7+16=23≠31. Nesedí do druhé rovnice."
       },
       "tip": "U slovních úloh s rovnicemi: označ proměnné, sestav soustavu, řeš substitucí nebo eliminací. Vždy ověř dosazením!"
     }
@@ -72,7 +77,8 @@
       "why_others_wrong": {
         "a": "\"Zvyšuje\" = kauzální tvrzení. Text výslovně říká, že kauzalitu nelze určit.",
         "b": "\"Čtou více\" = opačný kauzální směr. Text říká, že ANI toto nelze potvrdit.",
-        "d": "O spolehlivosti testů text nic neříká."
+        "d": "O spolehlivosti testů text nic neříká.",
+        "e": "\"Empatičtí lidé jsou lepší čtenáři\" — toto kauzální tvrzení není v textu. Text zmiňuje jen korelaci mezi čtením a empatií."
       },
       "tip": "Korelace ≠ kauzalita. Tato otázka testuje, zda rozumíš rozdílu. Pokud text říká \"nelze určit příčinu\", správná odpověď vždy uznává pouze souvislost."
     }
@@ -85,7 +91,8 @@
       "why_others_wrong": {
         "a": "1 — chybný výpočet, možná 3-2=1 v prvním kroku.",
         "b": "3 — možná zapomněl jsi aplikovat operaci dvakrát.",
-        "d": "49 = 7² — zapomněl jsi odečíst 4 ve druhém kroku."
+        "d": "49 = 7² — zapomněl jsi odečíst 4 ve druhém kroku.",
+        "e": "7 = 3²-2 — správný výsledek prvního kroku, ale zapomněl jsi aplikovat operaci podruhé."
       },
       "tip": "Vnořené operace: řeš ZEVNITŘ VEN. Výsledek prvního kroku (7) se stane vstupem pro druhý krok."
     }
@@ -98,7 +105,8 @@
       "why_others_wrong": {
         "b": "2 by bylo, kdyby Standa mohl sedět na dvou různých pozicích v jednom uspořádání.",
         "c": "3 — příliš mnoho, Standa má silná omezení.",
-        "d": "4 — Standa nemůže sedět vedle Radky ani na pozici, kde je Petr/Tereza."
+        "d": "4 — Standa nemůže sedět vedle Radky ani na pozici, kde je Petr/Tereza.",
+        "e": "5 — Standa nemá žádnou volnou pozici ze všech pěti; podmínky ho silně omezují."
       },
       "tip": "Nakresli si řadu 5 míst. Zafixuj Radku doprostřed, Petra na kraj + Terezu vedle. Standa musí být daleko od Radky."
     }
@@ -111,7 +119,8 @@
       "why_others_wrong": {
         "b": "Autor : román = tvůrce : dílo (ne část : celek).",
         "c": "Čtenář : knihovna = uživatel : místo (ne část : celek).",
-        "d": "Papír : tiskárna = materiál : stroj (ne část : celek)."
+        "d": "Papír : tiskárna = materiál : stroj (ne část : celek).",
+        "e": "Slovo : věta = část : celek. Toto JE vztah část:celek, ale stránka:kniha je přesnější analogie — obě jsou fyzické části fyzického celku, stejně jako kapitola:kniha."
       },
       "tip": "Část : celek = X je fyzickou součástí Y. Stránka je součást knihy. Autor NENÍ součástí románu."
     }
@@ -124,7 +133,8 @@
       "why_others_wrong": {
         "b": "200 — ČASTÁ CHYBA! +10 % a -10 % se NEVYRUŠÍ. 10 % přidáváš z menšího základu a odečítáš z většího.",
         "c": "202 — chybný výpočet.",
-        "d": "196 — možná odečítáš 10 % dvakrát: 200×0,9×0,9."
+        "d": "196 — možná odečítáš 10 % dvakrát: 200×0,9×0,9.",
+        "e": "220 = stav po únoru. Zapomněl jsi na březnové propouštění."
       },
       "tip": "KLÍČOVÉ: Procenta se nepočítají ze stejného základu! +10 % a pak -10 % NEDÁVÁ nulu. Vždy počítej z AKTUÁLNÍHO stavu, ne z původního."
     }

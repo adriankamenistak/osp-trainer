@@ -20,6 +20,7 @@ a) Adam
 b) Bára
 c) Cyril
 d) Nelze určit
+e) Adam nebo Cyril
 
 **Správná odpověď: c) Cyril**
 
@@ -32,6 +33,7 @@ a) programování
 b) kreslení
 c) sport
 d) Nelze určit
+e) tanec
 
 **Správná odpověď: c) sport**
 
@@ -44,6 +46,7 @@ a) gymnázium
 b) průmyslovka
 c) obchodní akademie
 d) Nelze určit
+e) základní škola
 
 **Správná odpověď: a) gymnázium**
 
@@ -67,6 +70,7 @@ a) 1
 b) 2
 c) 3
 d) 4
+e) Nelze určit
 
 **Správná odpověď: c) 3**
 
@@ -79,6 +83,7 @@ a) kočka
 b) pes
 c) rybička
 d) papoušek
+e) Nelze určit
 
 **Správná odpověď: d) papoušek**
 
@@ -91,6 +96,7 @@ a) červený
 b) modrý
 c) zelený
 d) žlutý
+e) Nelze určit
 
 **Správná odpověď: a) červený**
 
@@ -112,6 +118,7 @@ a) Eva
 b) Filip
 c) Gita
 d) Hugo
+e) Iva
 
 **Správná odpověď: c) Gita**
 
@@ -124,6 +131,7 @@ a) 2.
 b) 3.
 c) 4.
 d) 5.
+e) 1.
 
 **Správná odpověď: b) 3.**
 
@@ -136,6 +144,7 @@ a) 3.
 b) 4.
 c) 5.
 d) Nelze určit
+e) 2.
 
 **Správná odpověď: c) 5.**
 
@@ -148,5 +157,6 @@ a) 1.
 b) 2.
 c) 3.
 d) 4.
+e) 5.
 
 **Správná odpověď: b) 2.**

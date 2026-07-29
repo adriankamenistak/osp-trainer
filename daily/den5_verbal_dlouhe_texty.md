@@ -17,6 +17,7 @@ a) 40 %
 b) 55 %
 c) 65 %
 d) 75 %
+e) 80 %
 
 **Správná odpověď: c) 65 %**
 
@@ -29,6 +30,7 @@ a) Protože teenageři lžou v průzkumech.
 b) Protože online a offline sociální potřeby jsou dva různé typy.
 c) Protože osamělost je přirozená součást dospívání.
 d) Protože 65 % a 40 % se nesčítá na 100 %.
+e) Protože výzkum byl proveden na příliš malém vzorku.
 
 **Správná odpověď: b)**
 
@@ -41,6 +43,7 @@ a) Že sociální sítě jsou škodlivé.
 b) Že 3,5 hodiny denně je příliš mnoho.
 c) Že vzorek nemusí reprezentovat všechny české teenagery.
 d) Že dr. Nováková nemá pravdu.
+e) Že výzkumníci mají konflikt zájmů.
 
 **Správná odpověď: c)**
 
@@ -53,6 +56,7 @@ a) Většina dotázaných teenagerů se cítí online propojena.
 b) Někteří teenageři zažívají pocit osamělosti i pocit spojení současně.
 c) Sociální sítě jsou hlavní příčinou osamělosti u mladých lidí.
 d) Před rozšířením sociálních sítí probíhala komunikace více osobně.
+e) Průměrný teenager tráví na sítích méně než hodinu denně.
 
 **Správná odpověď: c)**
 
@@ -71,6 +75,7 @@ a) 4,5 milionu Kč
 b) 8 milionů Kč
 c) 15 milionů Kč
 d) 45 milionů Kč
+e) 30 milionů Kč
 
 **Správná odpověď: c) 15 milionů Kč**
 
@@ -83,6 +88,7 @@ a) Elektrokola jsou příliš drahá.
 b) Elektrokola nahradila chůzi a MHD, ne auta.
 c) Program snížil dopravu o 8 %.
 d) Evropské dotace by měly jít na jiné projekty.
+e) Elektrokola způsobují dopravní zácpy.
 
 **Správná odpověď: b)**
 
@@ -95,6 +101,7 @@ a) Pokud se zvýší počet jízd.
 b) Pokud budou další evropské dotace.
 c) Pokud se potvrdí pozitivní dopady na dopravu.
 d) Pokud odpůrci změní názor.
+e) Pokud o to požádají obyvatelé města.
 
 **Správná odpověď: c)**
 
@@ -107,6 +114,7 @@ a) Program financovaly evropské dotace.
 b) Průměrná jízda pokryla méně než 3 km.
 c) Automobilová doprava v centru klesla o 8 %.
 d) Všichni odborníci se shodují na pozitivním vlivu programu.
+e) Průměrná jízda trvala méně než 10 minut.
 
 **Správná odpověď: d)**
 
@@ -119,6 +127,7 @@ a) 54 000 km
 b) 126 000 km
 c) 540 000 km
 d) 12 600 km
+e) 252 000 km
 
 **Správná odpověď: b) 126 000 km**
 
@@ -131,5 +140,6 @@ a) Zastánci chtějí více kol, odpůrci méně.
 b) Zastánci hodnotí snížení aut, odpůrci zpochybňují zdroj tohoto snížení.
 c) Zastánci mluví o ekologii, odpůrci o penězích.
 d) Zastánci podporují EU, odpůrci ne.
+e) Zastánci i odpůrci souhlasí s rozšířením programu.
 
 **Správná odpověď: b)**

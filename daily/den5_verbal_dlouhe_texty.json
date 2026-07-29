@@ -7,7 +7,8 @@
       "why_others_wrong": {
         "a": "40 % je procento těch, kteří přiznali pocity osamělosti — jiný údaj.",
         "b": "55 % se v textu nikde neobjevuje.",
-        "d": "75 % se v textu nikde neobjevuje."
+        "d": "75 % se v textu nikde neobjevuje.",
+        "e": "80 % se v textu nikde neobjevuje — záměrně podobné číslo, které v textu chybí."
       },
       "tip": "U faktických otázek hledej přesné číslo v textu. Nepočítej, neodhaduj — najdi doslovný údaj."
     }
@@ -20,7 +21,8 @@
       "why_others_wrong": {
         "a": "Text neříká nic o tom, že by teenageři lhali. To je domněnka.",
         "c": "Dr. Nováková nemluví o dospívání obecně, ale o dvou typech sociálních potřeb.",
-        "d": "Matematický argument (nesčítá se na 100 %) není to, co dr. Nováková říká. Otázka se ptá na její vysvětlení."
+        "d": "Matematický argument (nesčítá se na 100 %) není to, co dr. Nováková říká. Otázka se ptá na její vysvětlení.",
+        "e": "Velikost vzorku je kritika studie obecně, ne vysvětlení dr. Novákové pro koexistenci obou pocitů."
       },
       "tip": "Čti přesně, co postava v textu ŘEKLA. Neinterpretuj — hledej přímou parafrázi jejích slov."
     }
@@ -33,7 +35,8 @@
       "why_others_wrong": {
         "a": "Kritici nezmiňují škodlivost sítí — to v textu není.",
         "b": "O množství času na sítích kritici nic neříkají.",
-        "d": "Kritici nezpochybňují dr. Novákovou, ale reprezentativnost vzorku."
+        "d": "Kritici nezpochybňují dr. Novákovou, ale reprezentativnost vzorku.",
+        "e": "Konflikt zájmů výzkumníků se v textu vůbec nezmiňuje."
       },
       "tip": "Rozlišuj KDO co říká. Zastánci, odpůrci, vědci — každý má jiný argument."
     }
@@ -46,7 +49,8 @@
       "why_others_wrong": {
         "a": "Lze vyvodit: 65 % = většina dotázaných se cítí propojena.",
         "b": "Lze vyvodit: 65 % a 40 % se překrývá — někteří pociťují obojí (dr. Nováková to potvrzuje).",
-        "d": "Lze vyvodit: text říká \"dříve probíhala většina interakcí tváří v tvář\"."
+        "d": "Lze vyvodit: text říká \"dříve probíhala většina interakcí tváří v tvář\".",
+        "e": "Tento údaj je v přímém rozporu s textem (3,5 hodiny denně), takže ho NELZE vyvodit — ale správná odpověď c) je příkladem kauzálního tvrzení nad rámec textu."
       },
       "tip": "\"NELZE vyvodit\" = hledej kauzální tvrzení (X způsobuje Y), když text popisuje jen korelaci (X a Y se vyskytují společně)."
     }
@@ -59,7 +63,8 @@
       "why_others_wrong": {
         "a": "4,5 milionu se v textu neobjevuje.",
         "b": "8 milionů se v textu neobjevuje. Číslo 8 % je snížení dopravy, ne cena.",
-        "d": "45 milionů — 45 000 je počet jízd, ne cena v milionech."
+        "d": "45 milionů — 45 000 je počet jízd, ne cena v milionech.",
+        "e": "30 milionů se v textu nikde neobjevuje."
       },
       "tip": "Pozor na záměnu čísel z různých kontextů: 45 000 (jízdy) ≠ 45 milionů (peníze). Čti pozorně jednotky."
     }
@@ -72,7 +77,8 @@
       "why_others_wrong": {
         "a": "O ceně elektrokol odpůrci nemluví.",
         "c": "Snížení o 8 % je argument ZASTÁNCŮ, ne odpůrců.",
-        "d": "O využití dotací na jiné projekty text nic neříká."
+        "d": "O využití dotací na jiné projekty text nic neříká.",
+        "e": "Dopravní zácpy elektrokolem — tento argument se v textu vůbec nevyskytuje."
       },
       "tip": "Zastánci vs. odpůrci — dávej pozor, komu patří který argument. Test tě často zkouší záměnou."
     }
@@ -85,7 +91,8 @@
       "why_others_wrong": {
         "a": "Počet jízd není zmíněn jako podmínka rozšíření.",
         "b": "Další dotace nejsou zmíněny jako podmínka.",
-        "d": "Názor odpůrců není zmíněn jako podmínka."
+        "d": "Názor odpůrců není zmíněn jako podmínka.",
+        "e": "Zájem obyvatel není v textu zmíněn jako podmínka rozšíření programu."
       },
       "tip": "\"Za jakých podmínek\" = hledej v textu slovo \"pokud\" nebo \"za předpokladu\". Odpověď je přímo tam."
     }
@@ -98,7 +105,8 @@
       "why_others_wrong": {
         "a": "V souladu s textem — program financovaly evropské dotace.",
         "b": "V souladu — průměrná jízda = 2,8 km, což je méně než 3 km.",
-        "c": "V souladu — zastánci poukazují na snížení o 8 % (i když odpůrci to zpochybňují)."
+        "c": "V souladu — zastánci poukazují na snížení o 8 % (i když odpůrci to zpochybňují).",
+        "e": "V přímém rozporu s textem — průměrná jízda trvala 12 minut, což je více než 10 minut."
       },
       "tip": "Slova jako \"všichni\", \"nikdo\", \"vždy\" jsou v testech často nesprávná. Hledej, zda text zmiňuje výjimky nebo protinázory."
     }
@@ -111,7 +119,8 @@
       "why_others_wrong": {
         "a": "54 000 = 45 000 × 1,2 — chybný násobitel.",
         "c": "540 000 = 45 000 × 12 — násobíš minutami (12 min) místo kilometry (2,8 km).",
-        "d": "12 600 — chybí jedna nula, pravděpodobně chybný výpočet."
+        "d": "12 600 — chybí jedna nula, pravděpodobně chybný výpočet.",
+        "e": "252 000 = 45 000 × 5,6 — chybný násobitel, možná zdvojená vzdálenost."
       },
       "tip": "Trik pro násobení 45×2,8: 45×3 = 135, minus 45×0,2 = 9, tedy 135-9 = 126. Pak přidej tři nuly."
     }
@@ -124,7 +133,8 @@
       "why_others_wrong": {
         "a": "Příliš zjednodušené — neshoda není o množství kol, ale o interpretaci dat.",
         "c": "Odpůrci neargumentují penězi, ale tím, co elektrokola nahradila.",
-        "d": "Text nezmiňuje postoje k EU."
+        "d": "Text nezmiňuje postoje k EU.",
+        "e": "Text jasně ukazuje, že zastánci i odpůrci mají rozdílné názory — žádná shoda na rozšíření neexistuje."
       },
       "tip": "U shrnujících otázek hledej odpověď, která zachycuje PODSTATU sporu, ne povrchní detaily."
     }

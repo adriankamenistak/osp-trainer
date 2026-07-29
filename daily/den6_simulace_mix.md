@@ -11,6 +11,7 @@ a) kontroverzně
 b) jednomyslně
 c) tajně
 d) nečekaně
+e) přesvědčivě
 
 **Správná odpověď: b) jednomyslně**
 
@@ -23,6 +24,7 @@ a) nota
 b) dirigent
 c) věta
 d) orchestr
+e) koncert
 
 **Správná odpověď: c) věta**
 
@@ -35,6 +37,7 @@ a) Petr není student.
 b) Petr nesložil zkoušku.
 c) Petr zkoušku neabsolvoval.
 d) Zkouška byla příliš těžká.
+e) Petr certifikát ještě nedostal, ale dostane ho.
 
 **Správná odpověď: b) Petr nesložil zkoušku.**
 
@@ -47,6 +50,7 @@ a) 150
 b) 196
 c) 216
 d) 250
+e) 180
 
 **Správná odpověď: c) 216**
 
@@ -59,6 +63,7 @@ a) 5 Kč
 b) 6 Kč
 c) 7 Kč
 d) 8 Kč
+e) 4 Kč
 
 **Správná odpověď: c) 7 Kč**
 
@@ -74,6 +79,7 @@ a) Čtení beletrie zvyšuje empatii.
 b) Empatičtí lidé čtou více beletrie.
 c) Existuje souvislost mezi čtením beletrie a empatií, ale příčina není jasná.
 d) Psychologické testy jsou nespolehlivé.
+e) Empatičtí lidé jsou lepší čtenáři než ostatní.
 
 **Správná odpověď: c)**
 
@@ -86,6 +92,7 @@ a) 1
 b) 3
 c) 45
 d) 49
+e) 7
 
 **Správná odpověď: c) 45**
 
@@ -104,6 +111,7 @@ a) 1
 b) 2
 c) 3
 d) 4
+e) 5
 
 **Správná odpověď: a) 1**
 
@@ -116,6 +124,7 @@ a) stránka : kniha
 b) autor : román
 c) čtenář : knihovna
 d) papír : tiskárna
+e) slovo : věta
 
 **Správná odpověď: a) stránka : kniha**
 
@@ -128,5 +137,6 @@ a) 198
 b) 200
 c) 202
 d) 196
+e) 220
 
 **Správná odpověď: a) 198**

@@ -11,6 +11,7 @@ a) křehký ... složitá
 b) odolný ... levná
 c) těžký ... rychlá
 d) vzácný ... jednoduchá
+e) lehký ... drahá
 
 **Správná odpověď: b) odolný ... levná**
 
@@ -23,6 +24,7 @@ a) slabší ... pozorněji
 b) přesvědčivější ... napjatěji
 c) delší ... méně
 d) hlasitější ... klidněji
+e) kratší ... pozorněji
 
 **Správná odpověď: b) přesvědčivější ... napjatěji**
 
@@ -35,6 +37,7 @@ a) vyspělých ... normální
 b) některých ... tabu
 c) západních ... přijatelný
 d) chudých ... luxusní
+e) moderních ... zastaralý
 
 **Správná odpověď: b) některých ... tabu**
 
@@ -47,6 +50,7 @@ a) plně ... vynikajících
 b) částečně ... zajímavých
 c) zcela ... negativních
 d) sotva ... žádných
+e) téměř ... bezvýznamných
 
 **Správná odpověď: b) částečně ... zajímavých**
 
@@ -59,6 +63,7 @@ a) vyřešil ... zhoršil
 b) analyzoval ... zlepšil
 c) pochopil ... stabilizoval
 d) ignoroval ... vyřešil
+e) přijal ... nezměnil
 
 **Správná odpověď: a) vyřešil ... zhoršil**
 
@@ -71,6 +76,7 @@ a) Díky ... spokojeně
 b) Navzdory ... bezpečně
 c) Kvůli ... cize
 d) Přes ... hrdě
+e) Přes ... spokojeně
 
 **Správná odpověď: c) Kvůli ... cize**
 
@@ -83,6 +89,7 @@ a) sebevědomé ... plachá
 b) agresivní ... agresivní
 c) klidné ... klidnou
 d) přátelské ... společenskou
+e) autoritativní ... mírnou
 
 **Správná odpověď: a) sebevědomé ... plachá**
 
@@ -95,6 +102,7 @@ a) technologie ... snížila
 b) regulace ... zvýšila
 c) budova ... odstranila
 d) metoda ... nezměnila
+e) reforma ... stabilizovala
 
 **Správná odpověď: b) regulace ... zvýšila**
 
@@ -107,6 +115,7 @@ a) Zkušený ... vysvětlit
 b) Ačkoli ... zjednodušit
 c) Přestože ... analyzovat
 d) Jako ... komplikovat
+e) Jako ... pochopit
 
 **Správná odpověď: b) Ačkoli ... zjednodušit**
 
@@ -119,5 +128,6 @@ a) vysoce ... horší
 b) vnitřně ... lepší
 c) málo ... stejné
 d) finančně ... vyšší
+e) externě ... průměrné
 
 **Správná odpověď: b) vnitřně ... lepší**
